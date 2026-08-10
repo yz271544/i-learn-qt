@@ -24,3 +24,5 @@ find_package(Qt5 5.12 REQUIRED COMPONENTS
 include(CTest)
 
 add_subdirectory(01.base)
+add_subdirectory(02.project-layout)
+add_subdirectory(03.common-widget)

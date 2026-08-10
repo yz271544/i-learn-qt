@@ -25,6 +25,8 @@ ctest --test-dir build --output-on-failure
 | 模块 | 内容 | 状态 |
 | --- | --- | --- |
 | `01.base` | Qt Quick 程序入口、QML 声明式界面、自定义组件、C++ 后端通信和动画 | 已完成 |
+| `02.project-layout` | 工程组成、qmake/CMake 对照、资源系统、调试与 QML 交互测试 | 已完成 |
+| `03.common-widget` | 常用控件、布局容器、多页导航、属性绑定与控件交互测试 | 已完成 |
 
 后续模块可继续按 `02.xxx`、`03.xxx` 的形式添加，并在根 `CMakeLists.txt` 中使用 `add_subdirectory(...)` 接入。
 

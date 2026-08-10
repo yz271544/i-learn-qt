@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/CommonWidgetGallery.qml</file>
+        <file>qml/pages/BasicControlsPage.qml</file>
+        <file>qml/pages/InputControlsPage.qml</file>
+        <file>qml/pages/SelectionLayoutPage.qml</file>
+        <file>qml/pages/AdvancedControlsPage.qml</file>
+    </qresource>
+</RCC>
