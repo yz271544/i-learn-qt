@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/ImageGridGallery.qml</file>
+        <file>qml/ImageCard.qml</file>
+        <file alias="assets/blue.svg">assets/blue.svg</file>
+        <file alias="assets/green.svg">assets/green.svg</file>
+        <file alias="assets/orange.svg">assets/orange.svg</file>
+        <file alias="assets/purple.svg">assets/purple.svg</file>
+        <file alias="assets/red.svg">assets/red.svg</file>
+        <file alias="assets/teal.svg">assets/teal.svg</file>
+    </qresource>
+</RCC>

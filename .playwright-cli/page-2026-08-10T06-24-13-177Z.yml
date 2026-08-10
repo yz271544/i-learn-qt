@@ -1,0 +1,2748 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "CSDN首页" [ref=e8] [cursor=pointer]:
+        - /url: https://www.csdn.net/
+        - img "CSDN首页" [ref=e9]
+      - list [ref=e10]:
+        - listitem "阅读深度、前沿文章" [ref=e11]:
+          - link "博客" [ref=e12] [cursor=pointer]:
+            - /url: https://blog.csdn.net/
+        - listitem "高价值源码课程分享" [ref=e13]:
+          - link "下载" [ref=e14] [cursor=pointer]:
+            - /url: https://download.csdn.net/
+        - listitem "DevPress官方社区" [ref=e15]:
+          - link "社区" [ref=e16] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/
+        - listitem "开源代码托管" [ref=e17]:
+          - link "AtomGit" [ref=e18] [cursor=pointer]:
+            - /url: https://link.csdn.net?target=https%3A%2F%2Fgitcode.com%3Futm_source%3Dcsdn_toolbar
+            - img [ref=e19]
+            - text: AtomGit
+        - listitem "模型市场" [ref=e20]:
+          - link "模型市场" [ref=e21] [cursor=pointer]:
+            - /url: https://ai.csdn.net/coding-plan?utm_source=xt_csdn_home_topbar
+            - img [ref=e22]
+            - text: 模型市场
+            - img [ref=e23]
+        - listitem [ref=e24]:
+          - generic [ref=e25] [cursor=pointer]: 更多
+    - generic [ref=e29]:
+      - textbox "开源" [ref=e31]
+      - button "搜索" [ref=e32] [cursor=pointer]:
+        - generic [ref=e34]: 搜索
+      - paragraph [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: AI 搜索
+    - generic [ref=e38]:
+      - link [ref=e40] [cursor=pointer]:
+        - /url: https://blog.csdn.net/yz271544
+        - img [ref=e41]
+      - link "会员中心" [ref=e43] [cursor=pointer]:
+        - /url: https://mall.csdn.net/vip?utm_source=260805_vip_toolbarhyzx_hy
+        - text: 会员中心
+        - img [ref=e44]
+      - link "消息" [ref=e47] [cursor=pointer]:
+        - /url: https://i.csdn.net/#/msg/index
+        - generic [ref=e48]: 消息
+      - link "创作中心" [ref=e51] [cursor=pointer]:
+        - /url: https://mp.csdn.net
+      - link "创作" [ref=e53] [cursor=pointer]:
+        - /url: https://mp.csdn.net/edit
+      - generic [ref=e54] [cursor=pointer]:
+        - button "关闭" [ref=e55]: ×
+        - generic [ref=e56]:
+          - generic [ref=e57]: 🎁
+          - generic [ref=e58]:
+            - generic [ref=e59]: VIP会员
+            - generic [ref=e60]:
+              - text: 您有最高
+              - generic [ref=e61]: ￥30
+              - text: 算力币待领取
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "开源 C++ QT QML 开发（四）复杂控件--Listview" [level=1] [ref=e69]
+            - generic [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: 原创
+                - generic [ref=e74]: 已于 2025-10-12 22:29:19 修改
+                - generic [ref=e75]: ·
+                - generic [ref=e76]: 1.6k 阅读
+                - generic [ref=e77] [cursor=pointer]:
+                  - generic [ref=e78]: ·
+                  - generic [ref=e79]: "21"
+                - generic [ref=e80]: ·
+                - generic [ref=e81] [cursor=pointer]: "15"
+                - generic [ref=e82]: ·
+                - generic [ref=e84] [cursor=pointer]: 本内容遵循CC 4.0 BY-SA版权协议
+                - link "GEO检测" [ref=e85] [cursor=pointer]:
+                  - /url: https://mp.csdn.net/geo?title=%E5%BC%80%E6%BA%90+C%2B%2B+QT+QML+%E5%BC%80%E5%8F%91%EF%BC%88%E5%9B%9B%EF%BC%89%E5%A4%8D%E6%9D%82%E6%8E%A7%E4%BB%B6--Listview&url=https%3A%2F%2Fblog.csdn.net%2Fajassi2000%2Farticle%2Fdetails%2F152548381&utm_source=blog_geo
+                  - generic [ref=e86]: GEO检测
+                  - img [ref=e87]
+              - generic [ref=e93]:
+                - generic [ref=e94]: 收录于
+                - generic [ref=e98] [cursor=pointer]: QT QML C++ 快速开发实战
+          - article [ref=e99]:
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - text: 文章的目的为了记录使用QT QML开发学习的经历。开发流程和要点有些
+                - generic [ref=e103] [cursor=pointer]: 记忆
+                - text: 模糊，赶紧记录，防止忘记。
+              - paragraph
+              - paragraph [ref=e104]: 相关链接：
+              - paragraph [ref=e105]:
+                - link "开源 C++ QT QML 开发（一）基本介绍" [ref=e106] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152457440?spm=1011.2124.3001.6209
+              - paragraph [ref=e107]:
+                - link "开源 C++ QT QML 开发（二）工程结构" [ref=e108] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152506055?spm=1011.2124.3001.6209
+              - paragraph [ref=e109]:
+                - link "开源 C++ QT QML 开发（三）常用控件" [ref=e110] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152522153?spm=1011.2124.3001.6209
+              - paragraph [ref=e111]:
+                - link "开源 C++ QT QML 开发（四）复杂控件--Listview" [ref=e112] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152548381?spm=1011.2124.3001.6209
+              - paragraph [ref=e113]:
+                - link "开源 C++ QT QML 开发（五）复杂控件--Gridview" [ref=e114] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152551148?spm=1011.2124.3001.6209
+              - paragraph [ref=e115]:
+                - link "开源 C++ QT QML 开发（六）自定义控件--波形图" [ref=e116] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152597806?spm=1011.2124.3001.6209
+              - paragraph [ref=e117]:
+                - link "开源 C++ QT QML 开发（七）自定义控件--仪表盘" [ref=e118] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152609195?spm=1011.2124.3001.6209
+              - paragraph [ref=e119]:
+                - link "开源 C++ QT QML 开发（八）自定义控件--圆环" [ref=e120] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152656399?spm=1011.2415.3001.5331
+              - paragraph [ref=e121]:
+                - link "开源 C++ QT QML 开发（九）文件--文本和二进制" [ref=e122] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152661206?spm=1011.2415.3001.5331
+              - paragraph [ref=e123]:
+                - link "开源 C++ QT QML 开发（十）通讯--串口" [ref=e124] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152716293?spm=1011.2124.3001.6209
+              - paragraph [ref=e125]:
+                - link "开源 C++ QT QML 开发（十一）通讯--TCP服务器端" [ref=e126] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152722842?spm=1011.2124.3001.6209
+              - paragraph [ref=e127]:
+                - link "开源 C++ QT QML 开发（十二）通讯--TCP客户端" [ref=e128] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152729014?spm=1011.2124.3001.6209
+              - paragraph [ref=e129]:
+                - link "开源 C++ QT QML 开发（十三）多线程" [ref=e131] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152830073?spm=1011.2124.3001.6209
+              - paragraph [ref=e132]:
+                - link "开源 C++ QT QML 开发（十四）进程用途" [ref=e134] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152838812?spm=1011.2124.3001.6209
+              - paragraph [ref=e135]:
+                - link "开源 C++ QT QML 开发（十五）通讯--http下载" [ref=e137] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152949168?spm=1011.2124.3001.6209
+              - paragraph [ref=e138]:
+                - link "开源 C++ QT QML 开发（十六）进程--共享内存" [ref=e140] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/153107315?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph [ref=e141]: 推荐链接：
+              - paragraph [ref=e142]:
+                - link "开源 C# 快速开发（一）基础知识" [ref=e143] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152006751?spm=1011.2124.3001.6209
+              - paragraph [ref=e144]:
+                - link "开源 C# 快速开发（二）基础控件" [ref=e145] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090408?spm=1011.2124.3001.6209
+              - paragraph [ref=e146]:
+                - link "开源 C# 快速开发（三）复杂控件" [ref=e147] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090838?spm=1011.2124.3001.6209
+              - paragraph [ref=e148]:
+                - link "开源 C# 快速开发（四）自定义控件--波形图" [ref=e149] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152134428?spm=1011.2124.3001.6209
+              - paragraph [ref=e150]:
+                - link "开源 C# 快速开发（五）自定义控件--仪表盘" [ref=e151] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152137113?spm=1011.2124.3001.6209
+              - paragraph [ref=e152]:
+                - link "开源 C# 快速开发（六）自定义控件--圆环" [ref=e153] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152159713?spm=1011.2124.3001.6209
+              - paragraph [ref=e154]:
+                - link "开源 C# 快速开发（七）通讯--串口" [ref=e155] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152160245?spm=1011.2124.3001.6209
+              - paragraph [ref=e156]:
+                - link "开源 C# 快速开发（八）通讯--Tcp服务器端" [ref=e157] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152216663?spm=1011.2124.3001.6209
+              - paragraph [ref=e158]:
+                - link "开源 C# 快速开发（九）通讯--Tcp客户端" [ref=e159] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152217276?spm=1011.2124.3001.6209
+              - paragraph [ref=e160]:
+                - link "开源 C# 快速开发（十）通讯--http客户端" [ref=e161] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152218758?spm=1011.2124.3001.6209
+              - paragraph [ref=e162]:
+                - link "开源 C# 快速开发（十一）线程" [ref=e163] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280575?spm=1011.2124.3001.6209
+              - paragraph [ref=e164]:
+                - link "开源 C# 快速开发（十二）进程监控" [ref=e165] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280853?spm=1011.2124.3001.6209
+              - paragraph [ref=e166]:
+                - link "开源 C# 快速开发（十三）进程--管道通讯" [ref=e167] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152335963?spm=1011.2124.3001.6209
+              - paragraph [ref=e168]:
+                - link "开源 C# 快速开发（十四）进程--内存映射" [ref=e169] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152358473?spm=1011.2124.3001.6209
+              - paragraph [ref=e170]:
+                - link "开源 C# 快速开发（十五）进程--windows消息" [ref=e171] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152373469?spm=1011.2124.3001.6209
+              - paragraph [ref=e172]:
+                - link "开源 C# 快速开发（十六）数据库--sqlserver增删改查" [ref=e173] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152419592?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph
+              - paragraph [ref=e174]: 本章节主要内容是:介绍复杂控件Listview的使用方法，包括普通列表，表格，树形列表。
+              - paragraph [ref=e175]: 1.代码分析
+              - paragraph [ref=e176]: 2.所有源码
+              - paragraph [ref=e177]: 3.效果演示
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph [ref=e178]: 一、代码分析
+              - paragraph [ref=e179]: 以下是对修正后代码的详细函数级分析：
+              - paragraph [ref=e180]: 1. 主应用程序窗口 (ApplicationWindow)
+              - generic [ref=e181]:
+                - code [ref=e182]:
+                  - list [ref=e183]:
+                    - listitem [ref=e184]:
+                      - generic [ref=e186]: "1"
+                      - generic [ref=e188]: "ApplicationWindow {"
+                    - listitem [ref=e189]:
+                      - generic [ref=e191]: "2"
+                      - generic [ref=e193]: "id: window"
+                    - listitem [ref=e194]:
+                      - generic [ref=e196]: "3"
+                      - generic [ref=e198]: "width: 1200"
+                    - listitem [ref=e199]:
+                      - generic [ref=e201]: "4"
+                      - generic [ref=e203]: "height: 800"
+                    - listitem [ref=e204]:
+                      - generic [ref=e206]: "5"
+                      - generic [ref=e208]: "title: \"QML 复杂控件演示 - Qt 5.14\""
+                    - listitem [ref=e209]:
+                      - generic [ref=e211]: "6"
+                      - generic [ref=e213]: "visible: true"
+                - generic [ref=e214]:
+                  - button "AI写代码" [ref=e215] [cursor=pointer]
+                  - generic [ref=e216] [cursor=pointer]: 复制
+              - paragraph [ref=e217]: 功能分析：
+              - paragraph [ref=e218]: ApplicationWindow 是应用程序的主窗口
+              - paragraph [ref=e219]: "id: window 为窗口创建唯一标识符，便于在其他组件中引用"
+              - paragraph [ref=e220]: width 和 height 设置窗口初始尺寸
+              - paragraph [ref=e221]: "visible: true 使窗口可见，如果为 false 则窗口隐藏"
+              - paragraph
+              - paragraph [ref=e222]:
+                - text: 2. 数据模型定义
+                - text: ListModel - 员工列表数据
+              - generic [ref=e223]:
+                - code [ref=e224]:
+                  - list [ref=e225]:
+                    - listitem [ref=e226]:
+                      - generic [ref=e228]: "1"
+                      - generic [ref=e230]: "ListModel {"
+                    - listitem [ref=e231]:
+                      - generic [ref=e233]: "2"
+                      - generic [ref=e235]: "id: listModel"
+                    - listitem [ref=e236]:
+                      - generic [ref=e238]: "3"
+                      - generic [ref=e240]: "ListElement { name: \"张三\"; role: \"开发工程师\"; avatar: \"👨‍💻\" }"
+                    - listitem [ref=e241]:
+                      - generic [ref=e243]: "4"
+                      - generic [ref=e245]: // ... 更多数据
+                    - listitem [ref=e246]:
+                      - generic [ref=e248]: "5"
+                      - generic [ref=e250]: "}"
+                - generic [ref=e251]:
+                  - button "AI写代码" [ref=e252] [cursor=pointer]
+                  - generic [ref=e253] [cursor=pointer]: 复制
+              - paragraph [ref=e254]: 函数分析：
+              - paragraph [ref=e255]:
+                - text: ListModel 是动态数据
+                - generic [ref=e256] [cursor=pointer]: 模型
+                - text: ，支持运行时修改
+              - paragraph [ref=e258]: 每个 ListElement 创建一个数据项
+              - paragraph [ref=e259]: 数据通过 model.name、model.role 等方式在委托中访问
+              - paragraph [ref=e260]: 树形结构数据模型
+              - generic [ref=e261]:
+                - code [ref=e262]:
+                  - list [ref=e263]:
+                    - listitem [ref=e264]:
+                      - generic [ref=e266]: "1"
+                      - generic [ref=e268]: "ListModel {"
+                    - listitem [ref=e269]:
+                      - generic [ref=e271]: "2"
+                      - generic [ref=e273]: "id: treeModel"
+                    - listitem [ref=e274]:
+                      - generic [ref=e276]: "3"
+                      - generic [ref=e278]: "ListElement {"
+                    - listitem [ref=e279]:
+                      - generic [ref=e281]: "4"
+                      - generic [ref=e283]: "name: \"公司组织\"; depth: 0; isExpanded: true; hasChildren: true; isCategory: true"
+                    - listitem [ref=e284]:
+                      - generic [ref=e286]: "5"
+                      - generic [ref=e288]: "}"
+                    - listitem [ref=e289]:
+                      - generic [ref=e291]: "6"
+                      - generic [ref=e293]: // ... 更多层级数据
+                    - listitem [ref=e294]:
+                      - generic [ref=e296]: "7"
+                      - generic [ref=e298]: "}"
+                - generic [ref=e299]:
+                  - button "AI写代码" [ref=e300] [cursor=pointer]
+                  - generic [ref=e301] [cursor=pointer]: 复制
+              - paragraph [ref=e302]: 关键属性分析：
+              - paragraph [ref=e303]: "depth: 控制缩进层级，实现树形视觉效果"
+              - paragraph [ref=e304]: "isExpanded: 控制节点展开状态"
+              - paragraph [ref=e305]: "hasChildren: 标识是否有子节点，决定显示箭头还是圆点"
+              - paragraph [ref=e306]: "isCategory: 区分分类节点和叶子节点，影响文字样式"
+              - paragraph
+              - paragraph [ref=e307]:
+                - text: 3. 员工列表页面 (ListView 实现)
+                - text: ListView 配置
+                - text: 函数分析：
+              - paragraph [ref=e308]: "anchors.fill: parent - 填充父容器"
+              - generic [ref=e309]:
+                - code [ref=e310]:
+                  - list [ref=e311]:
+                    - listitem [ref=e312]:
+                      - generic [ref=e314]: "1"
+                      - generic [ref=e316]: "ListView {"
+                    - listitem [ref=e317]:
+                      - generic [ref=e319]: "2"
+                      - generic [ref=e321]: "id: listView"
+                    - listitem [ref=e322]:
+                      - generic [ref=e324]: "3"
+                      - generic [ref=e326]: "anchors.fill: parent"
+                    - listitem [ref=e327]:
+                      - generic [ref=e329]: "4"
+                      - generic [ref=e331]: "anchors.margins: 5"
+                    - listitem [ref=e332]:
+                      - generic [ref=e334]: "5"
+                      - generic [ref=e336]: "model: listModel"
+                    - listitem [ref=e337]:
+                      - generic [ref=e339]: "6"
+                      - generic [ref=e341]: "clip: true"
+                    - listitem [ref=e342]:
+                      - generic [ref=e344]: "7"
+                      - generic [ref=e346]: "spacing: 2"
+                    - listitem [ref=e347]:
+                      - generic [ref=e349]: "8"
+                      - generic [ref=e351]: "}"
+                - generic [ref=e352]:
+                  - button "AI写代码" [ref=e353] [cursor=pointer]
+                  - generic [ref=e354] [cursor=pointer]: 复制
+              - paragraph [ref=e355]: "anchors.margins: 5 - 设置边距"
+              - paragraph [ref=e356]: "model: listModel - 绑定数据模型"
+              - paragraph [ref=e357]: "clip: true - 启用裁剪，防止内容溢出"
+              - paragraph [ref=e358]: "spacing: 2 - 设置项间距"
+              - paragraph [ref=e359]: 委托函数 (Delegate)
+              - generic [ref=e360]:
+                - code [ref=e361]:
+                  - list [ref=e362]:
+                    - listitem [ref=e363]:
+                      - generic [ref=e365]: "1"
+                      - generic [ref=e367]: "delegate: Rectangle {"
+                    - listitem [ref=e368]:
+                      - generic [ref=e370]: "2"
+                      - generic [ref=e372]: "width: listView.width"
+                    - listitem [ref=e373]:
+                      - generic [ref=e375]: "3"
+                      - generic [ref=e377]: "height: 70"
+                    - listitem [ref=e378]:
+                      - generic [ref=e380]: "4"
+                      - generic [ref=e382]: "color: index % 2 === 0 ? \"#f8f9fa\" : \"#ffffff\""
+                    - listitem [ref=e383]:
+                      - generic [ref=e385]: "5"
+                      - generic [ref=e387]: "radius: 5"
+                    - listitem [ref=e388]:
+                      - generic [ref=e390]: "6"
+                      - generic [ref=e392]: "border.color: \"#e9ecef\""
+                    - listitem [ref=e393]:
+                      - generic [ref=e395]: "7"
+                      - generic [ref=e397]: "}"
+                - generic [ref=e398]:
+                  - button "AI写代码" [ref=e399] [cursor=pointer]
+                  - generic [ref=e400] [cursor=pointer]: 复制
+              - paragraph [ref=e401]: 函数分析：
+              - paragraph [ref=e402]: "width: listView.width - 宽度与 ListView 相同"
+              - paragraph [ref=e403]: "height: 70 - 固定高度"
+              - paragraph [ref=e404]: "color: index % 2 === 0 ? \"#f8f9fa\" : \"#ffffff\" - 交替背景色"
+              - paragraph [ref=e405]: index 是 ListView 提供的当前项索引
+              - paragraph [ref=e406]: 使用三元运算符实现奇偶行不同颜色
+              - paragraph [ref=e407]: 按钮点击处理
+              - generic [ref=e408]:
+                - code [ref=e409]:
+                  - list [ref=e410]:
+                    - listitem [ref=e411]:
+                      - generic [ref=e413]: "1"
+                      - generic [ref=e415]: "Button {"
+                    - listitem [ref=e416]:
+                      - generic [ref=e418]: "2"
+                      - generic [ref=e420]: // ... 样式配置
+                    - listitem [ref=e421]:
+                      - generic [ref=e423]: "3"
+                      - generic [ref=e425]: "onClicked: console.log(\"查看员工:\", name)"
+                    - listitem [ref=e426]:
+                      - generic [ref=e428]: "4"
+                      - generic [ref=e430]: "}"
+                - generic [ref=e431]:
+                  - button "AI写代码" [ref=e432] [cursor=pointer]
+                  - generic [ref=e433] [cursor=pointer]: 复制
+              - paragraph [ref=e434]: 函数分析：
+              - paragraph [ref=e435]: onClicked - 按钮点击信号处理器
+              - paragraph [ref=e436]: console.log("查看员工:", name) - 输出日志，实际应用中可替换为具体业务逻辑
+              - paragraph [ref=e437]: name 来自数据模型的 name 字段
+              - paragraph [ref=e438]:
+                - text: 4. 产品表格页面 (ListView 模拟 TableView)
+                - text: 表头实现
+              - generic [ref=e439]:
+                - code [ref=e440]:
+                  - list [ref=e441]:
+                    - listitem [ref=e442]:
+                      - generic [ref=e444]: "1"
+                      - generic [ref=e446]: "header: Row {"
+                    - listitem [ref=e447]:
+                      - generic [ref=e449]: "2"
+                      - generic [ref=e451]: "width: tableView.width"
+                    - listitem [ref=e452]:
+                      - generic [ref=e454]: "3"
+                      - generic [ref=e456]: "height: 50"
+                    - listitem [ref=e457]:
+                      - generic [ref=e459]: "4"
+                      - generic [ref=e461]: "spacing: 1"
+                    - listitem [ref=e462]:
+                      - generic [ref=e464]: "5"
+                    - listitem [ref=e467]:
+                      - generic [ref=e469]: "6"
+                      - generic [ref=e471]: "Repeater {"
+                    - listitem [ref=e472]:
+                      - generic [ref=e474]: "7"
+                      - generic [ref=e476]: "model: [\"产品名称\", \"分类\", \"价格\", \"库存\"]"
+                    - listitem [ref=e477]:
+                      - generic [ref=e479]: "8"
+                    - listitem [ref=e482]:
+                      - generic [ref=e484]: "9"
+                      - generic [ref=e486]: "Rectangle {"
+                    - listitem [ref=e487]:
+                      - generic [ref=e489]: "10"
+                      - generic [ref=e491]: "width: {"
+                    - listitem [ref=e492]:
+                      - generic [ref=e494]: "11"
+                      - generic [ref=e496]: "switch(modelData) {"
+                    - listitem [ref=e497]:
+                      - generic [ref=e499]: "12"
+                      - generic [ref=e501]: "case \"产品名称\": return 200;"
+                    - listitem [ref=e502]:
+                      - generic [ref=e504]: "13"
+                      - generic [ref=e506]: "case \"分类\": return 150;"
+                    - listitem [ref=e507]:
+                      - generic [ref=e509]: "14"
+                      - generic [ref=e511]: "case \"价格\": return 120;"
+                    - listitem [ref=e512]:
+                      - generic [ref=e514]: "15"
+                      - generic [ref=e516]: "case \"库存\": return 100;"
+                    - listitem [ref=e517]:
+                      - generic [ref=e519]: "16"
+                      - generic [ref=e521]: "default: return 100;"
+                    - listitem [ref=e522]:
+                      - generic [ref=e524]: "17"
+                      - generic [ref=e526]: "}"
+                    - listitem [ref=e527]:
+                      - generic [ref=e529]: "18"
+                      - generic [ref=e531]: "}"
+                    - listitem [ref=e532]:
+                      - generic [ref=e534]: "19"
+                      - generic [ref=e536]: // ... 其他配置
+                    - listitem [ref=e537]:
+                      - generic [ref=e539]: "20"
+                      - generic [ref=e541]: "}"
+                    - listitem [ref=e542]:
+                      - generic [ref=e544]: "21"
+                      - generic [ref=e546]: "}"
+                    - listitem [ref=e547]:
+                      - generic [ref=e549]: "22"
+                      - generic [ref=e551]: "}"
+                - generic [ref=e552]:
+                  - button "AI写代码" [ref=e553] [cursor=pointer]
+                  - generic [ref=e554] [cursor=pointer]: 复制
+                - generic [ref=e556] [cursor=pointer]: 展开
+              - paragraph [ref=e557]: 函数分析：
+              - paragraph [ref=e558]: Repeater 根据字符串数组动态创建表头单元格
+              - paragraph [ref=e559]: modelData 是 Repeater 中当前迭代的数据项
+              - paragraph [ref=e560]:
+                - generic [ref=e561] [cursor=pointer]: switch
+                - text: (modelData) 根据列名返回不同的列宽
+              - paragraph [ref=e562]: 使用函数表达式动态计算宽度表格数据行
+              - generic [ref=e563]:
+                - code [ref=e564]:
+                  - list [ref=e565]:
+                    - listitem [ref=e566]:
+                      - generic [ref=e568]: "1"
+                      - generic [ref=e570]: "delegate: Row {"
+                    - listitem [ref=e571]:
+                      - generic [ref=e573]: "2"
+                      - generic [ref=e575]: "width: tableView.width"
+                    - listitem [ref=e576]:
+                      - generic [ref=e578]: "3"
+                      - generic [ref=e580]: "height: 50"
+                    - listitem [ref=e581]:
+                      - generic [ref=e583]: "4"
+                      - generic [ref=e585]: "spacing: 1"
+                    - listitem [ref=e586]:
+                      - generic [ref=e588]: "5"
+                    - listitem [ref=e591]:
+                      - generic [ref=e593]: "6"
+                      - generic [ref=e595]: "property var columnData: [product, category, price, stock]"
+                    - listitem [ref=e596]:
+                      - generic [ref=e598]: "7"
+                      - generic [ref=e600]: "property var columnWidths: [200, 150, 120, 100]"
+                    - listitem [ref=e601]:
+                      - generic [ref=e603]: "8"
+                    - listitem [ref=e606]:
+                      - generic [ref=e608]: "9"
+                      - generic [ref=e610]: "Repeater {"
+                    - listitem [ref=e611]:
+                      - generic [ref=e613]: "10"
+                      - generic [ref=e615]: "model: 4"
+                    - listitem [ref=e616]:
+                      - generic [ref=e618]: "11"
+                    - listitem [ref=e621]:
+                      - generic [ref=e623]: "12"
+                      - generic [ref=e625]: "Rectangle {"
+                    - listitem [ref=e626]:
+                      - generic [ref=e628]: "13"
+                      - generic [ref=e630]: "width: parent.columnWidths[index]"
+                    - listitem [ref=e631]:
+                      - generic [ref=e633]: "14"
+                      - generic [ref=e635]: "height: 50"
+                    - listitem [ref=e636]:
+                      - generic [ref=e638]: "15"
+                      - generic [ref=e640]: "color: {"
+                    - listitem [ref=e641]:
+                      - generic [ref=e643]: "16"
+                      - generic [ref=e645]: "if (tableView.index % 2 === 0) {"
+                    - listitem [ref=e646]:
+                      - generic [ref=e648]: "17"
+                      - generic [ref=e650]: return "#f8f9fa"
+                    - listitem [ref=e651]:
+                      - generic [ref=e653]: "18"
+                      - generic [ref=e655]: "} else {"
+                    - listitem [ref=e656]:
+                      - generic [ref=e658]: "19"
+                      - generic [ref=e660]: return "#ffffff"
+                    - listitem [ref=e661]:
+                      - generic [ref=e663]: "20"
+                      - generic [ref=e665]: "}"
+                    - listitem [ref=e666]:
+                      - generic [ref=e668]: "21"
+                      - generic [ref=e670]: "}"
+                    - listitem [ref=e671]:
+                      - generic [ref=e673]: "22"
+                      - generic [ref=e675]: // ... 文字颜色逻辑
+                    - listitem [ref=e676]:
+                      - generic [ref=e678]: "23"
+                      - generic [ref=e680]: "}"
+                    - listitem [ref=e681]:
+                      - generic [ref=e683]: "24"
+                      - generic [ref=e685]: "}"
+                    - listitem [ref=e686]:
+                      - generic [ref=e688]: "25"
+                      - generic [ref=e690]: "}"
+                - generic [ref=e691]:
+                  - button "AI写代码" [ref=e692] [cursor=pointer]
+                  - generic [ref=e693] [cursor=pointer]: 复制
+                - generic [ref=e695] [cursor=pointer]: 展开
+              - paragraph [ref=e696]: 关键函数分析：
+              - paragraph [ref=e697]: property var columnData - 定义行数据数组
+              - paragraph [ref=e698]: property var columnWidths - 定义列宽数组
+              - paragraph [ref=e699]: "Repeater { model: 4 } - 创建4个单元格"
+              - paragraph [ref=e700]: parent.columnWidths[index] - 根据索引获取对应列宽
+              - paragraph [ref=e701]: tableView.index % 2 === 0 - 实现表格行的斑马纹效果
+              - paragraph [ref=e702]: 条件颜色设置
+              - generic [ref=e703]:
+                - code [ref=e704]:
+                  - list [ref=e705]:
+                    - listitem [ref=e706]:
+                      - generic [ref=e708]: "1"
+                      - generic [ref=e710]: "color: {"
+                    - listitem [ref=e711]:
+                      - generic [ref=e713]: "2"
+                      - generic [ref=e715]: "if (index === 2) { // 价格列"
+                    - listitem [ref=e716]:
+                      - generic [ref=e718]: "3"
+                      - generic [ref=e720]: return "#e74c3c"
+                    - listitem [ref=e721]:
+                      - generic [ref=e723]: "4"
+                      - generic [ref=e725]: "} else if (index === 3) { // 库存列"
+                    - listitem [ref=e726]:
+                      - generic [ref=e728]: "5"
+                      - generic [ref=e730]: "return parseInt(parent.parent.columnData[index]) < 50 ? \"#e67e22\" : \"#27ae60\""
+                    - listitem [ref=e731]:
+                      - generic [ref=e733]: "6"
+                      - generic [ref=e735]: "} else {"
+                    - listitem [ref=e736]:
+                      - generic [ref=e738]: "7"
+                      - generic [ref=e740]: return "#2c3e50"
+                    - listitem [ref=e741]:
+                      - generic [ref=e743]: "8"
+                      - generic [ref=e745]: "}"
+                    - listitem [ref=e746]:
+                      - generic [ref=e748]: "9"
+                      - generic [ref=e750]: "}"
+                - generic [ref=e751]:
+                  - button "AI写代码" [ref=e752] [cursor=pointer]
+                  - generic [ref=e753] [cursor=pointer]: 复制
+              - paragraph [ref=e754]: 函数分析：
+              - paragraph [ref=e755]: 使用多条件判断设置不同列的文字颜色
+              - paragraph [ref=e756]: parseInt(parent.parent.columnData[index]) - 将库存字符串转换为数字
+              - paragraph [ref=e757]: "三元运算符 ? : 根据库存数量返回不同颜色"
+              - paragraph [ref=e758]:
+                - text: 5. 组织架构页面 (ListView 模拟 TreeView)
+                - text: 可见性控制函数
+              - paragraph
+              - generic [ref=e759]:
+                - code [ref=e760]:
+                  - list [ref=e761]:
+                    - listitem [ref=e762]:
+                      - generic [ref=e764]: "1"
+                      - generic [ref=e766]: "function isItemVisible() {"
+                    - listitem [ref=e767]:
+                      - generic [ref=e769]: "2"
+                      - generic [ref=e771]: // 简单的可见性检查（实际项目中需要更复杂的逻辑）
+                    - listitem [ref=e772]:
+                      - generic [ref=e774]: "3"
+                      - generic [ref=e776]: if (depth === 0) return true;
+                    - listitem [ref=e777]:
+                      - generic [ref=e779]: "4"
+                      - generic [ref=e781]: // 这里简化处理，实际应该检查父级是否展开
+                    - listitem [ref=e782]:
+                      - generic [ref=e784]: "5"
+                      - generic [ref=e786]: return true;
+                    - listitem [ref=e787]:
+                      - generic [ref=e789]: "6"
+                      - generic [ref=e791]: "}"
+                - generic [ref=e792]:
+                  - button "AI写代码" [ref=e793] [cursor=pointer]
+                  - generic [ref=e794] [cursor=pointer]: 复制
+              - paragraph [ref=e795]: 函数分析：
+              - paragraph [ref=e796]: 这个函数控制树节点是否显示
+              - paragraph [ref=e797]: 当前实现是简化版本，实际需要递归检查所有父级节点的展开状态
+              - paragraph [ref=e798]: depth === 0 确保根节点始终显示
+              - paragraph [ref=e799]: 树形缩进实现
+              - generic [ref=e800]:
+                - code [ref=e801]:
+                  - list [ref=e802]:
+                    - listitem [ref=e803]:
+                      - generic [ref=e805]: "1"
+                      - generic [ref=e807]: "Row {"
+                    - listitem [ref=e808]:
+                      - generic [ref=e810]: "2"
+                      - generic [ref=e812]: "anchors.fill: parent"
+                    - listitem [ref=e813]:
+                      - generic [ref=e815]: "3"
+                      - generic [ref=e817]: "anchors.leftMargin: 10 + depth * 20 // 关键缩进计算"
+                    - listitem [ref=e818]:
+                      - generic [ref=e820]: "4"
+                      - generic [ref=e822]: "spacing: 8"
+                    - listitem [ref=e823]:
+                      - generic [ref=e825]: "5"
+                      - generic [ref=e827]: // ... 图标和文字
+                    - listitem [ref=e828]:
+                      - generic [ref=e830]: "6"
+                      - generic [ref=e832]: "}"
+                - generic [ref=e833]:
+                  - button "AI写代码" [ref=e834] [cursor=pointer]
+                  - generic [ref=e835] [cursor=pointer]: 复制
+              - paragraph [ref=e836]: 函数分析：
+              - paragraph [ref=e837]: "anchors.leftMargin: 10 + depth * 20 - 根据深度计算缩进"
+              - paragraph [ref=e838]: depth 来自数据模型的层级信息
+              - paragraph [ref=e839]: 每增加一层，缩进增加20像素
+              - paragraph [ref=e840]: 基础缩进10像素
+              - paragraph [ref=e841]: 动态图标显示
+              - generic [ref=e842]:
+                - code [ref=e843]:
+                  - list [ref=e844]:
+                    - listitem [ref=e845]:
+                      - generic [ref=e847]: "1"
+                      - generic [ref=e849]: "Text {"
+                    - listitem [ref=e850]:
+                      - generic [ref=e852]: "2"
+                      - generic [ref=e854]: "text: {"
+                    - listitem [ref=e855]:
+                      - generic [ref=e857]: "3"
+                      - generic [ref=e859]: "if (hasChildren) {"
+                    - listitem [ref=e860]:
+                      - generic [ref=e862]: "4"
+                      - generic [ref=e864]: "return isExpanded ? \"▼\" : \"►\""
+                    - listitem [ref=e865]:
+                      - generic [ref=e867]: "5"
+                      - generic [ref=e869]: "} else {"
+                    - listitem [ref=e870]:
+                      - generic [ref=e872]: "6"
+                      - generic [ref=e874]: return "•"
+                    - listitem [ref=e875]:
+                      - generic [ref=e877]: "7"
+                      - generic [ref=e879]: "}"
+                    - listitem [ref=e880]:
+                      - generic [ref=e882]: "8"
+                      - generic [ref=e884]: "}"
+                    - listitem [ref=e885]:
+                      - generic [ref=e887]: "9"
+                      - generic [ref=e889]: // ... 样式
+                    - listitem [ref=e890]:
+                      - generic [ref=e892]: "10"
+                      - generic [ref=e894]: "}"
+                - generic [ref=e895]:
+                  - button "AI写代码" [ref=e896] [cursor=pointer]
+                  - generic [ref=e897] [cursor=pointer]: 复制
+                - generic [ref=e899] [cursor=pointer]: 展开
+              - paragraph [ref=e900]: 函数分析：
+              - paragraph [ref=e901]: 使用函数表达式动态返回图标字符
+              - paragraph [ref=e902]: hasChildren 判断是否为父节点
+              - paragraph [ref=e903]: "isExpanded ? \"▼\" : \"►\" - 根据展开状态返回向下或向右箭头"
+              - paragraph [ref=e904]: 叶子节点显示圆点符号
+              - paragraph [ref=e905]: 点击事件处理
+              - generic [ref=e906]:
+                - code [ref=e907]:
+                  - list [ref=e908]:
+                    - listitem [ref=e909]:
+                      - generic [ref=e911]: "1"
+                      - generic [ref=e913]: "MouseArea {"
+                    - listitem [ref=e914]:
+                      - generic [ref=e916]: "2"
+                      - generic [ref=e918]: "anchors.fill: parent"
+                    - listitem [ref=e919]:
+                      - generic [ref=e921]: "3"
+                      - generic [ref=e923]: "onClicked: {"
+                    - listitem [ref=e924]:
+                      - generic [ref=e926]: "4"
+                      - generic [ref=e928]: console.log("点击节点:", name, "深度:", depth)
+                    - listitem [ref=e929]:
+                      - generic [ref=e931]: "5"
+                      - generic [ref=e933]: "if (hasChildren) {"
+                    - listitem [ref=e934]:
+                      - generic [ref=e936]: "6"
+                      - generic [ref=e938]: // 切换展开状态
+                    - listitem [ref=e939]:
+                      - generic [ref=e941]: "7"
+                      - generic [ref=e943]: treeModel.setProperty(index, "isExpanded", !isExpanded)
+                    - listitem [ref=e944]:
+                      - generic [ref=e946]: "8"
+                      - generic [ref=e948]: "}"
+                    - listitem [ref=e949]:
+                      - generic [ref=e951]: "9"
+                      - generic [ref=e953]: "}"
+                    - listitem [ref=e954]:
+                      - generic [ref=e956]: "10"
+                      - generic [ref=e958]: "}"
+                - generic [ref=e959]:
+                  - button "AI写代码" [ref=e960] [cursor=pointer]
+                  - generic [ref=e961] [cursor=pointer]: 复制
+                - generic [ref=e963] [cursor=pointer]: 展开
+              - paragraph [ref=e964]: 关键函数分析：
+              - paragraph [ref=e965]: onClicked - 鼠标点击事件处理器
+              - paragraph [ref=e966]: console.log - 调试输出，显示节点信息
+              - paragraph [ref=e967]: treeModel.setProperty(index, "isExpanded", !isExpanded) - 动态修改模型数据
+              - paragraph [ref=e968]: index - 当前项在模型中的索引
+              - paragraph [ref=e969]: "\"isExpanded\" - 要修改的属性名"
+              - paragraph [ref=e970]: "!isExpanded - 取反当前值，实现切换"
+              - paragraph
+              - paragraph [ref=e971]:
+                - text: 6. 布局和样式函数
+                - text: StackLayout 页面切换
+              - generic [ref=e972]:
+                - code [ref=e973]:
+                  - list [ref=e974]:
+                    - listitem [ref=e975]:
+                      - generic [ref=e977]: "1"
+                      - generic [ref=e979]: "StackLayout {"
+                    - listitem [ref=e980]:
+                      - generic [ref=e982]: "2"
+                      - generic [ref=e984]: "currentIndex: tabBar.currentIndex"
+                    - listitem [ref=e985]:
+                      - generic [ref=e987]: "3"
+                      - generic [ref=e989]: // ... 三个页面
+                    - listitem [ref=e990]:
+                      - generic [ref=e992]: "4"
+                      - generic [ref=e994]: "}"
+                - generic [ref=e995]:
+                  - button "AI写代码" [ref=e996] [cursor=pointer]
+                  - generic [ref=e997] [cursor=pointer]: 复制
+              - paragraph [ref=e998]: 函数分析：
+              - paragraph [ref=e999]: currentIndex 绑定到 TabBar 的当前选中索引
+              - paragraph [ref=e1000]: 当用户切换选项卡时自动切换显示的页面
+              - paragraph [ref=e1001]:
+                - text: 条件样式设置
+                - text: qaml
+                - text: "background: Rectangle {"
+                - text: "color: tabBar.currentIndex === 0 ? \"#3498db\" : \"transparent\""
+                - text: "}"
+                - text: 函数分析：
+              - paragraph [ref=e1002]: 使用条件表达式设置选中状态的背景色
+              - paragraph [ref=e1003]: 当前选项卡显示蓝色，其他为透明
+              - paragraph
+              - paragraph [ref=e1004]: 二、所有源码
+              - paragraph [ref=e1005]: main.qml文件源码
+              - generic [ref=e1006]:
+                - code [ref=e1007]:
+                  - list [ref=e1008]:
+                    - listitem [ref=e1009]:
+                      - generic [ref=e1011]: "1"
+                      - generic [ref=e1013]: import QtQuick 2.14
+                    - listitem [ref=e1014]:
+                      - generic [ref=e1016]: "2"
+                      - generic [ref=e1018]: import QtQuick.Controls 2.14
+                    - listitem [ref=e1019]:
+                      - generic [ref=e1021]: "3"
+                      - generic [ref=e1023]: import QtQuick.Layouts 1.14
+                    - listitem [ref=e1024]:
+                      - generic [ref=e1026]: "4"
+                      - generic [ref=e1028]: import Qt.labs.qmlmodels 1.0
+                    - listitem [ref=e1029]:
+                      - generic [ref=e1031]: "5"
+                    - listitem [ref=e1034]:
+                      - generic [ref=e1036]: "6"
+                      - generic [ref=e1038]: "ApplicationWindow {"
+                    - listitem [ref=e1039]:
+                      - generic [ref=e1041]: "7"
+                      - generic [ref=e1043]: "id: window"
+                    - listitem [ref=e1044]:
+                      - generic [ref=e1046]: "8"
+                      - generic [ref=e1048]: "width: 1200"
+                    - listitem [ref=e1049]:
+                      - generic [ref=e1051]: "9"
+                      - generic [ref=e1053]: "height: 800"
+                    - listitem [ref=e1054]:
+                      - generic [ref=e1056]: "10"
+                      - generic [ref=e1058]: "title: \"QML 复杂控件演示 - Qt 5.14\""
+                    - listitem [ref=e1059]:
+                      - generic [ref=e1061]: "11"
+                      - generic [ref=e1063]: "visible: true"
+                    - listitem [ref=e1064]:
+                      - generic [ref=e1066]: "12"
+                    - listitem [ref=e1069]:
+                      - generic [ref=e1071]: "13"
+                      - generic [ref=e1073]: // 模拟数据模型
+                    - listitem [ref=e1074]:
+                      - generic [ref=e1076]: "14"
+                      - generic [ref=e1078]: "ListModel {"
+                    - listitem [ref=e1079]:
+                      - generic [ref=e1081]: "15"
+                      - generic [ref=e1083]: "id: listModel"
+                    - listitem [ref=e1084]:
+                      - generic [ref=e1086]: "16"
+                      - generic [ref=e1088]: "ListElement { name: \"张三\"; role: \"开发工程师\"; avatar: \"👨‍💻\" }"
+                    - listitem [ref=e1089]:
+                      - generic [ref=e1091]: "17"
+                      - generic [ref=e1093]: "ListElement { name: \"李四\"; role: \"UI设计师\"; avatar: \"👩‍🎨\" }"
+                    - listitem [ref=e1094]:
+                      - generic [ref=e1096]: "18"
+                      - generic [ref=e1098]: "ListElement { name: \"王五\"; role: \"产品经理\"; avatar: \"👨‍💼\" }"
+                    - listitem [ref=e1099]:
+                      - generic [ref=e1101]: "19"
+                      - generic [ref=e1103]: "ListElement { name: \"赵六\"; role: \"测试工程师\"; avatar: \"👩‍🔬\" }"
+                    - listitem [ref=e1104]:
+                      - generic [ref=e1106]: "20"
+                      - generic [ref=e1108]: "ListElement { name: \"钱七\"; role: \"运维工程师\"; avatar: \"👨‍🔧\" }"
+                    - listitem [ref=e1109]:
+                      - generic [ref=e1111]: "21"
+                      - generic [ref=e1113]: "}"
+                    - listitem [ref=e1114]:
+                      - generic [ref=e1116]: "22"
+                    - listitem [ref=e1119]:
+                      - generic [ref=e1121]: "23"
+                      - generic [ref=e1123]: "ListModel {"
+                    - listitem [ref=e1124]:
+                      - generic [ref=e1126]: "24"
+                      - generic [ref=e1128]: "id: tableModel"
+                    - listitem [ref=e1129]:
+                      - generic [ref=e1131]: "25"
+                      - generic [ref=e1133]: "ListElement { product: \"笔记本电脑\"; category: \"电子产品\"; price: \"¥5,999\"; stock: \"45\" }"
+                    - listitem [ref=e1134]:
+                      - generic [ref=e1136]: "26"
+                      - generic [ref=e1138]: "ListElement { product: \"无线鼠标\"; category: \"电子产品\"; price: \"¥199\"; stock: \"120\" }"
+                    - listitem [ref=e1139]:
+                      - generic [ref=e1141]: "27"
+                      - generic [ref=e1143]: "ListElement { product: \"机械键盘\"; category: \"电子产品\"; price: \"¥699\"; stock: \"78\" }"
+                    - listitem [ref=e1144]:
+                      - generic [ref=e1146]: "28"
+                      - generic [ref=e1148]: "ListElement { product: \"办公椅\"; category: \"家具\"; price: \"¥1,299\"; stock: \"23\" }"
+                    - listitem [ref=e1149]:
+                      - generic [ref=e1151]: "29"
+                      - generic [ref=e1153]: "ListElement { product: \"显示器\"; category: \"电子产品\"; price: \"¥2,499\"; stock: \"34\" }"
+                    - listitem [ref=e1154]:
+                      - generic [ref=e1156]: "30"
+                      - generic [ref=e1158]: "}"
+                    - listitem [ref=e1159]:
+                      - generic [ref=e1161]: "31"
+                    - listitem [ref=e1164]:
+                      - generic [ref=e1166]: "32"
+                      - generic [ref=e1168]: // 树形结构数据模型
+                    - listitem [ref=e1169]:
+                      - generic [ref=e1171]: "33"
+                      - generic [ref=e1173]: "ListModel {"
+                    - listitem [ref=e1174]:
+                      - generic [ref=e1176]: "34"
+                      - generic [ref=e1178]: "id: treeModel"
+                    - listitem [ref=e1179]:
+                      - generic [ref=e1181]: "35"
+                      - generic [ref=e1183]: "ListElement {"
+                    - listitem [ref=e1184]:
+                      - generic [ref=e1186]: "36"
+                      - generic [ref=e1188]: "name: \"公司组织\"; depth: 0; isExpanded: true; hasChildren: true; isCategory: true"
+                    - listitem [ref=e1189]:
+                      - generic [ref=e1191]: "37"
+                      - generic [ref=e1193]: "}"
+                    - listitem [ref=e1194]:
+                      - generic [ref=e1196]: "38"
+                      - generic [ref=e1198]: "ListElement {"
+                    - listitem [ref=e1199]:
+                      - generic [ref=e1201]: "39"
+                      - generic [ref=e1203]: "name: \"技术部\"; depth: 1; isExpanded: true; hasChildren: true; isCategory: true"
+                    - listitem [ref=e1204]:
+                      - generic [ref=e1206]: "40"
+                      - generic [ref=e1208]: "}"
+                    - listitem [ref=e1209]:
+                      - generic [ref=e1211]: "41"
+                      - generic [ref=e1213]: "ListElement {"
+                    - listitem [ref=e1214]:
+                      - generic [ref=e1216]: "42"
+                      - generic [ref=e1218]: "name: \"前端组\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1219]:
+                      - generic [ref=e1221]: "43"
+                      - generic [ref=e1223]: "}"
+                    - listitem [ref=e1224]:
+                      - generic [ref=e1226]: "44"
+                      - generic [ref=e1228]: "ListElement {"
+                    - listitem [ref=e1229]:
+                      - generic [ref=e1231]: "45"
+                      - generic [ref=e1233]: "name: \"后端组\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1234]:
+                      - generic [ref=e1236]: "46"
+                      - generic [ref=e1238]: "}"
+                    - listitem [ref=e1239]:
+                      - generic [ref=e1241]: "47"
+                      - generic [ref=e1243]: "ListElement {"
+                    - listitem [ref=e1244]:
+                      - generic [ref=e1246]: "48"
+                      - generic [ref=e1248]: "name: \"移动端组\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1249]:
+                      - generic [ref=e1251]: "49"
+                      - generic [ref=e1253]: "}"
+                    - listitem [ref=e1254]:
+                      - generic [ref=e1256]: "50"
+                      - generic [ref=e1258]: "ListElement {"
+                    - listitem [ref=e1259]:
+                      - generic [ref=e1261]: "51"
+                      - generic [ref=e1263]: "name: \"设计部\"; depth: 1; isExpanded: false; hasChildren: true; isCategory: true"
+                    - listitem [ref=e1264]:
+                      - generic [ref=e1266]: "52"
+                      - generic [ref=e1268]: "}"
+                    - listitem [ref=e1269]:
+                      - generic [ref=e1271]: "53"
+                      - generic [ref=e1273]: "ListElement {"
+                    - listitem [ref=e1274]:
+                      - generic [ref=e1276]: "54"
+                      - generic [ref=e1278]: "name: \"UI设计\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1279]:
+                      - generic [ref=e1281]: "55"
+                      - generic [ref=e1283]: "}"
+                    - listitem [ref=e1284]:
+                      - generic [ref=e1286]: "56"
+                      - generic [ref=e1288]: "ListElement {"
+                    - listitem [ref=e1289]:
+                      - generic [ref=e1291]: "57"
+                      - generic [ref=e1293]: "name: \"UX设计\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1294]:
+                      - generic [ref=e1296]: "58"
+                      - generic [ref=e1298]: "}"
+                    - listitem [ref=e1299]:
+                      - generic [ref=e1301]: "59"
+                      - generic [ref=e1303]: "ListElement {"
+                    - listitem [ref=e1304]:
+                      - generic [ref=e1306]: "60"
+                      - generic [ref=e1308]: "name: \"产品部\"; depth: 1; isExpanded: false; hasChildren: true; isCategory: true"
+                    - listitem [ref=e1309]:
+                      - generic [ref=e1311]: "61"
+                      - generic [ref=e1313]: "}"
+                    - listitem [ref=e1314]:
+                      - generic [ref=e1316]: "62"
+                      - generic [ref=e1318]: "ListElement {"
+                    - listitem [ref=e1319]:
+                      - generic [ref=e1321]: "63"
+                      - generic [ref=e1323]: "name: \"产品策划\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1324]:
+                      - generic [ref=e1326]: "64"
+                      - generic [ref=e1328]: "}"
+                    - listitem [ref=e1329]:
+                      - generic [ref=e1331]: "65"
+                      - generic [ref=e1333]: "ListElement {"
+                    - listitem [ref=e1334]:
+                      - generic [ref=e1336]: "66"
+                      - generic [ref=e1338]: "name: \"需求分析\"; depth: 2; isExpanded: false; hasChildren: false; isCategory: false"
+                    - listitem [ref=e1339]:
+                      - generic [ref=e1341]: "67"
+                      - generic [ref=e1343]: "}"
+                    - listitem [ref=e1344]:
+                      - generic [ref=e1346]: "68"
+                      - generic [ref=e1348]: "}"
+                    - listitem [ref=e1349]:
+                      - generic [ref=e1351]: "69"
+                    - listitem [ref=e1354]:
+                      - generic [ref=e1356]: "70"
+                      - generic [ref=e1358]: // 自定义标题栏
+                    - listitem [ref=e1359]:
+                      - generic [ref=e1361]: "71"
+                      - generic [ref=e1363]: "header: ToolBar {"
+                    - listitem [ref=e1364]:
+                      - generic [ref=e1366]: "72"
+                      - generic [ref=e1368]: "background: Rectangle {"
+                    - listitem [ref=e1369]:
+                      - generic [ref=e1371]: "73"
+                      - generic [ref=e1373]: "color: \"#2c3e50\""
+                    - listitem [ref=e1374]:
+                      - generic [ref=e1376]: "74"
+                      - generic [ref=e1378]: "}"
+                    - listitem [ref=e1379]:
+                      - generic [ref=e1381]: "75"
+                    - listitem [ref=e1384]:
+                      - generic [ref=e1386]: "76"
+                      - generic [ref=e1388]: "Label {"
+                    - listitem [ref=e1389]:
+                      - generic [ref=e1391]: "77"
+                      - generic [ref=e1393]: "text: \"QML Listview展示\""
+                    - listitem [ref=e1394]:
+                      - generic [ref=e1396]: "78"
+                      - generic [ref=e1398]: "color: \"white\""
+                    - listitem [ref=e1399]:
+                      - generic [ref=e1401]: "79"
+                      - generic [ref=e1403]: "font.pixelSize: 18"
+                    - listitem [ref=e1404]:
+                      - generic [ref=e1406]: "80"
+                      - generic [ref=e1408]: "font.bold: true"
+                    - listitem [ref=e1409]:
+                      - generic [ref=e1411]: "81"
+                      - generic [ref=e1413]: "anchors.centerIn: parent"
+                    - listitem [ref=e1414]:
+                      - generic [ref=e1416]: "82"
+                      - generic [ref=e1418]: "}"
+                    - listitem [ref=e1419]:
+                      - generic [ref=e1421]: "83"
+                      - generic [ref=e1423]: "}"
+                    - listitem [ref=e1424]:
+                      - generic [ref=e1426]: "84"
+                    - listitem [ref=e1429]:
+                      - generic [ref=e1431]: "85"
+                      - generic [ref=e1433]: // 主内容区域
+                    - listitem [ref=e1434]:
+                      - generic [ref=e1436]: "86"
+                      - generic [ref=e1438]: "Page {"
+                    - listitem [ref=e1439]:
+                      - generic [ref=e1441]: "87"
+                      - generic [ref=e1443]: "anchors.fill: parent"
+                    - listitem [ref=e1444]:
+                      - generic [ref=e1446]: "88"
+                      - generic [ref=e1448]: "background: Rectangle {"
+                    - listitem [ref=e1449]:
+                      - generic [ref=e1451]: "89"
+                      - generic [ref=e1453]: "color: \"#ecf0f1\""
+                    - listitem [ref=e1454]:
+                      - generic [ref=e1456]: "90"
+                      - generic [ref=e1458]: "}"
+                    - listitem [ref=e1459]:
+                      - generic [ref=e1461]: "91"
+                    - listitem [ref=e1464]:
+                      - generic [ref=e1466]: "92"
+                      - generic [ref=e1468]: "TabBar {"
+                    - listitem [ref=e1469]:
+                      - generic [ref=e1471]: "93"
+                      - generic [ref=e1473]: "id: tabBar"
+                    - listitem [ref=e1474]:
+                      - generic [ref=e1476]: "94"
+                      - generic [ref=e1478]: "width: parent.width"
+                    - listitem [ref=e1479]:
+                      - generic [ref=e1481]: "95"
+                      - generic [ref=e1483]: "background: Rectangle {"
+                    - listitem [ref=e1484]:
+                      - generic [ref=e1486]: "96"
+                      - generic [ref=e1488]: "color: \"#34495e\""
+                    - listitem [ref=e1489]:
+                      - generic [ref=e1491]: "97"
+                      - generic [ref=e1493]: "}"
+                    - listitem [ref=e1494]:
+                      - generic [ref=e1496]: "98"
+                    - listitem [ref=e1499]:
+                      - generic [ref=e1501]: "99"
+                      - generic [ref=e1503]: "TabButton {"
+                    - listitem [ref=e1504]:
+                      - generic [ref=e1506]: "100"
+                      - generic [ref=e1508]: "text: \"员工列表\""
+                    - listitem [ref=e1509]:
+                      - generic [ref=e1511]: "101"
+                      - generic [ref=e1513]: "background: Rectangle {"
+                    - listitem [ref=e1514]:
+                      - generic [ref=e1516]: "102"
+                      - generic [ref=e1518]: "color: tabBar.currentIndex === 0 ? \"#3498db\" : \"transparent\""
+                    - listitem [ref=e1519]:
+                      - generic [ref=e1521]: "103"
+                      - generic [ref=e1523]: "}"
+                    - listitem [ref=e1524]:
+                      - generic [ref=e1526]: "104"
+                      - generic [ref=e1528]: "contentItem: Text {"
+                    - listitem [ref=e1529]:
+                      - generic [ref=e1531]: "105"
+                      - generic [ref=e1533]: "text: parent.text"
+                    - listitem [ref=e1534]:
+                      - generic [ref=e1536]: "106"
+                      - generic [ref=e1538]: "color: \"white\""
+                    - listitem [ref=e1539]:
+                      - generic [ref=e1541]: "107"
+                      - generic [ref=e1543]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1544]:
+                      - generic [ref=e1546]: "108"
+                      - generic [ref=e1548]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1549]:
+                      - generic [ref=e1551]: "109"
+                      - generic [ref=e1553]: "}"
+                    - listitem [ref=e1554]:
+                      - generic [ref=e1556]: "110"
+                      - generic [ref=e1558]: "}"
+                    - listitem [ref=e1559]:
+                      - generic [ref=e1561]: "111"
+                    - listitem [ref=e1564]:
+                      - generic [ref=e1566]: "112"
+                      - generic [ref=e1568]: "TabButton {"
+                    - listitem [ref=e1569]:
+                      - generic [ref=e1571]: "113"
+                      - generic [ref=e1573]: "text: \"产品表格\""
+                    - listitem [ref=e1574]:
+                      - generic [ref=e1576]: "114"
+                      - generic [ref=e1578]: "background: Rectangle {"
+                    - listitem [ref=e1579]:
+                      - generic [ref=e1581]: "115"
+                      - generic [ref=e1583]: "color: tabBar.currentIndex === 1 ? \"#3498db\" : \"transparent\""
+                    - listitem [ref=e1584]:
+                      - generic [ref=e1586]: "116"
+                      - generic [ref=e1588]: "}"
+                    - listitem [ref=e1589]:
+                      - generic [ref=e1591]: "117"
+                      - generic [ref=e1593]: "contentItem: Text {"
+                    - listitem [ref=e1594]:
+                      - generic [ref=e1596]: "118"
+                      - generic [ref=e1598]: "text: parent.text"
+                    - listitem [ref=e1599]:
+                      - generic [ref=e1601]: "119"
+                      - generic [ref=e1603]: "color: \"white\""
+                    - listitem [ref=e1604]:
+                      - generic [ref=e1606]: "120"
+                      - generic [ref=e1608]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1609]:
+                      - generic [ref=e1611]: "121"
+                      - generic [ref=e1613]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1614]:
+                      - generic [ref=e1616]: "122"
+                      - generic [ref=e1618]: "}"
+                    - listitem [ref=e1619]:
+                      - generic [ref=e1621]: "123"
+                      - generic [ref=e1623]: "}"
+                    - listitem [ref=e1624]:
+                      - generic [ref=e1626]: "124"
+                    - listitem [ref=e1629]:
+                      - generic [ref=e1631]: "125"
+                      - generic [ref=e1633]: "TabButton {"
+                    - listitem [ref=e1634]:
+                      - generic [ref=e1636]: "126"
+                      - generic [ref=e1638]: "text: \"组织架构\""
+                    - listitem [ref=e1639]:
+                      - generic [ref=e1641]: "127"
+                      - generic [ref=e1643]: "background: Rectangle {"
+                    - listitem [ref=e1644]:
+                      - generic [ref=e1646]: "128"
+                      - generic [ref=e1648]: "color: tabBar.currentIndex === 2 ? \"#3498db\" : \"transparent\""
+                    - listitem [ref=e1649]:
+                      - generic [ref=e1651]: "129"
+                      - generic [ref=e1653]: "}"
+                    - listitem [ref=e1654]:
+                      - generic [ref=e1656]: "130"
+                      - generic [ref=e1658]: "contentItem: Text {"
+                    - listitem [ref=e1659]:
+                      - generic [ref=e1661]: "131"
+                      - generic [ref=e1663]: "text: parent.text"
+                    - listitem [ref=e1664]:
+                      - generic [ref=e1666]: "132"
+                      - generic [ref=e1668]: "color: \"white\""
+                    - listitem [ref=e1669]:
+                      - generic [ref=e1671]: "133"
+                      - generic [ref=e1673]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1674]:
+                      - generic [ref=e1676]: "134"
+                      - generic [ref=e1678]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1679]:
+                      - generic [ref=e1681]: "135"
+                      - generic [ref=e1683]: "}"
+                    - listitem [ref=e1684]:
+                      - generic [ref=e1686]: "136"
+                      - generic [ref=e1688]: "}"
+                    - listitem [ref=e1689]:
+                      - generic [ref=e1691]: "137"
+                      - generic [ref=e1693]: "}"
+                    - listitem [ref=e1694]:
+                      - generic [ref=e1696]: "138"
+                    - listitem [ref=e1699]:
+                      - generic [ref=e1701]: "139"
+                      - generic [ref=e1703]: "StackLayout {"
+                    - listitem [ref=e1704]:
+                      - generic [ref=e1706]: "140"
+                      - generic [ref=e1708]: "anchors {"
+                    - listitem [ref=e1709]:
+                      - generic [ref=e1711]: "141"
+                      - generic [ref=e1713]: "top: tabBar.bottom"
+                    - listitem [ref=e1714]:
+                      - generic [ref=e1716]: "142"
+                      - generic [ref=e1718]: "left: parent.left"
+                    - listitem [ref=e1719]:
+                      - generic [ref=e1721]: "143"
+                      - generic [ref=e1723]: "right: parent.right"
+                    - listitem [ref=e1724]:
+                      - generic [ref=e1726]: "144"
+                      - generic [ref=e1728]: "bottom: parent.bottom"
+                    - listitem [ref=e1729]:
+                      - generic [ref=e1731]: "145"
+                      - generic [ref=e1733]: "margins: 10"
+                    - listitem [ref=e1734]:
+                      - generic [ref=e1736]: "146"
+                      - generic [ref=e1738]: "}"
+                    - listitem [ref=e1739]:
+                      - generic [ref=e1741]: "147"
+                      - generic [ref=e1743]: "currentIndex: tabBar.currentIndex"
+                    - listitem [ref=e1744]:
+                      - generic [ref=e1746]: "148"
+                    - listitem [ref=e1749]:
+                      - generic [ref=e1751]: "149"
+                      - generic [ref=e1753]: // ListView 页面
+                    - listitem [ref=e1754]:
+                      - generic [ref=e1756]: "150"
+                      - generic [ref=e1758]: "Rectangle {"
+                    - listitem [ref=e1759]:
+                      - generic [ref=e1761]: "151"
+                      - generic [ref=e1763]: "color: \"transparent\""
+                    - listitem [ref=e1764]:
+                      - generic [ref=e1766]: "152"
+                    - listitem [ref=e1769]:
+                      - generic [ref=e1771]: "153"
+                      - generic [ref=e1773]: "ColumnLayout {"
+                    - listitem [ref=e1774]:
+                      - generic [ref=e1776]: "154"
+                      - generic [ref=e1778]: "anchors.fill: parent"
+                    - listitem [ref=e1779]:
+                      - generic [ref=e1781]: "155"
+                      - generic [ref=e1783]: "spacing: 10"
+                    - listitem [ref=e1784]:
+                      - generic [ref=e1786]: "156"
+                    - listitem [ref=e1789]:
+                      - generic [ref=e1791]: "157"
+                      - generic [ref=e1793]: "Label {"
+                    - listitem [ref=e1794]:
+                      - generic [ref=e1796]: "158"
+                      - generic [ref=e1798]: "text: \"员工信息列表\""
+                    - listitem [ref=e1799]:
+                      - generic [ref=e1801]: "159"
+                      - generic [ref=e1803]: "font.pixelSize: 20"
+                    - listitem [ref=e1804]:
+                      - generic [ref=e1806]: "160"
+                      - generic [ref=e1808]: "font.bold: true"
+                    - listitem [ref=e1809]:
+                      - generic [ref=e1811]: "161"
+                      - generic [ref=e1813]: "color: \"#2c3e50\""
+                    - listitem [ref=e1814]:
+                      - generic [ref=e1816]: "162"
+                      - generic [ref=e1818]: "Layout.alignment: Qt.AlignHCenter"
+                    - listitem [ref=e1819]:
+                      - generic [ref=e1821]: "163"
+                      - generic [ref=e1823]: "}"
+                    - listitem [ref=e1824]:
+                      - generic [ref=e1826]: "164"
+                    - listitem [ref=e1829]:
+                      - generic [ref=e1831]: "165"
+                      - generic [ref=e1833]: "Frame {"
+                    - listitem [ref=e1834]:
+                      - generic [ref=e1836]: "166"
+                      - generic [ref=e1838]: "Layout.fillWidth: true"
+                    - listitem [ref=e1839]:
+                      - generic [ref=e1841]: "167"
+                      - generic [ref=e1843]: "Layout.fillHeight: true"
+                    - listitem [ref=e1844]:
+                      - generic [ref=e1846]: "168"
+                      - generic [ref=e1848]: "background: Rectangle {"
+                    - listitem [ref=e1849]:
+                      - generic [ref=e1851]: "169"
+                      - generic [ref=e1853]: "color: \"white\""
+                    - listitem [ref=e1854]:
+                      - generic [ref=e1856]: "170"
+                      - generic [ref=e1858]: "radius: 8"
+                    - listitem [ref=e1859]:
+                      - generic [ref=e1861]: "171"
+                      - generic [ref=e1863]: "border.color: \"#bdc3c7\""
+                    - listitem [ref=e1864]:
+                      - generic [ref=e1866]: "172"
+                      - generic [ref=e1868]: "}"
+                    - listitem [ref=e1869]:
+                      - generic [ref=e1871]: "173"
+                    - listitem [ref=e1874]:
+                      - generic [ref=e1876]: "174"
+                      - generic [ref=e1878]: "ListView {"
+                    - listitem [ref=e1879]:
+                      - generic [ref=e1881]: "175"
+                      - generic [ref=e1883]: "id: listView"
+                    - listitem [ref=e1884]:
+                      - generic [ref=e1886]: "176"
+                      - generic [ref=e1888]: "anchors.fill: parent"
+                    - listitem [ref=e1889]:
+                      - generic [ref=e1891]: "177"
+                      - generic [ref=e1893]: "anchors.margins: 5"
+                    - listitem [ref=e1894]:
+                      - generic [ref=e1896]: "178"
+                      - generic [ref=e1898]: "model: listModel"
+                    - listitem [ref=e1899]:
+                      - generic [ref=e1901]: "179"
+                      - generic [ref=e1903]: "clip: true"
+                    - listitem [ref=e1904]:
+                      - generic [ref=e1906]: "180"
+                      - generic [ref=e1908]: "spacing: 2"
+                    - listitem [ref=e1909]:
+                      - generic [ref=e1911]: "181"
+                    - listitem [ref=e1914]:
+                      - generic [ref=e1916]: "182"
+                      - generic [ref=e1918]: "delegate: Rectangle {"
+                    - listitem [ref=e1919]:
+                      - generic [ref=e1921]: "183"
+                      - generic [ref=e1923]: "width: listView.width"
+                    - listitem [ref=e1924]:
+                      - generic [ref=e1926]: "184"
+                      - generic [ref=e1928]: "height: 70"
+                    - listitem [ref=e1929]:
+                      - generic [ref=e1931]: "185"
+                      - generic [ref=e1933]: "color: index % 2 === 0 ? \"#f8f9fa\" : \"#ffffff\""
+                    - listitem [ref=e1934]:
+                      - generic [ref=e1936]: "186"
+                      - generic [ref=e1938]: "radius: 5"
+                    - listitem [ref=e1939]:
+                      - generic [ref=e1941]: "187"
+                      - generic [ref=e1943]: "border.color: \"#e9ecef\""
+                    - listitem [ref=e1944]:
+                      - generic [ref=e1946]: "188"
+                    - listitem [ref=e1949]:
+                      - generic [ref=e1951]: "189"
+                      - generic [ref=e1953]: "RowLayout {"
+                    - listitem [ref=e1954]:
+                      - generic [ref=e1956]: "190"
+                      - generic [ref=e1958]: "anchors.fill: parent"
+                    - listitem [ref=e1959]:
+                      - generic [ref=e1961]: "191"
+                      - generic [ref=e1963]: "anchors.margins: 10"
+                    - listitem [ref=e1964]:
+                      - generic [ref=e1966]: "192"
+                      - generic [ref=e1968]: "spacing: 15"
+                    - listitem [ref=e1969]:
+                      - generic [ref=e1971]: "193"
+                    - listitem [ref=e1974]:
+                      - generic [ref=e1976]: "194"
+                      - generic [ref=e1978]: "Text {"
+                    - listitem [ref=e1979]:
+                      - generic [ref=e1981]: "195"
+                      - generic [ref=e1983]: "text: avatar"
+                    - listitem [ref=e1984]:
+                      - generic [ref=e1986]: "196"
+                      - generic [ref=e1988]: "font.pixelSize: 30"
+                    - listitem [ref=e1989]:
+                      - generic [ref=e1991]: "197"
+                      - generic [ref=e1993]: "Layout.alignment: Qt.AlignVCenter"
+                    - listitem [ref=e1994]:
+                      - generic [ref=e1996]: "198"
+                      - generic [ref=e1998]: "}"
+                    - listitem [ref=e1999]:
+                      - generic [ref=e2001]: "199"
+                    - listitem [ref=e2004]:
+                      - generic [ref=e2006]: "200"
+                      - generic [ref=e2008]: "ColumnLayout {"
+                    - listitem [ref=e2009]:
+                      - generic [ref=e2011]: "201"
+                      - generic [ref=e2013]: "Layout.fillWidth: true"
+                    - listitem [ref=e2014]:
+                      - generic [ref=e2016]: "202"
+                      - generic [ref=e2018]: "spacing: 5"
+                    - listitem [ref=e2019]:
+                      - generic [ref=e2021]: "203"
+                    - listitem [ref=e2024]:
+                      - generic [ref=e2026]: "204"
+                      - generic [ref=e2028]: "Text {"
+                    - listitem [ref=e2029]:
+                      - generic [ref=e2031]: "205"
+                      - generic [ref=e2033]: "text: name"
+                    - listitem [ref=e2034]:
+                      - generic [ref=e2036]: "206"
+                      - generic [ref=e2038]: "font.pixelSize: 16"
+                    - listitem [ref=e2039]:
+                      - generic [ref=e2041]: "207"
+                      - generic [ref=e2043]: "font.bold: true"
+                    - listitem [ref=e2044]:
+                      - generic [ref=e2046]: "208"
+                      - generic [ref=e2048]: "color: \"#2c3e50\""
+                    - listitem [ref=e2049]:
+                      - generic [ref=e2051]: "209"
+                      - generic [ref=e2053]: "}"
+                    - listitem [ref=e2054]:
+                      - generic [ref=e2056]: "210"
+                    - listitem [ref=e2059]:
+                      - generic [ref=e2061]: "211"
+                      - generic [ref=e2063]: "Text {"
+                    - listitem [ref=e2064]:
+                      - generic [ref=e2066]: "212"
+                      - generic [ref=e2068]: "text: role"
+                    - listitem [ref=e2069]:
+                      - generic [ref=e2071]: "213"
+                      - generic [ref=e2073]: "font.pixelSize: 14"
+                    - listitem [ref=e2074]:
+                      - generic [ref=e2076]: "214"
+                      - generic [ref=e2078]: "color: \"#7f8c8d\""
+                    - listitem [ref=e2079]:
+                      - generic [ref=e2081]: "215"
+                      - generic [ref=e2083]: "}"
+                    - listitem [ref=e2084]:
+                      - generic [ref=e2086]: "216"
+                      - generic [ref=e2088]: "}"
+                    - listitem [ref=e2089]:
+                      - generic [ref=e2091]: "217"
+                    - listitem [ref=e2094]:
+                      - generic [ref=e2096]: "218"
+                      - generic [ref=e2098]: "Button {"
+                    - listitem [ref=e2099]:
+                      - generic [ref=e2101]: "219"
+                      - generic [ref=e2103]: "text: \"查看详情\""
+                    - listitem [ref=e2104]:
+                      - generic [ref=e2106]: "220"
+                      - generic [ref=e2108]: "Layout.alignment: Qt.AlignVCenter"
+                    - listitem [ref=e2109]:
+                      - generic [ref=e2111]: "221"
+                      - generic [ref=e2113]: "background: Rectangle {"
+                    - listitem [ref=e2114]:
+                      - generic [ref=e2116]: "222"
+                      - generic [ref=e2118]: "color: \"#3498db\""
+                    - listitem [ref=e2119]:
+                      - generic [ref=e2121]: "223"
+                      - generic [ref=e2123]: "radius: 4"
+                    - listitem [ref=e2124]:
+                      - generic [ref=e2126]: "224"
+                      - generic [ref=e2128]: "}"
+                    - listitem [ref=e2129]:
+                      - generic [ref=e2131]: "225"
+                      - generic [ref=e2133]: "contentItem: Text {"
+                    - listitem [ref=e2134]:
+                      - generic [ref=e2136]: "226"
+                      - generic [ref=e2138]: "text: parent.text"
+                    - listitem [ref=e2139]:
+                      - generic [ref=e2141]: "227"
+                      - generic [ref=e2143]: "color: \"white\""
+                    - listitem [ref=e2144]:
+                      - generic [ref=e2146]: "228"
+                      - generic [ref=e2148]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e2149]:
+                      - generic [ref=e2151]: "229"
+                      - generic [ref=e2153]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e2154]:
+                      - generic [ref=e2156]: "230"
+                      - generic [ref=e2158]: "}"
+                    - listitem [ref=e2159]:
+                      - generic [ref=e2161]: "231"
+                      - generic [ref=e2163]: "onClicked: console.log(\"查看员工:\", name)"
+                    - listitem [ref=e2164]:
+                      - generic [ref=e2166]: "232"
+                      - generic [ref=e2168]: "}"
+                    - listitem [ref=e2169]:
+                      - generic [ref=e2171]: "233"
+                      - generic [ref=e2173]: "}"
+                    - listitem [ref=e2174]:
+                      - generic [ref=e2176]: "234"
+                      - generic [ref=e2178]: "}"
+                    - listitem [ref=e2179]:
+                      - generic [ref=e2181]: "235"
+                    - listitem [ref=e2184]:
+                      - generic [ref=e2186]: "236"
+                      - generic [ref=e2188]: "ScrollBar.vertical: ScrollBar {"
+                    - listitem [ref=e2189]:
+                      - generic [ref=e2191]: "237"
+                      - generic [ref=e2193]: "policy: ScrollBar.AlwaysOn"
+                    - listitem [ref=e2194]:
+                      - generic [ref=e2196]: "238"
+                      - generic [ref=e2198]: "}"
+                    - listitem [ref=e2199]:
+                      - generic [ref=e2201]: "239"
+                      - generic [ref=e2203]: "}"
+                    - listitem [ref=e2204]:
+                      - generic [ref=e2206]: "240"
+                      - generic [ref=e2208]: "}"
+                    - listitem [ref=e2209]:
+                      - generic [ref=e2211]: "241"
+                      - generic [ref=e2213]: "}"
+                    - listitem [ref=e2214]:
+                      - generic [ref=e2216]: "242"
+                      - generic [ref=e2218]: "}"
+                    - listitem [ref=e2219]:
+                      - generic [ref=e2221]: "243"
+                    - listitem [ref=e2224]:
+                      - generic [ref=e2226]: "244"
+                      - generic [ref=e2228]: // TableView 页面
+                    - listitem [ref=e2229]:
+                      - generic [ref=e2231]: "245"
+                      - generic [ref=e2233]: "Rectangle {"
+                    - listitem [ref=e2234]:
+                      - generic [ref=e2236]: "246"
+                      - generic [ref=e2238]: "color: \"transparent\""
+                    - listitem [ref=e2239]:
+                      - generic [ref=e2241]: "247"
+                    - listitem [ref=e2244]:
+                      - generic [ref=e2246]: "248"
+                      - generic [ref=e2248]: "ColumnLayout {"
+                    - listitem [ref=e2249]:
+                      - generic [ref=e2251]: "249"
+                      - generic [ref=e2253]: "anchors.fill: parent"
+                    - listitem [ref=e2254]:
+                      - generic [ref=e2256]: "250"
+                      - generic [ref=e2258]: "spacing: 10"
+                    - listitem [ref=e2259]:
+                      - generic [ref=e2261]: "251"
+                    - listitem [ref=e2264]:
+                      - generic [ref=e2266]: "252"
+                      - generic [ref=e2268]: "Label {"
+                    - listitem [ref=e2269]:
+                      - generic [ref=e2271]: "253"
+                      - generic [ref=e2273]: "text: \"产品库存表格\""
+                    - listitem [ref=e2274]:
+                      - generic [ref=e2276]: "254"
+                      - generic [ref=e2278]: "font.pixelSize: 20"
+                    - listitem [ref=e2279]:
+                      - generic [ref=e2281]: "255"
+                      - generic [ref=e2283]: "font.bold: true"
+                    - listitem [ref=e2284]:
+                      - generic [ref=e2286]: "256"
+                      - generic [ref=e2288]: "color: \"#2c3e50\""
+                    - listitem [ref=e2289]:
+                      - generic [ref=e2291]: "257"
+                      - generic [ref=e2293]: "Layout.alignment: Qt.AlignHCenter"
+                    - listitem [ref=e2294]:
+                      - generic [ref=e2296]: "258"
+                      - generic [ref=e2298]: "}"
+                    - listitem [ref=e2299]:
+                      - generic [ref=e2301]: "259"
+                    - listitem [ref=e2304]:
+                      - generic [ref=e2306]: "260"
+                      - generic [ref=e2308]: "Frame {"
+                    - listitem [ref=e2309]:
+                      - generic [ref=e2311]: "261"
+                      - generic [ref=e2313]: "Layout.fillWidth: true"
+                    - listitem [ref=e2314]:
+                      - generic [ref=e2316]: "262"
+                      - generic [ref=e2318]: "Layout.fillHeight: true"
+                    - listitem [ref=e2319]:
+                      - generic [ref=e2321]: "263"
+                      - generic [ref=e2323]: "background: Rectangle {"
+                    - listitem [ref=e2324]:
+                      - generic [ref=e2326]: "264"
+                      - generic [ref=e2328]: "color: \"white\""
+                    - listitem [ref=e2329]:
+                      - generic [ref=e2331]: "265"
+                      - generic [ref=e2333]: "radius: 8"
+                    - listitem [ref=e2334]:
+                      - generic [ref=e2336]: "266"
+                      - generic [ref=e2338]: "border.color: \"#bdc3c7\""
+                    - listitem [ref=e2339]:
+                      - generic [ref=e2341]: "267"
+                      - generic [ref=e2343]: "}"
+                    - listitem [ref=e2344]:
+                      - generic [ref=e2346]: "268"
+                    - listitem [ref=e2349]:
+                      - generic [ref=e2351]: "269"
+                      - generic [ref=e2353]: "ListView {"
+                    - listitem [ref=e2354]:
+                      - generic [ref=e2356]: "270"
+                      - generic [ref=e2358]: "id: tableView"
+                    - listitem [ref=e2359]:
+                      - generic [ref=e2361]: "271"
+                      - generic [ref=e2363]: "anchors.fill: parent"
+                    - listitem [ref=e2364]:
+                      - generic [ref=e2366]: "272"
+                      - generic [ref=e2368]: "anchors.margins: 5"
+                    - listitem [ref=e2369]:
+                      - generic [ref=e2371]: "273"
+                      - generic [ref=e2373]: "model: tableModel"
+                    - listitem [ref=e2374]:
+                      - generic [ref=e2376]: "274"
+                      - generic [ref=e2378]: "clip: true"
+                    - listitem [ref=e2379]:
+                      - generic [ref=e2381]: "275"
+                      - generic [ref=e2383]: "interactive: false"
+                    - listitem [ref=e2384]:
+                      - generic [ref=e2386]: "276"
+                    - listitem [ref=e2389]:
+                      - generic [ref=e2391]: "277"
+                      - generic [ref=e2393]: "header: Row {"
+                    - listitem [ref=e2394]:
+                      - generic [ref=e2396]: "278"
+                      - generic [ref=e2398]: "width: tableView.width"
+                    - listitem [ref=e2399]:
+                      - generic [ref=e2401]: "279"
+                      - generic [ref=e2403]: "height: 50"
+                    - listitem [ref=e2404]:
+                      - generic [ref=e2406]: "280"
+                      - generic [ref=e2408]: "spacing: 1"
+                    - listitem [ref=e2409]:
+                      - generic [ref=e2411]: "281"
+                    - listitem [ref=e2414]:
+                      - generic [ref=e2416]: "282"
+                      - generic [ref=e2418]: "Repeater {"
+                    - listitem [ref=e2419]:
+                      - generic [ref=e2421]: "283"
+                      - generic [ref=e2423]: "model: [\"产品名称\", \"分类\", \"价格\", \"库存\"]"
+                    - listitem [ref=e2424]:
+                      - generic [ref=e2426]: "284"
+                    - listitem [ref=e2429]:
+                      - generic [ref=e2431]: "285"
+                      - generic [ref=e2433]: "Rectangle {"
+                    - listitem [ref=e2434]:
+                      - generic [ref=e2436]: "286"
+                      - generic [ref=e2438]: "width: {"
+                    - listitem [ref=e2439]:
+                      - generic [ref=e2441]: "287"
+                      - generic [ref=e2443]: "switch(modelData) {"
+                    - listitem [ref=e2444]:
+                      - generic [ref=e2446]: "288"
+                      - generic [ref=e2448]: "case \"产品名称\": return 200;"
+                    - listitem [ref=e2449]:
+                      - generic [ref=e2451]: "289"
+                      - generic [ref=e2453]: "case \"分类\": return 150;"
+                    - listitem [ref=e2454]:
+                      - generic [ref=e2456]: "290"
+                      - generic [ref=e2458]: "case \"价格\": return 120;"
+                    - listitem [ref=e2459]:
+                      - generic [ref=e2461]: "291"
+                      - generic [ref=e2463]: "case \"库存\": return 100;"
+                    - listitem [ref=e2464]:
+                      - generic [ref=e2466]: "292"
+                      - generic [ref=e2468]: "default: return 100;"
+                    - listitem [ref=e2469]:
+                      - generic [ref=e2471]: "293"
+                      - generic [ref=e2473]: "}"
+                    - listitem [ref=e2474]:
+                      - generic [ref=e2476]: "294"
+                      - generic [ref=e2478]: "}"
+                    - listitem [ref=e2479]:
+                      - generic [ref=e2481]: "295"
+                      - generic [ref=e2483]: "height: 50"
+                    - listitem [ref=e2484]:
+                      - generic [ref=e2486]: "296"
+                      - generic [ref=e2488]: "color: \"#34495e\""
+                    - listitem [ref=e2489]:
+                      - generic [ref=e2491]: "297"
+                    - listitem [ref=e2494]:
+                      - generic [ref=e2496]: "298"
+                      - generic [ref=e2498]: "Text {"
+                    - listitem [ref=e2499]:
+                      - generic [ref=e2501]: "299"
+                      - generic [ref=e2503]: "text: modelData"
+                    - listitem [ref=e2504]:
+                      - generic [ref=e2506]: "300"
+                      - generic [ref=e2508]: "anchors.centerIn: parent"
+                    - listitem [ref=e2509]:
+                      - generic [ref=e2511]: "301"
+                      - generic [ref=e2513]: "color: \"white\""
+                    - listitem [ref=e2514]:
+                      - generic [ref=e2516]: "302"
+                      - generic [ref=e2518]: "font.bold: true"
+                    - listitem [ref=e2519]:
+                      - generic [ref=e2521]: "303"
+                      - generic [ref=e2523]: "font.pixelSize: 14"
+                    - listitem [ref=e2524]:
+                      - generic [ref=e2526]: "304"
+                      - generic [ref=e2528]: "}"
+                    - listitem [ref=e2529]:
+                      - generic [ref=e2531]: "305"
+                      - generic [ref=e2533]: "}"
+                    - listitem [ref=e2534]:
+                      - generic [ref=e2536]: "306"
+                      - generic [ref=e2538]: "}"
+                    - listitem [ref=e2539]:
+                      - generic [ref=e2541]: "307"
+                      - generic [ref=e2543]: "}"
+                    - listitem [ref=e2544]:
+                      - generic [ref=e2546]: "308"
+                    - listitem [ref=e2549]:
+                      - generic [ref=e2551]: "309"
+                      - generic [ref=e2553]: "delegate: Row {"
+                    - listitem [ref=e2554]:
+                      - generic [ref=e2556]: "310"
+                      - generic [ref=e2558]: "width: tableView.width"
+                    - listitem [ref=e2559]:
+                      - generic [ref=e2561]: "311"
+                      - generic [ref=e2563]: "height: 50"
+                    - listitem [ref=e2564]:
+                      - generic [ref=e2566]: "312"
+                      - generic [ref=e2568]: "spacing: 1"
+                    - listitem [ref=e2569]:
+                      - generic [ref=e2571]: "313"
+                    - listitem [ref=e2574]:
+                      - generic [ref=e2576]: "314"
+                      - generic [ref=e2578]: "property var columnData: [product, category, price, stock]"
+                    - listitem [ref=e2579]:
+                      - generic [ref=e2581]: "315"
+                      - generic [ref=e2583]: "property var columnWidths: [200, 150, 120, 100]"
+                    - listitem [ref=e2584]:
+                      - generic [ref=e2586]: "316"
+                    - listitem [ref=e2589]:
+                      - generic [ref=e2591]: "317"
+                      - generic [ref=e2593]: "Repeater {"
+                    - listitem [ref=e2594]:
+                      - generic [ref=e2596]: "318"
+                      - generic [ref=e2598]: "model: 4"
+                    - listitem [ref=e2599]:
+                      - generic [ref=e2601]: "319"
+                    - listitem [ref=e2604]:
+                      - generic [ref=e2606]: "320"
+                      - generic [ref=e2608]: "Rectangle {"
+                    - listitem [ref=e2609]:
+                      - generic [ref=e2611]: "321"
+                      - generic [ref=e2613]: "width: parent.columnWidths[index]"
+                    - listitem [ref=e2614]:
+                      - generic [ref=e2616]: "322"
+                      - generic [ref=e2618]: "height: 50"
+                    - listitem [ref=e2619]:
+                      - generic [ref=e2621]: "323"
+                      - generic [ref=e2623]: "color: {"
+                    - listitem [ref=e2624]:
+                      - generic [ref=e2626]: "324"
+                      - generic [ref=e2628]: "if (tableView.index % 2 === 0) {"
+                    - listitem [ref=e2629]:
+                      - generic [ref=e2631]: "325"
+                      - generic [ref=e2633]: return "#f8f9fa"
+                    - listitem [ref=e2634]:
+                      - generic [ref=e2636]: "326"
+                      - generic [ref=e2638]: "} else {"
+                    - listitem [ref=e2639]:
+                      - generic [ref=e2641]: "327"
+                      - generic [ref=e2643]: return "#ffffff"
+                    - listitem [ref=e2644]:
+                      - generic [ref=e2646]: "328"
+                      - generic [ref=e2648]: "}"
+                    - listitem [ref=e2649]:
+                      - generic [ref=e2651]: "329"
+                      - generic [ref=e2653]: "}"
+                    - listitem [ref=e2654]:
+                      - generic [ref=e2656]: "330"
+                      - generic [ref=e2658]: "border.color: \"#e9ecef\""
+                    - listitem [ref=e2659]:
+                      - generic [ref=e2661]: "331"
+                    - listitem [ref=e2664]:
+                      - generic [ref=e2666]: "332"
+                      - generic [ref=e2668]: "Text {"
+                    - listitem [ref=e2669]:
+                      - generic [ref=e2671]: "333"
+                      - generic [ref=e2673]: "text: parent.parent.columnData[index]"
+                    - listitem [ref=e2674]:
+                      - generic [ref=e2676]: "334"
+                      - generic [ref=e2678]: "anchors.centerIn: parent"
+                    - listitem [ref=e2679]:
+                      - generic [ref=e2681]: "335"
+                      - generic [ref=e2683]: "color: {"
+                    - listitem [ref=e2684]:
+                      - generic [ref=e2686]: "336"
+                      - generic [ref=e2688]: "if (index === 2) { // 价格列"
+                    - listitem [ref=e2689]:
+                      - generic [ref=e2691]: "337"
+                      - generic [ref=e2693]: return "#e74c3c"
+                    - listitem [ref=e2694]:
+                      - generic [ref=e2696]: "338"
+                      - generic [ref=e2698]: "} else if (index === 3) { // 库存列"
+                    - listitem [ref=e2699]:
+                      - generic [ref=e2701]: "339"
+                      - generic [ref=e2703]: "return parseInt(parent.parent.columnData[index]) < 50 ? \"#e67e22\" : \"#27ae60\""
+                    - listitem [ref=e2704]:
+                      - generic [ref=e2706]: "340"
+                      - generic [ref=e2708]: "} else {"
+                    - listitem [ref=e2709]:
+                      - generic [ref=e2711]: "341"
+                      - generic [ref=e2713]: return "#2c3e50"
+                    - listitem [ref=e2714]:
+                      - generic [ref=e2716]: "342"
+                      - generic [ref=e2718]: "}"
+                    - listitem [ref=e2719]:
+                      - generic [ref=e2721]: "343"
+                      - generic [ref=e2723]: "}"
+                    - listitem [ref=e2724]:
+                      - generic [ref=e2726]: "344"
+                      - generic [ref=e2728]: "font.pixelSize: 14"
+                    - listitem [ref=e2729]:
+                      - generic [ref=e2731]: "345"
+                      - generic [ref=e2733]: "font.bold: index === 2 || index === 3"
+                    - listitem [ref=e2734]:
+                      - generic [ref=e2736]: "346"
+                      - generic [ref=e2738]: "}"
+                    - listitem [ref=e2739]:
+                      - generic [ref=e2741]: "347"
+                      - generic [ref=e2743]: "}"
+                    - listitem [ref=e2744]:
+                      - generic [ref=e2746]: "348"
+                      - generic [ref=e2748]: "}"
+                    - listitem [ref=e2749]:
+                      - generic [ref=e2751]: "349"
+                      - generic [ref=e2753]: "}"
+                    - listitem [ref=e2754]:
+                      - generic [ref=e2756]: "350"
+                    - listitem [ref=e2759]:
+                      - generic [ref=e2761]: "351"
+                      - generic [ref=e2763]: "ScrollBar.vertical: ScrollBar {"
+                    - listitem [ref=e2764]:
+                      - generic [ref=e2766]: "352"
+                      - generic [ref=e2768]: "policy: ScrollBar.AlwaysOn"
+                    - listitem [ref=e2769]:
+                      - generic [ref=e2771]: "353"
+                      - generic [ref=e2773]: "}"
+                    - listitem [ref=e2774]:
+                      - generic [ref=e2776]: "354"
+                      - generic [ref=e2778]: "}"
+                    - listitem [ref=e2779]:
+                      - generic [ref=e2781]: "355"
+                      - generic [ref=e2783]: "}"
+                    - listitem [ref=e2784]:
+                      - generic [ref=e2786]: "356"
+                      - generic [ref=e2788]: "}"
+                    - listitem [ref=e2789]:
+                      - generic [ref=e2791]: "357"
+                      - generic [ref=e2793]: "}"
+                    - listitem [ref=e2794]:
+                      - generic [ref=e2796]: "358"
+                    - listitem [ref=e2799]:
+                      - generic [ref=e2801]: "359"
+                      - generic [ref=e2803]: // TreeView 页面 (使用 ListView 模拟)
+                    - listitem [ref=e2804]:
+                      - generic [ref=e2806]: "360"
+                      - generic [ref=e2808]: "Rectangle {"
+                    - listitem [ref=e2809]:
+                      - generic [ref=e2811]: "361"
+                      - generic [ref=e2813]: "color: \"transparent\""
+                    - listitem [ref=e2814]:
+                      - generic [ref=e2816]: "362"
+                    - listitem [ref=e2819]:
+                      - generic [ref=e2821]: "363"
+                      - generic [ref=e2823]: "ColumnLayout {"
+                    - listitem [ref=e2824]:
+                      - generic [ref=e2826]: "364"
+                      - generic [ref=e2828]: "anchors.fill: parent"
+                    - listitem [ref=e2829]:
+                      - generic [ref=e2831]: "365"
+                      - generic [ref=e2833]: "spacing: 10"
+                    - listitem [ref=e2834]:
+                      - generic [ref=e2836]: "366"
+                    - listitem [ref=e2839]:
+                      - generic [ref=e2841]: "367"
+                      - generic [ref=e2843]: "Label {"
+                    - listitem [ref=e2844]:
+                      - generic [ref=e2846]: "368"
+                      - generic [ref=e2848]: "text: \"公司组织架构\""
+                    - listitem [ref=e2849]:
+                      - generic [ref=e2851]: "369"
+                      - generic [ref=e2853]: "font.pixelSize: 20"
+                    - listitem [ref=e2854]:
+                      - generic [ref=e2856]: "370"
+                      - generic [ref=e2858]: "font.bold: true"
+                    - listitem [ref=e2859]:
+                      - generic [ref=e2861]: "371"
+                      - generic [ref=e2863]: "color: \"#2c3e50\""
+                    - listitem [ref=e2864]:
+                      - generic [ref=e2866]: "372"
+                      - generic [ref=e2868]: "Layout.alignment: Qt.AlignHCenter"
+                    - listitem [ref=e2869]:
+                      - generic [ref=e2871]: "373"
+                      - generic [ref=e2873]: "}"
+                    - listitem [ref=e2874]:
+                      - generic [ref=e2876]: "374"
+                    - listitem [ref=e2879]:
+                      - generic [ref=e2881]: "375"
+                      - generic [ref=e2883]: "Frame {"
+                    - listitem [ref=e2884]:
+                      - generic [ref=e2886]: "376"
+                      - generic [ref=e2888]: "Layout.fillWidth: true"
+                    - listitem [ref=e2889]:
+                      - generic [ref=e2891]: "377"
+                      - generic [ref=e2893]: "Layout.fillHeight: true"
+                    - listitem [ref=e2894]:
+                      - generic [ref=e2896]: "378"
+                      - generic [ref=e2898]: "background: Rectangle {"
+                    - listitem [ref=e2899]:
+                      - generic [ref=e2901]: "379"
+                      - generic [ref=e2903]: "color: \"white\""
+                    - listitem [ref=e2904]:
+                      - generic [ref=e2906]: "380"
+                      - generic [ref=e2908]: "radius: 8"
+                    - listitem [ref=e2909]:
+                      - generic [ref=e2911]: "381"
+                      - generic [ref=e2913]: "border.color: \"#bdc3c7\""
+                    - listitem [ref=e2914]:
+                      - generic [ref=e2916]: "382"
+                      - generic [ref=e2918]: "}"
+                    - listitem [ref=e2919]:
+                      - generic [ref=e2921]: "383"
+                    - listitem [ref=e2924]:
+                      - generic [ref=e2926]: "384"
+                      - generic [ref=e2928]: "ListView {"
+                    - listitem [ref=e2929]:
+                      - generic [ref=e2931]: "385"
+                      - generic [ref=e2933]: "id: treeListView"
+                    - listitem [ref=e2934]:
+                      - generic [ref=e2936]: "386"
+                      - generic [ref=e2938]: "anchors.fill: parent"
+                    - listitem [ref=e2939]:
+                      - generic [ref=e2941]: "387"
+                      - generic [ref=e2943]: "anchors.margins: 5"
+                    - listitem [ref=e2944]:
+                      - generic [ref=e2946]: "388"
+                      - generic [ref=e2948]: "model: treeModel"
+                    - listitem [ref=e2949]:
+                      - generic [ref=e2951]: "389"
+                      - generic [ref=e2953]: "clip: true"
+                    - listitem [ref=e2954]:
+                      - generic [ref=e2956]: "390"
+                    - listitem [ref=e2959]:
+                      - generic [ref=e2961]: "391"
+                      - generic [ref=e2963]: "delegate: Item {"
+                    - listitem [ref=e2964]:
+                      - generic [ref=e2966]: "392"
+                      - generic [ref=e2968]: "width: treeListView.width"
+                    - listitem [ref=e2969]:
+                      - generic [ref=e2971]: "393"
+                      - generic [ref=e2973]: "height: 40"
+                    - listitem [ref=e2974]:
+                      - generic [ref=e2976]: "394"
+                      - generic [ref=e2978]: "visible: isItemVisible()"
+                    - listitem [ref=e2979]:
+                      - generic [ref=e2981]: "395"
+                    - listitem [ref=e2984]:
+                      - generic [ref=e2986]: "396"
+                      - generic [ref=e2988]: "function isItemVisible() {"
+                    - listitem [ref=e2989]:
+                      - generic [ref=e2991]: "397"
+                      - generic [ref=e2993]: // 简单的可见性检查（实际项目中需要更复杂的逻辑）
+                    - listitem [ref=e2994]:
+                      - generic [ref=e2996]: "398"
+                      - generic [ref=e2998]: if (depth === 0) return true;
+                    - listitem [ref=e2999]:
+                      - generic [ref=e3001]: "399"
+                      - generic [ref=e3003]: // 这里简化处理，实际应该检查父级是否展开
+                    - listitem [ref=e3004]:
+                      - generic [ref=e3006]: "400"
+                      - generic [ref=e3008]: return true;
+                    - listitem [ref=e3009]:
+                      - generic [ref=e3011]: "401"
+                      - generic [ref=e3013]: "}"
+                    - listitem [ref=e3014]:
+                      - generic [ref=e3016]: "402"
+                    - listitem [ref=e3019]:
+                      - generic [ref=e3021]: "403"
+                      - generic [ref=e3023]: "Rectangle {"
+                    - listitem [ref=e3024]:
+                      - generic [ref=e3026]: "404"
+                      - generic [ref=e3028]: "anchors.fill: parent"
+                    - listitem [ref=e3029]:
+                      - generic [ref=e3031]: "405"
+                      - generic [ref=e3033]: "color: index % 2 === 0 ? \"#f8f9fa\" : \"#ffffff\""
+                    - listitem [ref=e3034]:
+                      - generic [ref=e3036]: "406"
+                    - listitem [ref=e3039]:
+                      - generic [ref=e3041]: "407"
+                      - generic [ref=e3043]: "Row {"
+                    - listitem [ref=e3044]:
+                      - generic [ref=e3046]: "408"
+                      - generic [ref=e3048]: "anchors.fill: parent"
+                    - listitem [ref=e3049]:
+                      - generic [ref=e3051]: "409"
+                      - generic [ref=e3053]: "anchors.leftMargin: 10 + depth * 20"
+                    - listitem [ref=e3054]:
+                      - generic [ref=e3056]: "410"
+                      - generic [ref=e3058]: "spacing: 8"
+                    - listitem [ref=e3059]:
+                      - generic [ref=e3061]: "411"
+                    - listitem [ref=e3064]:
+                      - generic [ref=e3066]: "412"
+                      - generic [ref=e3068]: "Text {"
+                    - listitem [ref=e3069]:
+                      - generic [ref=e3071]: "413"
+                      - generic [ref=e3073]: "text: {"
+                    - listitem [ref=e3074]:
+                      - generic [ref=e3076]: "414"
+                      - generic [ref=e3078]: "if (hasChildren) {"
+                    - listitem [ref=e3079]:
+                      - generic [ref=e3081]: "415"
+                      - generic [ref=e3083]: "return isExpanded ? \"▼\" : \"►\""
+                    - listitem [ref=e3084]:
+                      - generic [ref=e3086]: "416"
+                      - generic [ref=e3088]: "} else {"
+                    - listitem [ref=e3089]:
+                      - generic [ref=e3091]: "417"
+                      - generic [ref=e3093]: return "•"
+                    - listitem [ref=e3094]:
+                      - generic [ref=e3096]: "418"
+                      - generic [ref=e3098]: "}"
+                    - listitem [ref=e3099]:
+                      - generic [ref=e3101]: "419"
+                      - generic [ref=e3103]: "}"
+                    - listitem [ref=e3104]:
+                      - generic [ref=e3106]: "420"
+                      - generic [ref=e3108]: "color: \"#3498db\""
+                    - listitem [ref=e3109]:
+                      - generic [ref=e3111]: "421"
+                      - generic [ref=e3113]: "font.pixelSize: 12"
+                    - listitem [ref=e3114]:
+                      - generic [ref=e3116]: "422"
+                      - generic [ref=e3118]: "anchors.verticalCenter: parent.verticalCenter"
+                    - listitem [ref=e3119]:
+                      - generic [ref=e3121]: "423"
+                      - generic [ref=e3123]: "}"
+                    - listitem [ref=e3124]:
+                      - generic [ref=e3126]: "424"
+                    - listitem [ref=e3129]:
+                      - generic [ref=e3131]: "425"
+                      - generic [ref=e3133]: "Text {"
+                    - listitem [ref=e3134]:
+                      - generic [ref=e3136]: "426"
+                      - generic [ref=e3138]: "text: name"
+                    - listitem [ref=e3139]:
+                      - generic [ref=e3141]: "427"
+                      - generic [ref=e3143]: "color: isCategory ? \"#2c3e50\" : \"#7f8c8d\""
+                    - listitem [ref=e3144]:
+                      - generic [ref=e3146]: "428"
+                      - generic [ref=e3148]: "font.pixelSize: 14"
+                    - listitem [ref=e3149]:
+                      - generic [ref=e3151]: "429"
+                      - generic [ref=e3153]: "font.bold: isCategory"
+                    - listitem [ref=e3154]:
+                      - generic [ref=e3156]: "430"
+                      - generic [ref=e3158]: "anchors.verticalCenter: parent.verticalCenter"
+                    - listitem [ref=e3159]:
+                      - generic [ref=e3161]: "431"
+                      - generic [ref=e3163]: "}"
+                    - listitem [ref=e3164]:
+                      - generic [ref=e3166]: "432"
+                      - generic [ref=e3168]: "}"
+                    - listitem [ref=e3169]:
+                      - generic [ref=e3171]: "433"
+                      - generic [ref=e3173]: "}"
+                    - listitem [ref=e3174]:
+                      - generic [ref=e3176]: "434"
+                    - listitem [ref=e3179]:
+                      - generic [ref=e3181]: "435"
+                      - generic [ref=e3183]: "MouseArea {"
+                    - listitem [ref=e3184]:
+                      - generic [ref=e3186]: "436"
+                      - generic [ref=e3188]: "anchors.fill: parent"
+                    - listitem [ref=e3189]:
+                      - generic [ref=e3191]: "437"
+                      - generic [ref=e3193]: "onClicked: {"
+                    - listitem [ref=e3194]:
+                      - generic [ref=e3196]: "438"
+                      - generic [ref=e3198]: console.log("点击节点:", name, "深度:", depth)
+                    - listitem [ref=e3199]:
+                      - generic [ref=e3201]: "439"
+                      - generic [ref=e3203]: "if (hasChildren) {"
+                    - listitem [ref=e3204]:
+                      - generic [ref=e3206]: "440"
+                      - generic [ref=e3208]: // 切换展开状态
+                    - listitem [ref=e3209]:
+                      - generic [ref=e3211]: "441"
+                      - generic [ref=e3213]: treeModel.setProperty(index, "isExpanded", !isExpanded)
+                    - listitem [ref=e3214]:
+                      - generic [ref=e3216]: "442"
+                      - generic [ref=e3218]: "}"
+                    - listitem [ref=e3219]:
+                      - generic [ref=e3221]: "443"
+                      - generic [ref=e3223]: "}"
+                    - listitem [ref=e3224]:
+                      - generic [ref=e3226]: "444"
+                      - generic [ref=e3228]: "}"
+                    - listitem [ref=e3229]:
+                      - generic [ref=e3231]: "445"
+                      - generic [ref=e3233]: "}"
+                    - listitem [ref=e3234]:
+                      - generic [ref=e3236]: "446"
+                    - listitem [ref=e3239]:
+                      - generic [ref=e3241]: "447"
+                      - generic [ref=e3243]: "ScrollBar.vertical: ScrollBar {"
+                    - listitem [ref=e3244]:
+                      - generic [ref=e3246]: "448"
+                      - generic [ref=e3248]: "policy: ScrollBar.AlwaysOn"
+                    - listitem [ref=e3249]:
+                      - generic [ref=e3251]: "449"
+                      - generic [ref=e3253]: "}"
+                    - listitem [ref=e3254]:
+                      - generic [ref=e3256]: "450"
+                      - generic [ref=e3258]: "}"
+                    - listitem [ref=e3259]:
+                      - generic [ref=e3261]: "451"
+                      - generic [ref=e3263]: "}"
+                    - listitem [ref=e3264]:
+                      - generic [ref=e3266]: "452"
+                      - generic [ref=e3268]: "}"
+                    - listitem [ref=e3269]:
+                      - generic [ref=e3271]: "453"
+                      - generic [ref=e3273]: "}"
+                    - listitem [ref=e3274]:
+                      - generic [ref=e3276]: "454"
+                      - generic [ref=e3278]: "}"
+                    - listitem [ref=e3279]:
+                      - generic [ref=e3281]: "455"
+                      - generic [ref=e3283]: "}"
+                    - listitem [ref=e3284]:
+                      - generic [ref=e3286]: "456"
+                      - generic [ref=e3288]: "}"
+                - generic [ref=e3289]:
+                  - button "AI写代码" [ref=e3290] [cursor=pointer]
+                  - generic [ref=e3291] [cursor=pointer]: 复制
+                - generic [ref=e3293] [cursor=pointer]: 展开
+              - paragraph
+              - generic [ref=e3294]: TreeElement.qml文件源码
+              - generic [ref=e3295]:
+                - code [ref=e3296]:
+                  - list [ref=e3297]:
+                    - listitem [ref=e3298]:
+                      - generic [ref=e3300]: "1"
+                      - generic [ref=e3302]: // TreeModel.qml
+                    - listitem [ref=e3303]:
+                      - generic [ref=e3305]: "2"
+                      - generic [ref=e3307]: pragma Singleton
+                    - listitem [ref=e3308]:
+                      - generic [ref=e3310]: "3"
+                      - generic [ref=e3312]: import QtQml 2.14
+                    - listitem [ref=e3313]:
+                      - generic [ref=e3315]: "4"
+                    - listitem [ref=e3318]:
+                      - generic [ref=e3320]: "5"
+                      - generic [ref=e3322]: "QtObject {"
+                    - listitem [ref=e3323]:
+                      - generic [ref=e3325]: "6"
+                      - generic [ref=e3327]: "id: root"
+                    - listitem [ref=e3328]:
+                      - generic [ref=e3330]: "7"
+                    - listitem [ref=e3333]:
+                      - generic [ref=e3335]: "8"
+                      - generic [ref=e3337]: property list<TreeElement> children
+                    - listitem [ref=e3338]:
+                      - generic [ref=e3340]: "9"
+                    - listitem [ref=e3343]:
+                      - generic [ref=e3345]: "10"
+                      - generic [ref=e3347]: "function appendChild(element) {"
+                    - listitem [ref=e3348]:
+                      - generic [ref=e3350]: "11"
+                      - generic [ref=e3352]: children.push(element)
+                    - listitem [ref=e3353]:
+                      - generic [ref=e3355]: "12"
+                      - generic [ref=e3357]: "}"
+                    - listitem [ref=e3358]:
+                      - generic [ref=e3360]: "13"
+                      - generic [ref=e3362]: "}"
+                - generic [ref=e3363]:
+                  - button "AI写代码" [ref=e3364] [cursor=pointer]
+                  - generic [ref=e3365] [cursor=pointer]: 复制
+                - generic [ref=e3367] [cursor=pointer]: 展开
+              - paragraph
+              - paragraph [ref=e3368]: TreeModel.qml文件源码
+              - generic [ref=e3369]:
+                - code [ref=e3370]:
+                  - list [ref=e3371]:
+                    - listitem [ref=e3372]:
+                      - generic [ref=e3374]: "1"
+                      - generic [ref=e3376]: // TreeModel.qml
+                    - listitem [ref=e3377]:
+                      - generic [ref=e3379]: "2"
+                      - generic [ref=e3381]: pragma Singleton
+                    - listitem [ref=e3382]:
+                      - generic [ref=e3384]: "3"
+                      - generic [ref=e3386]: import QtQml 2.14
+                    - listitem [ref=e3387]:
+                      - generic [ref=e3389]: "4"
+                    - listitem [ref=e3392]:
+                      - generic [ref=e3394]: "5"
+                      - generic [ref=e3396]: "QtObject {"
+                    - listitem [ref=e3397]:
+                      - generic [ref=e3399]: "6"
+                      - generic [ref=e3401]: "id: root"
+                    - listitem [ref=e3402]:
+                      - generic [ref=e3404]: "7"
+                    - listitem [ref=e3407]:
+                      - generic [ref=e3409]: "8"
+                      - generic [ref=e3411]: property list<TreeElement> children
+                    - listitem [ref=e3412]:
+                      - generic [ref=e3414]: "9"
+                    - listitem [ref=e3417]:
+                      - generic [ref=e3419]: "10"
+                      - generic [ref=e3421]: "function appendChild(element) {"
+                    - listitem [ref=e3422]:
+                      - generic [ref=e3424]: "11"
+                      - generic [ref=e3426]: children.push(element)
+                    - listitem [ref=e3427]:
+                      - generic [ref=e3429]: "12"
+                      - generic [ref=e3431]: "}"
+                    - listitem [ref=e3432]:
+                      - generic [ref=e3434]: "13"
+                      - generic [ref=e3436]: "}"
+                - generic [ref=e3437]:
+                  - button "AI写代码" [ref=e3438] [cursor=pointer]
+                  - generic [ref=e3439] [cursor=pointer]: 复制
+                - generic [ref=e3441] [cursor=pointer]: 展开
+              - paragraph
+              - paragraph [ref=e3442]: 三、效果演示
+              - paragraph [ref=e3443]
+          - generic [ref=e3446]:
+            - generic [ref=e3447]: 标签
+            - generic [ref=e3448]:
+              - link "#开源" [ref=e3449] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=%E5%BC%80%E6%BA%90&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#c++" [ref=e3450] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=c%2B%2B&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#qt" [ref=e3451] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=qt&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+        - generic [ref=e3452]:
+          - generic [ref=e3453]:
+            - link "ajassi2000" [ref=e3455] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e3456]
+              - generic [ref=e3457]: ajassi2000
+            - link "已关注" [ref=e3459] [cursor=pointer]:
+              - /url: javascript:;
+          - list [ref=e3461]:
+            - listitem [ref=e3462]:
+              - generic [ref=e3464] [cursor=pointer]: "21"
+            - listitem [ref=e3465]
+            - listitem [ref=e3467]:
+              - link "15" [ref=e3468] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e3469]: "15"
+            - listitem [ref=e3470]:
+              - generic [ref=e3472] [cursor=pointer]: "0"
+            - listitem [ref=e3473]:
+              - link "分享" [ref=e3474] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e3475]: 分享
+            - listitem [ref=e3476]
+          - generic [ref=e3480] [cursor=pointer]: 专栏目录
+        - generic [ref=e3483]:
+          - generic [ref=e3484]:
+            - link "【开源治理·银行篇】 02-如何把金融行业标准翻译成开源治理动作" [ref=e3487] [cursor=pointer]:
+              - /url: https://blog.csdn.net/System_0826/article/details/163478414
+              - generic [ref=e3488]:
+                - text: 【
+                - emphasis [ref=e3489]: 开源
+                - text: 治理·银行篇】 02-如何把金融行业标准翻译成
+                - emphasis [ref=e3490]: 开源
+                - text: 治理动作
+            - generic [ref=e3491]:
+              - link "lunziFly的博客" [ref=e3493] [cursor=pointer]:
+                - /url: https://blog.csdn.net/System_0826
+                - generic [ref=e3494]: lunziFly的博客
+              - generic [ref=e3496]: "448"
+          - link "摘要 本文探讨如何将金融行业开源治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的开源软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出五步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“开源软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开" [ref=e3498] [cursor=pointer]:
+            - /url: https://blog.csdn.net/System_0826/article/details/163478414
+            - generic [ref=e3499]:
+              - text: 摘要 本文探讨如何将金融行业
+              - emphasis [ref=e3500]: 开源
+              - text: 治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的
+              - emphasis [ref=e3501]: 开源
+              - text: 软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出五步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“
+              - emphasis [ref=e3502]: 开源
+              - text: 软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开
+        - generic [ref=e3505]:
+          - generic [ref=e3506]:
+            - link "Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【开源基础设施特辑】" [ref=e3509] [cursor=pointer]:
+              - /url: https://devpress.csdn.net/v1/article/detail/163541417
+              - generic [ref=e3510]:
+                - text: Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【
+                - emphasis [ref=e3511]: 开源
+                - text: 基础设施特辑】
+            - generic [ref=e3512]:
+              - link "TunerT_TQ的博客" [ref=e3514] [cursor=pointer]:
+                - /url: https://blog.csdn.net/TunerT_TQ
+                - generic [ref=e3515]: TunerT_TQ的博客
+              - generic [ref=e3517]: "344"
+          - link "VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用\"开源框架+云端控制台\"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。" [ref=e3519] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/v1/article/detail/163541417
+            - generic [ref=e3520]:
+              - text: VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用"
+              - emphasis [ref=e3521]: 开源
+              - text: 框架+云端控制台"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。
+        - generic [ref=e3522]:
+          - generic [ref=e3524]:
+            - generic [ref=e3525]:
+              - 'link "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂开源基础设施特辑】" [ref=e3528] [cursor=pointer]':
+                - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+                - generic [ref=e3529]:
+                  - text: "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂"
+                  - emphasis [ref=e3530]: 开源
+                  - text: 基础设施特辑】
+              - generic [ref=e3531]:
+                - link "TunerT_TQ的博客" [ref=e3533] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/TunerT_TQ
+                  - generic [ref=e3534]: TunerT_TQ的博客
+                - generic [ref=e3536]: "315"
+            - link "摘要： TDesign是腾讯开源的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系\"工具箱\"，风险特征偏向构建安全而非运行时安全。" [ref=e3538] [cursor=pointer]:
+              - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+              - generic [ref=e3539]:
+                - text: 摘要： TDesign是腾讯
+                - emphasis [ref=e3540]: 开源
+                - text: 的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系"工具箱"，风险特征偏向构建安全而非运行时安全。
+          - generic [ref=e3542]:
+            - generic [ref=e3543]:
+              - link "如何免费配音？2026年实测：从CosyVoice到LongCat，开源TTS选型全记录" [ref=e3546] [cursor=pointer]:
+                - /url: https://blog.csdn.net/luoboorz/article/details/163530807
+                - generic [ref=e3547]:
+                  - text: 如何免费配音？2026年实测：从CosyVoice到LongCat，
+                  - emphasis [ref=e3548]: 开源
+                  - text: TTS选型全记录
+              - generic [ref=e3549]:
+                - link "luoboorz的博客" [ref=e3551] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/luoboorz
+                  - generic [ref=e3552]: luoboorz的博客
+                - generic [ref=e3554]: "323"
+            - link "2026年开源TTS技术盘点与隐私优先解决方案 摘要：随着数据隐私问题日益突出，开源TTS技术在2026年迎来爆发式发展。阿里、美团等团队推出的CosyVoice2、LongCat-AudioDiT等模型已具备零样本克隆、多语言支持等能力。本文对比了主流开源方案的技术参数，并推荐配朵朵、叮叮配音等四款免费轻量工具作为开源模型选型的前置验证层。针对不同场景提供完整工作流：先用轻量工具快速验证音色和参数，再选择适合的开源模型本地部署。特别强调数据不出域的隐私保护方案，为技术内容创作者提供兼顾效率与安全的TTS解" [ref=e3556] [cursor=pointer]:
+              - /url: https://blog.csdn.net/luoboorz/article/details/163530807
+              - generic [ref=e3557]:
+                - text: 2026年
+                - emphasis [ref=e3558]: 开源
+                - text: TTS技术盘点与隐私优先解决方案 摘要：随着数据隐私问题日益突出，
+                - emphasis [ref=e3559]: 开源
+                - text: TTS技术在2026年迎来爆发式发展。阿里、美团等团队推出的CosyVoice2、LongCat-AudioDiT等模型已具备零样本克隆、多语言支持等能力。本文对比了主流
+                - emphasis [ref=e3560]: 开源
+                - text: 方案的技术参数，并推荐配朵朵、叮叮配音等
+                - emphasis [ref=e3561]: 四
+                - text: 款免费轻量工具作为
+                - emphasis [ref=e3562]: 开源
+                - text: 模型选型的前置验证层。针对不同场景提供完整工作流：先用轻量工具快速验证音色和参数，再选择适合的
+                - emphasis [ref=e3563]: 开源
+                - text: 模型本地部署。特别强调数据不出域的隐私保护方案，为技术内容创作者提供兼顾效率与安全的TTS解
+          - generic [ref=e3565]:
+            - generic [ref=e3566]:
+              - link "Unlimited-OCR：一款百度开源 OCR 识别工具 2026 年 6 月 22 日 最新发布" [ref=e3569] [cursor=pointer]:
+                - /url: https://devpress.csdn.net/v1/article/detail/163538245
+                - generic [ref=e3570]:
+                  - text: Unlimited-OCR：一款百度
+                  - emphasis [ref=e3571]: 开源
+                  - text: OCR 识别工具 2026 年 6 月 22 日
+                - generic [ref=e3572]: 最新发布
+              - generic [ref=e3573]:
+                - link "cao919的专栏Net" [ref=e3575] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/cao919
+                  - generic [ref=e3576]: cao919的专栏Net
+                - generic [ref=e3578]: "386"
+            - link "Unlimited-OCR 开源OCR工具详解 Unlimited-OCR是一款基于Gitee平台的开源OCR工具，提供无限量、免费的图片文字识别服务，适用于文档扫描、截图识别等场景。其核心功能为调用云端接口实现高效OCR，支持多语言及复杂版式还原，但需搭配PdfSharp或FreeSpire.PDF等库处理PDF文件编辑。 核心对比 Unlimited-OCR：专注图片/扫描PDF的文字提取，支持结构化输出（如表格、多栏文本），需GPU运行。 PdfSharp/FreeSpire.PDF：处理原生PDF的" [ref=e3580] [cursor=pointer]:
+              - /url: https://devpress.csdn.net/v1/article/detail/163538245
+              - generic [ref=e3581]:
+                - text: Unlimited-OCR
+                - emphasis [ref=e3582]: 开源
+                - text: OCR工具详解 Unlimited-OCR是一款基于Gitee平台的
+                - emphasis [ref=e3583]: 开源
+                - text: OCR工具，提供无限量、免费的图片文字识别服务，适用于文档扫描、截图识别等场景。其核心功能为调用云端接口实现高效OCR，支持多语言及
+                - emphasis [ref=e3584]: 复杂
+                - text: 版式还原，但需搭配PdfSharp或FreeSpire.PDF等库处理PDF文件编辑。 核心对比 Unlimited-OCR：专注图片/扫描PDF的文字提取，支持结构化输出（如表格、多栏文本），需GPU运行。 PdfSharp/FreeSpire.PDF：处理原生PDF的
+        - generic [ref=e3587]:
+          - list [ref=e3588]:
+            - listitem [ref=e3589]:
+              - link "关于我们" [ref=e3590] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#about
+            - listitem [ref=e3591]:
+              - link "招贤纳士" [ref=e3592] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#recruit
+            - listitem [ref=e3593]:
+              - link "商务合作" [ref=e3594] [cursor=pointer]:
+                - /url: https://fsc-p05.txscrm.com/T8PN8SFII7W
+            - listitem [ref=e3595]:
+              - link "寻求报道" [ref=e3596] [cursor=pointer]:
+                - /url: //marketing.csdn.net/questions/Q2202181748074189855
+            - listitem [ref=e3597]:
+              - link "协议专区" [ref=e3598] [cursor=pointer]:
+                - /url: //marketing.csdn.net/p/a65bad49d09e5e6d1a9c674bb41ef331?pId=3340
+            - listitem [ref=e3599]:
+              - generic [ref=e3600]: 400-660-0108
+            - listitem [ref=e3601]:
+              - link "kefu@csdn.net" [ref=e3602] [cursor=pointer]:
+                - /url: mailto:webmaster@csdn.net
+            - listitem [ref=e3603]:
+              - link "在线客服" [ref=e3604] [cursor=pointer]:
+                - /url: https://csdn.s2.udesk.cn/im_client/?web_plugin_id=29181
+            - listitem [ref=e3605]: 工作时间 8:30-22:00
+          - list [ref=e3606]:
+            - listitem [ref=e3607]:
+              - link "公安备案号11010502030143" [ref=e3608] [cursor=pointer]:
+                - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030143
+            - listitem [ref=e3609]:
+              - link "京ICP备19004658号" [ref=e3610] [cursor=pointer]:
+                - /url: http://beian.miit.gov.cn/publish/query/indexFirst.action
+            - listitem [ref=e3611]:
+              - link "京网文〔2020〕1039-165号" [ref=e3612] [cursor=pointer]:
+                - /url: https://csdnimg.cn/release/live_fe/culture_license.png
+            - listitem [ref=e3613]:
+              - link "经营性网站备案信息" [ref=e3614] [cursor=pointer]:
+                - /url: https://csdnimg.cn/cdn/content-toolbar/csdn-ICP.png
+            - listitem [ref=e3615]:
+              - link "北京互联网违法和不良信息举报中心" [ref=e3616] [cursor=pointer]:
+                - /url: http://www.bjjubao.org/
+            - listitem [ref=e3617]:
+              - link "家长监护" [ref=e3618] [cursor=pointer]:
+                - /url: https://download.csdn.net/tutelage/home
+            - listitem [ref=e3619]:
+              - link "网络110报警服务" [ref=e3620] [cursor=pointer]:
+                - /url: https://cyberpolice.mps.gov.cn/
+            - listitem [ref=e3621]:
+              - link "中国互联网举报中心" [ref=e3622] [cursor=pointer]:
+                - /url: http://www.12377.cn/
+            - listitem [ref=e3623]:
+              - link "Chrome商店下载" [ref=e3624] [cursor=pointer]:
+                - /url: https://chrome.google.com/webstore/detail/csdn%E5%BC%80%E5%8F%91%E8%80%85%E5%8A%A9%E6%89%8B/kfkdboecolemdjodhmhmcibjocfopejo?hl=zh-CN
+            - listitem [ref=e3625]:
+              - link "账号管理规范" [ref=e3626] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/126135357
+            - listitem [ref=e3627]:
+              - link "版权与免责声明" [ref=e3628] [cursor=pointer]:
+                - /url: https://www.csdn.net/company/index.html#statement
+            - listitem [ref=e3629]:
+              - link "版权申诉" [ref=e3630] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/90369522
+            - listitem [ref=e3631]:
+              - link "出版物许可证" [ref=e3632] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023206.png
+            - listitem [ref=e3633]:
+              - link "营业执照" [ref=e3634] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023201.png
+            - listitem [ref=e3635]: ©1999-2026北京创新乐知网络技术有限公司
+      - complementary [ref=e3636]:
+        - generic [ref=e3637]:
+          - generic [ref=e3638]:
+            - link [ref=e3640] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e3641]
+            - generic [ref=e3642]:
+              - link "ajassi2000" [ref=e3644] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000
+                - generic [ref=e3645]: ajassi2000
+              - generic [ref=e3646]:
+                - paragraph [ref=e3647]:
+                  - text: 博客等级
+                  - img [ref=e3648]
+                - generic "已加入 CSDN 22年" [ref=e3649]: 码龄22年
+          - generic [ref=e3650]:
+            - link "185 原创" [ref=e3652] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - definition [ref=e3653]: "185"
+              - term [ref=e3654]: 原创
+            - generic "3707" [ref=e3655]:
+              - definition [ref=e3656]: "3707"
+              - term [ref=e3657]: 点赞
+            - generic "2923" [ref=e3658]:
+              - definition [ref=e3659]: "2923"
+              - term [ref=e3660]: 收藏
+            - generic "1903" [ref=e3661]:
+              - definition [ref=e3662]: "1903"
+              - term [ref=e3663]: 粉丝
+          - generic [ref=e3664]:
+            - generic [ref=e3666] [cursor=pointer]: 已关注
+            - link "私信" [ref=e3668] [cursor=pointer]:
+              - /url: https://im.csdn.net/chat/ajassi2000
+        - generic [ref=e3669]:
+          - generic [ref=e3670]:
+            - link [ref=e3672] [cursor=pointer]:
+              - /url: https://mall.csdn.net/vip?utm_source=20260722_vip_blogleftbanner
+            - link [ref=e3674] [cursor=pointer]:
+              - /url: https://agent.inscode.net/?utm_source=blog_xq
+            - link [ref=e3676] [cursor=pointer]:
+              - /url: https://mall.csdn.net/vip?utm_source=20260722_vip_blogleftbanner
+            - link [ref=e3678] [cursor=pointer]:
+              - /url: https://agent.inscode.net/?utm_source=blog_xq
+          - generic [ref=e3679]:
+            - button "Go to slide 1" [ref=e3680] [cursor=pointer]
+            - button "Go to slide 2" [ref=e3681] [cursor=pointer]
+          - button "Previous slide" [ref=e3682] [cursor=pointer]
+          - button "Next slide" [ref=e3683] [cursor=pointer]
+        - generic [ref=e3684]:
+          - heading "热门文章" [level=3] [ref=e3685]
+          - list [ref=e3687]:
+            - listitem [ref=e3688]:
+              - link "开源 Arkts 鸿蒙应用 开发（九）通讯--tcp客户端 9101" [ref=e3689] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/149583821
+            - listitem [ref=e3690]:
+              - link "开源 java android app 开发（十八）最新编译器Android Studio 2025.1.3.7 4609" [ref=e3691] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152941313
+            - listitem [ref=e3692]:
+              - link "AI 应用 图文 解说 (一) -- 百度智能云 实现 语音 聊天 3136" [ref=e3693] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/150934038
+            - listitem [ref=e3694]:
+              - link "开源C# .net mvc 开发（一）WEB搭建 2338" [ref=e3695] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/132823595
+            - listitem [ref=e3696]:
+              - link "开源 Objective-C IOS 应用开发（九）复杂控件-tableview 2086" [ref=e3697] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/154793330
+        - generic [ref=e3698]:
+          - heading "大家在看" [level=3] [ref=e3699]
+          - list [ref=e3701]:
+            - listitem [ref=e3702]:
+              - link "Spring Boot电子产品销售系统" [ref=e3703] [cursor=pointer]:
+                - /url: https://blog.csdn.net/LingAoXia/article/details/163498505
+            - listitem [ref=e3704]:
+              - link "AI 3秒生成即用表格 558" [ref=e3705] [cursor=pointer]:
+                - /url: https://blog.csdn.net/u012210103/article/details/163612171
+            - listitem [ref=e3706]:
+              - link "Multi-Agent商品模块开发流水线 27" [ref=e3707] [cursor=pointer]:
+                - /url: https://blog.csdn.net/liuzhupeng/article/details/163627324
+            - listitem [ref=e3708]:
+              - link "ToDesk与向日葵AI审计实测对比" [ref=e3709] [cursor=pointer]:
+                - /url: https://blog.csdn.net/stqer/article/details/163636620
+            - listitem [ref=e3710]:
+              - link "qData数据中台数据库接入指南" [ref=e3711] [cursor=pointer]:
+                - /url: https://blog.csdn.net/qiantongkeji/article/details/163537347
+        - generic [ref=e3712]:
+          - heading "最新文章" [level=3] [ref=e3713]
+          - generic [ref=e3714]:
+            - list [ref=e3715]:
+              - listitem [ref=e3716]:
+                - link "AI语音智能体开发日记（十三）一次由寄存器溢出引发的串口波特率“玄学”问题排查" [ref=e3717] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163476883
+              - listitem [ref=e3718]:
+                - link "AI语音智能体开发日记（十二）GX8006 固件定制指南——从双唤醒词到 UART 音频传输" [ref=e3719] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163475994
+              - listitem [ref=e3720]:
+                - link "AI语音智能体开发日记（十一）为智能设备“声”临其境——详解音频资源自动化生成流程" [ref=e3721] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163451971
+            - generic [ref=e3723]:
+              - link "2026年19篇" [ref=e3725] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2026&month=08
+              - link "2025年160篇" [ref=e3727] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2025&month=11
+              - link "2024年2篇" [ref=e3729] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2024&month=10
+              - link "2023年4篇" [ref=e3731] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2023&month=10
+    - complementary [ref=e3733]:
+      - generic [ref=e3734]:
+        - generic [ref=e3735] [cursor=pointer]:
+          - generic [ref=e3737]:
+            - img "C知道" [ref=e3739]
+            - paragraph [ref=e3740]: · AI 阅读助手
+          - generic [ref=e3741]:
+            - generic [ref=e3742]:
+              - generic [ref=e3744]:
+                - generic [ref=e3745]:
+                  - heading "知识延伸" [level=3] [ref=e3746]
+                  - paragraph [ref=e3747]: 读完有疑惑？就像聊天一样追问AI，挖掘博文背后的深度知识
+                  - generic [ref=e3748]:
+                    - generic [ref=e3749]: 知识图谱
+                    - generic [ref=e3750]: 模拟面试
+                    - generic [ref=e3751]: 行业动态
+                - button "一键开启AI阅读" [ref=e3753]
+                - paragraph [ref=e3754]: 开发者首选的AI阅读助手
+              - generic [ref=e3756]:
+                - generic [ref=e3757]:
+                  - heading "核心速览" [level=3] [ref=e3758]
+                  - paragraph [ref=e3759]: 文章太长没时间？AI 3秒提炼核心干货，省时80%
+                  - generic [ref=e3760]:
+                    - generic [ref=e3761]: 提炼文本
+                    - generic [ref=e3762]: 高效总结
+                    - generic [ref=e3763]: 30秒速读
+                - button "一键开启AI阅读" [ref=e3765]
+                - paragraph [ref=e3766]: 开发者首选的AI阅读助手
+              - generic [ref=e3768]:
+                - generic [ref=e3769]:
+                  - heading "代码判官" [level=3] [ref=e3770]
+                  - paragraph [ref=e3771]: 遇到复杂语法或逻辑？选中代码，AI帮你解释
+                  - generic [ref=e3772]:
+                    - generic [ref=e3773]: 代码运行
+                    - generic [ref=e3774]: 代码生成
+                    - generic [ref=e3775]: 环境配置
+                - button "一键开启AI阅读" [ref=e3777]
+                - paragraph [ref=e3778]: 开发者首选的AI阅读助手
+              - generic [ref=e3780]:
+                - generic [ref=e3781]:
+                  - heading "知识延伸" [level=3] [ref=e3782]
+                  - paragraph [ref=e3783]: 读完有疑惑？就像聊天一样追问AI，挖掘博文背后的深度知识
+                  - generic [ref=e3784]:
+                    - generic [ref=e3785]: 知识图谱
+                    - generic [ref=e3786]: 模拟面试
+                    - generic [ref=e3787]: 行业动态
+                - button "一键开启AI阅读" [ref=e3789]
+                - paragraph [ref=e3790]: 开发者首选的AI阅读助手
+              - generic [ref=e3792]:
+                - generic [ref=e3793]:
+                  - heading "核心速览" [level=3] [ref=e3794]
+                  - paragraph [ref=e3795]: 文章太长没时间？AI 3秒提炼核心干货，省时80%
+                  - generic [ref=e3796]:
+                    - generic [ref=e3797]: 提炼文本
+                    - generic [ref=e3798]: 高效总结
+                    - generic [ref=e3799]: 30秒速读
+                - button "一键开启AI阅读" [ref=e3801]
+                - paragraph [ref=e3802]: 开发者首选的AI阅读助手
+            - generic [ref=e3803]:
+              - button "Go to slide 1" [ref=e3804]
+              - button "Go to slide 2" [ref=e3805]
+              - button "Go to slide 3" [ref=e3806]
+        - generic [ref=e3809]:
+          - generic [ref=e3810] [cursor=pointer]:
+            - img [ref=e3811]
+            - generic [ref=e3812]: 新一代人工智能开源社区
+          - generic [ref=e3813]:
+            - generic [ref=e3815]:
+              - generic [ref=e3816]: 企业级模型推理API Token
+              - generic [ref=e3817]: 0/200万
+            - generic [ref=e3819]:
+              - generic [ref=e3821]:
+                - generic [ref=e3823]:
+                  - generic [ref=e3824]:
+                    - img "DeepSeek-V3.1-Base" [ref=e3826]
+                    - generic [ref=e3828]: DeepSeek-V3.1-Base
+                    - generic [ref=e3829]: 热门
+                  - generic [ref=e3830]: DeepSeek-V3.1 是一款支持思考模式与非思考模式的混合模型
+                  - generic [ref=e3831]:
+                    - generic [ref=e3834]:
+                      - generic [ref=e3835]:
+                        - img [ref=e3836]
+                        - text: "260"
+                      - generic [ref=e3838]:
+                        - img [ref=e3839]
+                        - text: "3636872"
+                    - button "立即使用" [ref=e3843] [cursor=pointer]
+                - generic [ref=e3845]:
+                  - generic [ref=e3846]:
+                    - img "Kimi-K2-Instruct" [ref=e3848]
+                    - generic [ref=e3850]: Kimi-K2-Instruct
+                    - generic [ref=e3851]: 热门
+                  - generic [ref=e3852]: Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters. Trained with the Muon optimizer, Kimi K2 achieves exceptional performance across frontier knowledge, reasoning, and coding tasks while being meticulously optimized for agentic capabilities.
+                  - generic [ref=e3853]:
+                    - generic [ref=e3856]:
+                      - generic [ref=e3857]:
+                        - img [ref=e3858]
+                        - text: "98"
+                      - generic [ref=e3860]:
+                        - img [ref=e3861]
+                        - text: "2386209"
+                    - button "立即使用" [ref=e3865] [cursor=pointer]
+                - generic [ref=e3867]:
+                  - generic [ref=e3868]:
+                    - img "Qwen-Image" [ref=e3870]
+                    - generic [ref=e3872]: Qwen-Image
+                    - generic [ref=e3873]: 热门
+                  - generic [ref=e3874]: 我们隆重推出 Qwen-Image，这是通义千问系列中的图像生成基础模型，在复杂文本渲染和精准图像编辑方面取得重大突破。
+                  - generic [ref=e3875]:
+                    - generic [ref=e3876]:
+                      - generic [ref=e3877]: 文本生成图像
+                      - generic [ref=e3878]:
+                        - generic [ref=e3879]:
+                          - img [ref=e3880]
+                          - text: "64"
+                        - generic [ref=e3882]:
+                          - img [ref=e3883]
+                          - text: "3972"
+                    - button "立即使用" [ref=e3887] [cursor=pointer]
+              - generic [ref=e3888] [cursor=pointer]:
+                - img
+              - generic [ref=e3889] [cursor=pointer]:
+                - img
+        - generic [ref=e3890]:
+          - generic [ref=e3891]:
+            - term [ref=e3892]: 上一篇：
+            - definition [ref=e3893]:
+              - link "开源 C++ QT QML 开发（三）常用控件" [ref=e3894] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152522153
+          - generic [ref=e3895]:
+            - term [ref=e3896]: 下一篇：
+            - definition [ref=e3897]:
+              - link "开源 C++ QT QML 开发（五）复杂控件--Gridview" [ref=e3898] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152551148
+        - generic [ref=e3899]:
+          - heading "分类专栏" [level=3] [ref=e3900]
+          - generic [ref=e3901]:
+            - list [ref=e3903]:
+              - listitem [ref=e3904]:
+                - link "A语音I智能体开发日记" [ref=e3905] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13194224.html
+                  - generic [ref=e3907]: A语音I智能体开发日记
+                - generic [ref=e3908]: 13篇
+              - listitem [ref=e3909]:
+                - link "AI智能体架构解析" [ref=e3910] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13193143.html
+                  - generic [ref=e3912]: AI智能体架构解析
+                - generic [ref=e3913]: 5篇
+              - listitem [ref=e3914]:
+                - link "linux C 语言快速开发实战" [ref=e3915] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12379231.html
+                  - generic [ref=e3917]: linux C 语言快速开发实战
+                - generic [ref=e3918]: 13篇
+              - listitem [ref=e3919]:
+                - link "IOS App快速开发实战" [ref=e3920] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13084003.html
+                  - generic [ref=e3922]: IOS App快速开发实战
+                - generic [ref=e3923]: 23篇
+              - listitem [ref=e3924]:
+                - link "QT QML C++ 快速开发实战" [ref=e3925] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13059580.html
+                  - generic [ref=e3927]: QT QML C++ 快速开发实战
+                - generic [ref=e3928]: 23篇
+              - listitem [ref=e3929]:
+                - link "Android App快速开发实战" [ref=e3930] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12789808.html
+                  - generic [ref=e3932]: Android App快速开发实战
+                - generic [ref=e3933]: 18篇
+              - listitem [ref=e3934]:
+                - link "Qt Widget C++ 快速开发实战" [ref=e3935] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13031409.html
+                  - generic [ref=e3937]: Qt Widget C++ 快速开发实战
+                - generic [ref=e3938]: 16篇
+              - listitem [ref=e3939]:
+                - link "Python快速开发实战" [ref=e3940] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12991936.html
+                  - generic [ref=e3942]: Python快速开发实战
+                - generic [ref=e3943]: 14篇
+              - listitem [ref=e3944]:
+                - link "C# 上位机快速开发实战" [ref=e3945] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13054046.html
+                  - generic [ref=e3947]: C# 上位机快速开发实战
+                - generic [ref=e3948]: 17篇
+              - listitem [ref=e3949]:
+                - link "HarmonyNext App快速开发实战" [ref=e3950] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12988913.html
+                  - generic [ref=e3952]: HarmonyNext App快速开发实战
+                - generic [ref=e3953]: 18篇
+              - listitem [ref=e3954]:
+                - link ".net mvc快速开发实战" [ref=e3955] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12439778.html
+                  - generic [ref=e3957]: .net mvc快速开发实战
+                - generic [ref=e3958]: 9篇
+              - listitem [ref=e3959]:
+                - link "随记" [ref=e3960] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13142363.html
+                  - generic [ref=e3962]: 随记
+                - generic [ref=e3963]: 1篇
+              - listitem [ref=e3964]:
+                - link "AI应用之图文解说" [ref=e3965] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13036788.html
+                  - generic [ref=e3967]: AI应用之图文解说
+                - generic [ref=e3968]: 2篇
+              - listitem [ref=e3969]:
+                - link "linux C 服务器与中间件" [ref=e3970] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13065877.html
+                  - generic [ref=e3972]: linux C 服务器与中间件
+                - generic [ref=e3973]: 13篇
+            - paragraph:
+              - generic [ref=e3974] [cursor=pointer]: 展开全部
+  - generic [ref=e3975]:
+    - link [ref=e3976] [cursor=pointer]:
+      - /url: https://mall.csdn.net/vip?utm_source=260618_vip_blogrighticon
+    - link [ref=e3977] [cursor=pointer]:
+      - /url: https://ai.csdn.net/chat?utm_source=cknow_pc_blogdetail&spm=1001.2101.3001.10583
+  - text: prev next

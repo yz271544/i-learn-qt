@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/ListViewGallery.qml</file>
+        <file>qml/pages/EmployeeListPage.qml</file>
+        <file>qml/pages/ProductTablePage.qml</file>
+        <file>qml/pages/OrganizationTreePage.qml</file>
+    </qresource>
+</RCC>

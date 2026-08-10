@@ -1,0 +1,3044 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "CSDN首页" [ref=e8] [cursor=pointer]:
+        - /url: https://www.csdn.net/
+        - img "CSDN首页" [ref=e9]
+      - list [ref=e10]:
+        - listitem "阅读深度、前沿文章" [ref=e11]:
+          - link "博客" [ref=e12] [cursor=pointer]:
+            - /url: https://blog.csdn.net/
+        - listitem "高价值源码课程分享" [ref=e13]:
+          - link "下载" [ref=e14] [cursor=pointer]:
+            - /url: https://download.csdn.net/
+        - listitem "DevPress官方社区" [ref=e15]:
+          - link "社区" [ref=e16] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/
+        - listitem "开源代码托管" [ref=e17]:
+          - link "AtomGit" [ref=e18] [cursor=pointer]:
+            - /url: https://link.csdn.net?target=https%3A%2F%2Fgitcode.com%3Futm_source%3Dcsdn_toolbar
+            - img [ref=e19]
+            - text: AtomGit
+        - listitem "模型市场" [ref=e20]:
+          - link "模型市场" [ref=e21] [cursor=pointer]:
+            - /url: https://ai.csdn.net/coding-plan?utm_source=xt_csdn_home_topbar
+            - img [ref=e22]
+            - text: 模型市场
+            - img [ref=e23]
+        - listitem [ref=e24]:
+          - generic [ref=e25] [cursor=pointer]: 更多
+    - generic [ref=e29]:
+      - textbox "qt gridview" [ref=e31]
+      - button "搜索" [ref=e32] [cursor=pointer]:
+        - generic [ref=e34]: 搜索
+      - paragraph [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: AI 搜索
+    - generic [ref=e38]:
+      - link [ref=e40] [cursor=pointer]:
+        - /url: https://blog.csdn.net/yz271544
+        - img [ref=e41]
+      - link "会员中心" [ref=e43] [cursor=pointer]:
+        - /url: https://mall.csdn.net/vip?utm_source=260805_vip_toolbarhyzx_hy
+        - text: 会员中心
+        - img [ref=e44]
+      - link "消息" [ref=e47] [cursor=pointer]:
+        - /url: https://i.csdn.net/#/msg/index
+        - generic [ref=e48]: 消息
+      - link "创作中心" [ref=e51] [cursor=pointer]:
+        - /url: https://mp.csdn.net
+      - link "创作" [ref=e53] [cursor=pointer]:
+        - /url: https://mp.csdn.net/edit
+      - generic [ref=e54] [cursor=pointer]:
+        - button "关闭" [ref=e55]: ×
+        - generic [ref=e56]:
+          - generic [ref=e57]: 🎁
+          - generic [ref=e58]:
+            - generic [ref=e59]: VIP会员
+            - generic [ref=e60]:
+              - text: 您有最高
+              - generic [ref=e61]: ￥30
+              - text: 算力币待领取
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "开源 C++ QT QML 开发（五）复杂控件--Gridview" [level=1] [ref=e69]
+            - generic [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: 原创
+                - generic [ref=e74]: 已于 2025-10-12 22:29:10 修改
+                - generic [ref=e75]: ·
+                - generic [ref=e76]: 1.1k 阅读
+                - generic [ref=e77] [cursor=pointer]:
+                  - generic [ref=e78]: ·
+                  - generic [ref=e79]: "30"
+                - generic [ref=e80]: ·
+                - generic [ref=e81] [cursor=pointer]: "31"
+                - generic [ref=e82]: ·
+                - generic [ref=e84] [cursor=pointer]: 本内容遵循CC 4.0 BY-SA版权协议
+                - link "GEO检测" [ref=e85] [cursor=pointer]:
+                  - /url: https://mp.csdn.net/geo?title=%E5%BC%80%E6%BA%90+C%2B%2B+QT+QML+%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%94%EF%BC%89%E5%A4%8D%E6%9D%82%E6%8E%A7%E4%BB%B6--Gridview&url=https%3A%2F%2Fblog.csdn.net%2Fajassi2000%2Farticle%2Fdetails%2F152551148&utm_source=blog_geo
+                  - generic [ref=e86]: GEO检测
+                  - img [ref=e87]
+              - generic [ref=e93]:
+                - generic [ref=e94]: 收录于
+                - generic [ref=e98] [cursor=pointer]: QT QML C++ 快速开发实战
+          - generic [ref=e100] [cursor=pointer]:
+            - generic [ref=e101]: 该文章已生成可运行项目，
+            - button "预览并下载项目源码" [ref=e102]: 预览并下载项目源码
+          - article [ref=e104]:
+            - generic [ref=e106]:
+              - paragraph [ref=e107]:
+                - text: 文章的目的为了记录使用QT QML开发学习的经历。开发流程和要点有些
+                - generic [ref=e108] [cursor=pointer]: 记忆
+                - text: 模糊，赶紧记录，防止忘记。
+              - paragraph
+              - paragraph [ref=e109]: 相关链接：
+              - paragraph [ref=e110]:
+                - link "开源 C++ QT QML 开发（一）基本介绍" [ref=e111] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152457440?spm=1011.2124.3001.6209
+              - paragraph [ref=e112]:
+                - link "开源 C++ QT QML 开发（二）工程结构" [ref=e113] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152506055?spm=1011.2124.3001.6209
+              - paragraph [ref=e114]:
+                - link "开源 C++ QT QML 开发（三）常用控件" [ref=e115] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152522153?spm=1011.2124.3001.6209
+              - paragraph [ref=e116]:
+                - link "开源 C++ QT QML 开发（四）复杂控件--Listview" [ref=e117] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152548381?spm=1011.2124.3001.6209
+              - paragraph [ref=e118]:
+                - link "开源 C++ QT QML 开发（五）复杂控件--Gridview" [ref=e119] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152551148?spm=1011.2124.3001.6209
+              - paragraph [ref=e120]:
+                - link "开源 C++ QT QML 开发（六）自定义控件--波形图" [ref=e121] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152597806?spm=1011.2124.3001.6209
+              - paragraph [ref=e122]:
+                - link "开源 C++ QT QML 开发（七）自定义控件--仪表盘" [ref=e123] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152609195?spm=1011.2124.3001.6209
+              - paragraph [ref=e124]:
+                - link "开源 C++ QT QML 开发（八）自定义控件--圆环" [ref=e125] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152656399?spm=1011.2415.3001.5331
+              - paragraph [ref=e126]:
+                - link "开源 C++ QT QML 开发（九）文件--文本和二进制" [ref=e127] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152661206?spm=1011.2415.3001.5331
+              - paragraph [ref=e128]:
+                - link "开源 C++ QT QML 开发（十）通讯--串口" [ref=e129] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152716293?spm=1011.2124.3001.6209
+              - paragraph [ref=e130]:
+                - link "开源 C++ QT QML 开发（十一）通讯--TCP服务器端" [ref=e131] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152722842?spm=1011.2124.3001.6209
+              - paragraph [ref=e132]:
+                - link "开源 C++ QT QML 开发（十二）通讯--TCP客户端" [ref=e133] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152729014?spm=1011.2124.3001.6209
+              - paragraph [ref=e134]:
+                - link "开源 C++ QT QML 开发（十三）多线程" [ref=e136] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152830073?spm=1011.2124.3001.6209
+              - paragraph [ref=e137]:
+                - link "开源 C++ QT QML 开发（十四）进程用途" [ref=e139] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152838812?spm=1011.2124.3001.6209
+              - paragraph [ref=e140]:
+                - link "开源 C++ QT QML 开发（十五）通讯--http下载" [ref=e142] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152949168?spm=1011.2124.3001.6209
+              - paragraph [ref=e143]:
+                - link "开源 C++ QT QML 开发（十六）进程--共享内存" [ref=e145] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/153107315?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph [ref=e146]: 推荐链接：
+              - paragraph [ref=e147]:
+                - link "开源 C# 快速开发（一）基础知识" [ref=e148] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152006751?spm=1011.2124.3001.6209
+              - paragraph [ref=e149]:
+                - link "开源 C# 快速开发（二）基础控件" [ref=e150] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090408?spm=1011.2124.3001.6209
+              - paragraph [ref=e151]:
+                - link "开源 C# 快速开发（三）复杂控件" [ref=e152] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090838?spm=1011.2124.3001.6209
+              - paragraph [ref=e153]:
+                - link "开源 C# 快速开发（四）自定义控件--波形图" [ref=e154] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152134428?spm=1011.2124.3001.6209
+              - paragraph [ref=e155]:
+                - link "开源 C# 快速开发（五）自定义控件--仪表盘" [ref=e156] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152137113?spm=1011.2124.3001.6209
+              - paragraph [ref=e157]:
+                - link "开源 C# 快速开发（六）自定义控件--圆环" [ref=e158] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152159713?spm=1011.2124.3001.6209
+              - paragraph [ref=e159]:
+                - link "开源 C# 快速开发（七）通讯--串口" [ref=e160] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152160245?spm=1011.2124.3001.6209
+              - paragraph [ref=e161]:
+                - link "开源 C# 快速开发（八）通讯--Tcp服务器端" [ref=e162] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152216663?spm=1011.2124.3001.6209
+              - paragraph [ref=e163]:
+                - link "开源 C# 快速开发（九）通讯--Tcp客户端" [ref=e164] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152217276?spm=1011.2124.3001.6209
+              - paragraph [ref=e165]:
+                - link "开源 C# 快速开发（十）通讯--http客户端" [ref=e166] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152218758?spm=1011.2124.3001.6209
+              - paragraph [ref=e167]:
+                - link "开源 C# 快速开发（十一）线程" [ref=e168] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280575?spm=1011.2124.3001.6209
+              - paragraph [ref=e169]:
+                - link "开源 C# 快速开发（十二）进程监控" [ref=e170] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280853?spm=1011.2124.3001.6209
+              - paragraph [ref=e171]:
+                - link "开源 C# 快速开发（十三）进程--管道通讯" [ref=e172] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152335963?spm=1011.2124.3001.6209
+              - paragraph [ref=e173]:
+                - link "开源 C# 快速开发（十四）进程--内存映射" [ref=e174] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152358473?spm=1011.2124.3001.6209
+              - paragraph [ref=e175]:
+                - link "开源 C# 快速开发（十五）进程--windows消息" [ref=e176] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152373469?spm=1011.2124.3001.6209
+              - paragraph [ref=e177]:
+                - link "开源 C# 快速开发（十六）数据库--sqlserver增删改查" [ref=e178] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152419592?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph
+              - paragraph [ref=e179]: 本章节主要内容是:介绍复杂控件GridView 的使用方法，GridView 是一个用于显示网格布局数据的视图组件，非常适合显示图片库、图标集合等网格状内容。
+              - paragraph [ref=e180]: 1.代码分析
+              - paragraph [ref=e181]: 2.所有源码
+              - paragraph [ref=e182]: 3.效果演示
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph [ref=e183]: 一、代码分析
+              - paragraph [ref=e184]:
+                - text: 1. C++ 后端 (ImageLoader 类)
+                - text: 类定义分析
+              - generic [ref=e185]:
+                - code [ref=e186]:
+                  - list [ref=e187]:
+                    - listitem [ref=e188]:
+                      - generic [ref=e190]: "1"
+                      - generic [ref=e193]: "class ImageLoader : public QObject"
+                    - listitem [ref=e194]:
+                      - generic [ref=e196]: "2"
+                      - generic [ref=e198]: "{"
+                    - listitem [ref=e199]:
+                      - generic [ref=e201]: "3"
+                      - generic [ref=e203]: Q_OBJECT
+                    - listitem [ref=e204]:
+                      - generic [ref=e206]: "4"
+                      - generic [ref=e208]: Q_PROPERTY(QString currentFolder READ currentFolder NOTIFY currentFolderChanged)
+                - generic [ref=e209]:
+                  - button "运行项目并下载源码" [ref=e210] [cursor=pointer]
+                  - generic [ref=e211] [cursor=pointer]: 复制
+              - paragraph [ref=e212]: 继承自 QObject，支持 Qt 的元对象系统
+              - paragraph [ref=e213]: Q_PROPERTY 声明了可在 QML 中访问的 currentFolder 属性
+              - paragraph
+              - paragraph [ref=e214]: 成员函数分析
+              - paragraph [ref=e215]: loadImages(const QString &folderPath)
+              - generic [ref=e216]:
+                - code [ref=e217]:
+                  - list [ref=e218]:
+                    - listitem [ref=e219]:
+                      - generic [ref=e221]: "1"
+                      - generic [ref=e223]: void ImageLoader::loadImages(const QString &folderPath)
+                    - listitem [ref=e224]:
+                      - generic [ref=e226]: "2"
+                      - generic [ref=e228]: "{"
+                    - listitem [ref=e229]:
+                      - generic [ref=e231]: "3"
+                      - generic [ref=e233]: QDir directory(folderPath);
+                    - listitem [ref=e234]:
+                      - generic [ref=e236]: "4"
+                      - generic [ref=e238]: // 检查文件夹是否存在
+                    - listitem [ref=e239]:
+                      - generic [ref=e241]: "5"
+                      - generic [ref=e243]: "if (!directory.exists()) {"
+                    - listitem [ref=e244]:
+                      - generic [ref=e246]: "6"
+                      - generic [ref=e248]: qWarning() << "文件夹不存在:" << folderPath;
+                    - listitem [ref=e249]:
+                      - generic [ref=e251]: "7"
+                      - generic [ref=e253]: return;
+                    - listitem [ref=e254]:
+                      - generic [ref=e256]: "8"
+                      - generic [ref=e258]: "}"
+                    - listitem [ref=e259]:
+                      - generic [ref=e261]: "9"
+                    - listitem [ref=e264]:
+                      - generic [ref=e266]: "10"
+                      - generic [ref=e268]: m_currentFolder = directory.dirName();
+                    - listitem [ref=e269]:
+                      - generic [ref=e271]: "11"
+                      - generic [ref=e273]: emit currentFolderChanged(m_currentFolder);
+                    - listitem [ref=e274]:
+                      - generic [ref=e276]: "12"
+                    - listitem [ref=e279]:
+                      - generic [ref=e281]: "13"
+                      - generic [ref=e283]: // 设置图片过滤器
+                    - listitem [ref=e284]:
+                      - generic [ref=e286]: "14"
+                      - generic [ref=e288]: QStringList imageFilters;
+                    - listitem [ref=e289]:
+                      - generic [ref=e291]: "15"
+                      - generic [ref=e293]: imageFilters << "*.jpg" << "*.jpeg" << "*.png" << "*.bmp" << "*.gif" << "*.webp";
+                    - listitem [ref=e294]:
+                      - generic [ref=e296]: "16"
+                    - listitem [ref=e299]:
+                      - generic [ref=e301]: "17"
+                      - generic [ref=e303]: // 获取文件列表并按名称排序
+                    - listitem [ref=e304]:
+                      - generic [ref=e306]: "18"
+                      - generic [ref=e308]: QFileInfoList fileList = directory.entryInfoList(imageFilters, QDir::Files, QDir::Name);
+                    - listitem [ref=e309]:
+                      - generic [ref=e311]: "19"
+                    - listitem [ref=e314]:
+                      - generic [ref=e316]: "20"
+                      - generic [ref=e318]: // 遍历所有图片文件
+                    - listitem [ref=e319]:
+                      - generic [ref=e321]: "21"
+                      - generic [ref=e323]: "for (const QFileInfo &fileInfo : fileList) {"
+                    - listitem [ref=e324]:
+                      - generic [ref=e326]: "22"
+                      - generic [ref=e328]: QString name = fileInfo.fileName();
+                    - listitem [ref=e329]:
+                      - generic [ref=e331]: "23"
+                      - generic [ref=e333]: QString path = fileInfo.absoluteFilePath();
+                    - listitem [ref=e334]:
+                      - generic [ref=e336]: "24"
+                      - generic [ref=e338]: QString size = formatFileSize(fileInfo.size());
+                    - listitem [ref=e339]:
+                      - generic [ref=e341]: "25"
+                      - generic [ref=e343]: QString date = fileInfo.lastModified().toString("yyyy-MM-dd hh:mm:ss");
+                    - listitem [ref=e344]:
+                      - generic [ref=e346]: "26"
+                    - listitem [ref=e349]:
+                      - generic [ref=e351]: "27"
+                      - generic [ref=e353]: emit imageFound(name, path, size, date);
+                    - listitem [ref=e354]:
+                      - generic [ref=e356]: "28"
+                      - generic [ref=e358]: "}"
+                    - listitem [ref=e359]:
+                      - generic [ref=e361]: "29"
+                      - generic [ref=e363]: "}"
+                - generic [ref=e364]:
+                  - button "运行项目并下载源码" [ref=e365] [cursor=pointer]
+                  - generic [ref=e366] [cursor=pointer]: 复制
+                - generic [ref=e368] [cursor=pointer]: 展开
+              - paragraph [ref=e369]:
+                - text: 功能：加载指定文件夹中的所有图片文件
+                - text: 流程：
+              - paragraph [ref=e370]: 验证文件夹存在性
+              - paragraph [ref=e371]: 更新当前文件夹属性并发出信号
+              - paragraph [ref=e372]: 设置支持的图片格式过滤器
+              - paragraph [ref=e373]: 获取排序后的文件列表
+              - paragraph [ref=e374]: 遍历文件，提取信息并发出信号
+              - paragraph
+              - paragraph [ref=e375]: loadSingleImage(const QString &filePath)
+              - generic [ref=e376]:
+                - code [ref=e377]:
+                  - list [ref=e378]:
+                    - listitem [ref=e379]:
+                      - generic [ref=e381]: "1"
+                      - generic [ref=e383]: void ImageLoader::loadSingleImage(const QString &filePath)
+                    - listitem [ref=e384]:
+                      - generic [ref=e386]: "2"
+                      - generic [ref=e388]: "{"
+                    - listitem [ref=e389]:
+                      - generic [ref=e391]: "3"
+                      - generic [ref=e393]: QFileInfo fileInfo(filePath);
+                    - listitem [ref=e394]:
+                      - generic [ref=e396]: "4"
+                      - generic [ref=e398]: "if (!fileInfo.exists()) {"
+                    - listitem [ref=e399]:
+                      - generic [ref=e401]: "5"
+                      - generic [ref=e403]: qWarning() << "文件不存在:" << filePath;
+                    - listitem [ref=e404]:
+                      - generic [ref=e406]: "6"
+                      - generic [ref=e408]: return;
+                    - listitem [ref=e409]:
+                      - generic [ref=e411]: "7"
+                      - generic [ref=e413]: "}"
+                    - listitem [ref=e414]:
+                      - generic [ref=e416]: "8"
+                    - listitem [ref=e419]:
+                      - generic [ref=e421]: "9"
+                      - generic [ref=e423]: m_currentFolder = "单个文件";
+                    - listitem [ref=e424]:
+                      - generic [ref=e426]: "10"
+                      - generic [ref=e428]: emit currentFolderChanged(m_currentFolder);
+                    - listitem [ref=e429]:
+                      - generic [ref=e431]: "11"
+                    - listitem [ref=e434]:
+                      - generic [ref=e436]: "12"
+                      - generic [ref=e438]: // 提取单个文件信息并发出信号
+                    - listitem [ref=e439]:
+                      - generic [ref=e441]: "13"
+                      - generic [ref=e443]: QString name = fileInfo.fileName();
+                    - listitem [ref=e444]:
+                      - generic [ref=e446]: "14"
+                      - generic [ref=e448]: QString path = fileInfo.absoluteFilePath();
+                    - listitem [ref=e449]:
+                      - generic [ref=e451]: "15"
+                      - generic [ref=e453]: QString size = formatFileSize(fileInfo.size());
+                    - listitem [ref=e454]:
+                      - generic [ref=e456]: "16"
+                      - generic [ref=e458]: QString date = fileInfo.lastModified().toString("yyyy-MM-dd hh:mm:ss");
+                    - listitem [ref=e459]:
+                      - generic [ref=e461]: "17"
+                    - listitem [ref=e464]:
+                      - generic [ref=e466]: "18"
+                      - generic [ref=e468]: emit imageFound(name, path, size, date);
+                    - listitem [ref=e469]:
+                      - generic [ref=e471]: "19"
+                      - generic [ref=e473]: "}"
+                - generic [ref=e474]:
+                  - button "运行项目并下载源码" [ref=e475] [cursor=pointer]
+                  - generic [ref=e476] [cursor=pointer]: 复制
+                - generic [ref=e478] [cursor=pointer]: 展开
+              - paragraph [ref=e479]:
+                - text: 功能：加载单个图片文件
+                - text: 特点：设置特殊文件夹名称"单个文件"
+              - paragraph
+              - paragraph [ref=e480]: formatFileSize(qint64 bytes)
+              - generic [ref=e481]:
+                - code [ref=e482]:
+                  - list [ref=e483]:
+                    - listitem [ref=e484]:
+                      - generic [ref=e486]: "1"
+                      - generic [ref=e488]: QString ImageLoader::formatFileSize(qint64 bytes)
+                    - listitem [ref=e489]:
+                      - generic [ref=e491]: "2"
+                      - generic [ref=e493]: "{"
+                    - listitem [ref=e494]:
+                      - generic [ref=e496]: "3"
+                      - generic [ref=e498]: "if (bytes < 1024) {"
+                    - listitem [ref=e499]:
+                      - generic [ref=e501]: "4"
+                      - generic [ref=e503]: return QString::number(bytes) + " B";
+                    - listitem [ref=e504]:
+                      - generic [ref=e506]: "5"
+                      - generic [ref=e508]: "} else if (bytes < 1024 * 1024) {"
+                    - listitem [ref=e509]:
+                      - generic [ref=e511]: "6"
+                      - generic [ref=e513]: return QString::number(bytes / 1024.0, 'f', 1) + " KB";
+                    - listitem [ref=e514]:
+                      - generic [ref=e516]: "7"
+                      - generic [ref=e518]: "} else {"
+                    - listitem [ref=e519]:
+                      - generic [ref=e521]: "8"
+                      - generic [ref=e523]: return QString::number(bytes / (1024.0 * 1024.0), 'f', 1) + " MB";
+                    - listitem [ref=e524]:
+                      - generic [ref=e526]: "9"
+                      - generic [ref=e528]: "}"
+                    - listitem [ref=e529]:
+                      - generic [ref=e531]: "10"
+                      - generic [ref=e533]: "}"
+                - generic [ref=e534]:
+                  - button "运行项目并下载源码" [ref=e535] [cursor=pointer]
+                  - generic [ref=e536] [cursor=pointer]: 复制
+                - generic [ref=e538] [cursor=pointer]: 展开
+              - paragraph [ref=e539]:
+                - text: 功能：将字节数转换为易读的文件大小格式
+                - text: 转换规则：
+              - paragraph [ref=e540]: < 1024B：显示为 B
+              - paragraph [ref=e541]: 1024B ~ 1MB：显示为 KB（保留1位小数）
+              - paragraph [ref=e542]: ≥ 1MB：显示为 MB（保留1位小数）
+              - paragraph
+              - paragraph [ref=e543]:
+                - text: 2. QML 前端分析
+                - text: 主要窗口组件
+                - text: 图片预览窗口 (imagePreviewWindow)
+              - generic [ref=e544]:
+                - code [ref=e545]:
+                  - list [ref=e546]:
+                    - listitem [ref=e547]:
+                      - generic [ref=e549]: "1"
+                      - generic [ref=e551]: "Window {"
+                    - listitem [ref=e552]:
+                      - generic [ref=e554]: "2"
+                      - generic [ref=e556]: "id: imagePreviewWindow"
+                    - listitem [ref=e557]:
+                      - generic [ref=e559]: "3"
+                      - generic [ref=e561]: // 模态对话框，阻止主窗口交互
+                    - listitem [ref=e562]:
+                      - generic [ref=e564]: "4"
+                      - generic [ref=e566]: "flags: Qt.Dialog"
+                    - listitem [ref=e567]:
+                      - generic [ref=e569]: "5"
+                      - generic [ref=e571]: "modality: Qt.ApplicationModal"
+                    - listitem [ref=e572]:
+                      - generic [ref=e574]: "6"
+                      - generic [ref=e576]: "}"
+                - generic [ref=e577]:
+                  - button "运行项目并下载源码" [ref=e578] [cursor=pointer]
+                  - generic [ref=e579] [cursor=pointer]: 复制
+              - paragraph [ref=e580]:
+                - text: 功能：提供大图预览界面
+                - text: 特性：
+              - paragraph [ref=e581]: 模态对话框
+              - paragraph [ref=e582]: 支持上一张/下一张导航
+              - paragraph [ref=e583]: 异步图片加载
+              - paragraph [ref=e584]: 网格视图 (GridView)
+              - generic [ref=e585]:
+                - code [ref=e586]:
+                  - list [ref=e587]:
+                    - listitem [ref=e588]:
+                      - generic [ref=e590]: "1"
+                      - generic [ref=e592]: "GridView {"
+                    - listitem [ref=e593]:
+                      - generic [ref=e595]: "2"
+                      - generic [ref=e597]: "id: gridView"
+                    - listitem [ref=e598]:
+                      - generic [ref=e600]: "3"
+                      - generic [ref=e602]: "model: imageModel"
+                    - listitem [ref=e603]:
+                      - generic [ref=e605]: "4"
+                      - generic [ref=e607]: "cellWidth: 200"
+                    - listitem [ref=e608]:
+                      - generic [ref=e610]: "5"
+                      - generic [ref=e612]: "cellHeight: 220"
+                    - listitem [ref=e613]:
+                      - generic [ref=e615]: "6"
+                      - generic [ref=e617]: // 关键属性：启用裁剪，防止内容溢出
+                    - listitem [ref=e618]:
+                      - generic [ref=e620]: "7"
+                      - generic [ref=e622]: "clip: true"
+                    - listitem [ref=e623]:
+                      - generic [ref=e625]: "8"
+                      - generic [ref=e627]: "}"
+                - generic [ref=e628]:
+                  - button "运行项目并下载源码" [ref=e629] [cursor=pointer]
+                  - generic [ref=e630] [cursor=pointer]: 复制
+              - paragraph [ref=e631]:
+                - text: 布局：网格布局显示图片缩略图
+                - generic [ref=e632] [cursor=pointer]: 性能优化
+                - text: ：只渲染可见区域的项
+              - paragraph [ref=e633]:
+                - text: 关键 JavaScript 函数
+                - text: folderToString(url)
+              - generic [ref=e634]:
+                - code [ref=e635]:
+                  - list [ref=e636]:
+                    - listitem [ref=e637]:
+                      - generic [ref=e639]: "1"
+                      - generic [ref=e641]: "function folderToString(url) {"
+                    - listitem [ref=e642]:
+                      - generic [ref=e644]: "2"
+                      - generic [ref=e646]: var path = url.toString()
+                    - listitem [ref=e647]:
+                      - generic [ref=e649]: "3"
+                      - generic [ref=e651]: // 移除 file:/// 前缀
+                    - listitem [ref=e652]:
+                      - generic [ref=e654]: "4"
+                      - generic [ref=e656]: "if (path.startsWith(\"file:///\")) {"
+                    - listitem [ref=e657]:
+                      - generic [ref=e659]: "5"
+                      - generic [ref=e661]: path = path.substring(8)
+                    - listitem [ref=e662]:
+                      - generic [ref=e664]: "6"
+                      - generic [ref=e666]: "}"
+                    - listitem [ref=e667]:
+                      - generic [ref=e669]: "7"
+                      - generic [ref=e671]: // 路径格式标准化
+                    - listitem [ref=e672]:
+                      - generic [ref=e674]: "8"
+                      - generic [ref=e676]: path = path.replace(/\\/g, "/")
+                    - listitem [ref=e677]:
+                      - generic [ref=e679]: "9"
+                      - generic [ref=e681]: return path
+                    - listitem [ref=e682]:
+                      - generic [ref=e684]: "10"
+                      - generic [ref=e686]: "}"
+                - generic [ref=e687]:
+                  - button "运行项目并下载源码" [ref=e688] [cursor=pointer]
+                  - generic [ref=e689] [cursor=pointer]: 复制
+                - generic [ref=e691] [cursor=pointer]: 展开
+              - paragraph [ref=e692]:
+                - text: 功能：将 QUrl 转换为文件系统路径
+                - text: 处理逻辑：
+              - paragraph [ref=e693]: 移除 file:/// 协议前缀
+              - paragraph [ref=e694]: 统一路径分隔符为 /
+              - paragraph [ref=e695]: showPreviousImage() 和 showNextImage()
+              - generic [ref=e696]:
+                - code [ref=e697]:
+                  - list [ref=e698]:
+                    - listitem [ref=e699]:
+                      - generic [ref=e701]: "1"
+                      - generic [ref=e703]: "function showNextImage() {"
+                    - listitem [ref=e704]:
+                      - generic [ref=e706]: "2"
+                      - generic [ref=e708]: var currentIndex = -1
+                    - listitem [ref=e709]:
+                      - generic [ref=e711]: "3"
+                      - generic [ref=e713]: // 查找当前图片在模型中的索引
+                    - listitem [ref=e714]:
+                      - generic [ref=e716]: "4"
+                      - generic [ref=e718]: "for (var i = 0; i < imageModel.count; i++) {"
+                    - listitem [ref=e719]:
+                      - generic [ref=e721]: "5"
+                      - generic [ref=e723]: "if (imageModel.get(i).path === imagePreviewWindow.imageSource.replace(\"file:///\", \"\")) {"
+                    - listitem [ref=e724]:
+                      - generic [ref=e726]: "6"
+                      - generic [ref=e728]: currentIndex = i
+                    - listitem [ref=e729]:
+                      - generic [ref=e731]: "7"
+                      - generic [ref=e733]: break
+                    - listitem [ref=e734]:
+                      - generic [ref=e736]: "8"
+                      - generic [ref=e738]: "}"
+                    - listitem [ref=e739]:
+                      - generic [ref=e741]: "9"
+                      - generic [ref=e743]: "}"
+                    - listitem [ref=e744]:
+                      - generic [ref=e746]: "10"
+                      - generic [ref=e748]: // 显示下一张图片
+                    - listitem [ref=e749]:
+                      - generic [ref=e751]: "11"
+                      - generic [ref=e753]: "if (currentIndex < imageModel.count - 1) {"
+                    - listitem [ref=e754]:
+                      - generic [ref=e756]: "12"
+                      - generic [ref=e758]: var nextImage = imageModel.get(currentIndex + 1)
+                    - listitem [ref=e759]:
+                      - generic [ref=e761]: "13"
+                      - generic [ref=e763]: imagePreviewWindow.imageSource = "file:///" + nextImage.path
+                    - listitem [ref=e764]:
+                      - generic [ref=e766]: "14"
+                      - generic [ref=e768]: imagePreviewWindow.imageName = nextImage.name
+                    - listitem [ref=e769]:
+                      - generic [ref=e771]: "15"
+                      - generic [ref=e773]: "}"
+                    - listitem [ref=e774]:
+                      - generic [ref=e776]: "16"
+                      - generic [ref=e778]: "}"
+                - generic [ref=e779]:
+                  - button "运行项目并下载源码" [ref=e780] [cursor=pointer]
+                  - generic [ref=e781] [cursor=pointer]: 复制
+                - generic [ref=e783] [cursor=pointer]: 展开
+              - paragraph [ref=e784]:
+                - text: 功能：实现图片导航
+                - text: 算法：
+              - paragraph [ref=e785]: 遍历模型查找当前图片索引
+              - paragraph [ref=e786]: 计算相邻索引
+              - paragraph [ref=e787]: 更新预览窗口内容
+              - paragraph [ref=e788]:
+                - text: 交互功能
+                - text: 图片项委托 (delegate)
+              - generic [ref=e789]:
+                - code [ref=e790]:
+                  - list [ref=e791]:
+                    - listitem [ref=e792]:
+                      - generic [ref=e794]: "1"
+                      - generic [ref=e796]: "MouseArea {"
+                    - listitem [ref=e797]:
+                      - generic [ref=e799]: "2"
+                      - generic [ref=e801]: "anchors.fill: parent"
+                    - listitem [ref=e802]:
+                      - generic [ref=e804]: "3"
+                      - generic [ref=e806]: "hoverEnabled: true"
+                    - listitem [ref=e807]:
+                      - generic [ref=e809]: "4"
+                      - generic [ref=e811]: "acceptedButtons: Qt.LeftButton | Qt.RightButton"
+                    - listitem [ref=e812]:
+                      - generic [ref=e814]: "5"
+                      - generic [ref=e816]: "onClicked: {"
+                    - listitem [ref=e817]:
+                      - generic [ref=e819]: "6"
+                      - generic [ref=e821]: "if (mouse.button === Qt.LeftButton) {"
+                    - listitem [ref=e822]:
+                      - generic [ref=e824]: "7"
+                      - generic [ref=e826]: // 左键：选择/取消选择
+                    - listitem [ref=e827]:
+                      - generic [ref=e829]: "8"
+                      - generic [ref=e831]: parent.selected = !parent.selected
+                    - listitem [ref=e832]:
+                      - generic [ref=e834]: "9"
+                      - generic [ref=e836]: "} else if (mouse.button === Qt.RightButton) {"
+                    - listitem [ref=e837]:
+                      - generic [ref=e839]: "10"
+                      - generic [ref=e841]: // 右键：快速预览
+                    - listitem [ref=e842]:
+                      - generic [ref=e844]: "11"
+                      - generic [ref=e846]: imagePreviewWindow.imageSource = "file:///" + model.path
+                    - listitem [ref=e847]:
+                      - generic [ref=e849]: "12"
+                      - generic [ref=e851]: imagePreviewWindow.imageName = model.name
+                    - listitem [ref=e852]:
+                      - generic [ref=e854]: "13"
+                      - generic [ref=e856]: imagePreviewWindow.show()
+                    - listitem [ref=e857]:
+                      - generic [ref=e859]: "14"
+                      - generic [ref=e861]: "}"
+                    - listitem [ref=e862]:
+                      - generic [ref=e864]: "15"
+                      - generic [ref=e866]: "}"
+                    - listitem [ref=e867]:
+                      - generic [ref=e869]: "16"
+                      - generic [ref=e871]: "onDoubleClicked: {"
+                    - listitem [ref=e872]:
+                      - generic [ref=e874]: "17"
+                      - generic [ref=e876]: // 双击：打开预览窗口
+                    - listitem [ref=e877]:
+                      - generic [ref=e879]: "18"
+                      - generic [ref=e881]: imagePreviewWindow.show()
+                    - listitem [ref=e882]:
+                      - generic [ref=e884]: "19"
+                      - generic [ref=e886]: "}"
+                    - listitem [ref=e887]:
+                      - generic [ref=e889]: "20"
+                      - generic [ref=e891]: "}"
+                - generic [ref=e892]:
+                  - button "运行项目并下载源码" [ref=e893] [cursor=pointer]
+                  - generic [ref=e894] [cursor=pointer]: 复制
+                - generic [ref=e896] [cursor=pointer]: 展开
+              - paragraph [ref=e897]: 交互设计：
+              - paragraph [ref=e898]: 左键单击：选择图片
+              - paragraph [ref=e899]: 右键单击：快速预览
+              - paragraph [ref=e900]: 双击：打开预览窗口
+              - paragraph [ref=e901]: 悬停：缩放效果
+              - paragraph
+              - paragraph [ref=e902]:
+                - text: 3. 数据流分析
+                - text: 信号-槽连接
+              - generic [ref=e903]:
+                - code [ref=e904]:
+                  - list [ref=e905]:
+                    - listitem [ref=e906]:
+                      - generic [ref=e908]: "1"
+                      - generic [ref=e910]: "Connections {"
+                    - listitem [ref=e911]:
+                      - generic [ref=e913]: "2"
+                      - generic [ref=e915]: "target: imageLoader"
+                    - listitem [ref=e916]:
+                      - generic [ref=e918]: "3"
+                      - generic [ref=e920]: "onImageFound: {"
+                    - listitem [ref=e921]:
+                      - generic [ref=e923]: "4"
+                      - generic [ref=e925]: "imageModel.append({"
+                    - listitem [ref=e926]:
+                      - generic [ref=e928]: "5"
+                      - generic [ref=e930]: "name: name,"
+                    - listitem [ref=e931]:
+                      - generic [ref=e933]: "6"
+                      - generic [ref=e935]: "path: path,"
+                    - listitem [ref=e936]:
+                      - generic [ref=e938]: "7"
+                      - generic [ref=e940]: "size: size,"
+                    - listitem [ref=e941]:
+                      - generic [ref=e943]: "8"
+                      - generic [ref=e945]: "date: date"
+                    - listitem [ref=e946]:
+                      - generic [ref=e948]: "9"
+                      - generic [ref=e950]: "})"
+                    - listitem [ref=e951]:
+                      - generic [ref=e953]: "10"
+                      - generic [ref=e955]: "}"
+                    - listitem [ref=e956]:
+                      - generic [ref=e958]: "11"
+                      - generic [ref=e960]: "onCurrentFolderChanged: {"
+                    - listitem [ref=e961]:
+                      - generic [ref=e963]: "12"
+                      - generic [ref=e965]: imageModel.clear() // 切换文件夹时清空模型
+                    - listitem [ref=e966]:
+                      - generic [ref=e968]: "13"
+                      - generic [ref=e970]: "}"
+                    - listitem [ref=e971]:
+                      - generic [ref=e973]: "14"
+                      - generic [ref=e975]: "}"
+                - generic [ref=e976]:
+                  - button "运行项目并下载源码" [ref=e977] [cursor=pointer]
+                  - generic [ref=e978] [cursor=pointer]: 复制
+                - generic [ref=e980] [cursor=pointer]: 展开
+              - paragraph [ref=e981]:
+                - text: 数据流程：
+                - text: 用户操作 → 打开文件夹/文件
+              - paragraph [ref=e982]: C++ 处理 → ImageLoader 扫描文件系统
+              - paragraph [ref=e983]: 信号发射 → imageFound 携带文件信息
+              - paragraph [ref=e984]: QML 响应 → 更新 ListModel
+              - paragraph [ref=e985]: 界面更新 → GridView 重新渲染
+              - paragraph
+              - paragraph
+              - paragraph [ref=e986]: 二、所有源码
+              - paragraph [ref=e987]: 总共有4个文件
+              - paragraph [ref=e988]
+              - paragraph
+              - paragraph [ref=e989]:
+                - generic [ref=e990] [cursor=pointer]: main
+                - text: .qml文件源码
+              - generic [ref=e992]:
+                - code [ref=e993]:
+                  - list [ref=e994]:
+                    - listitem [ref=e995]:
+                      - generic [ref=e997]: "1"
+                      - generic [ref=e999]: import QtQuick 2.14
+                    - listitem [ref=e1000]:
+                      - generic [ref=e1002]: "2"
+                      - generic [ref=e1004]: import QtQuick.Window 2.14
+                    - listitem [ref=e1005]:
+                      - generic [ref=e1007]: "3"
+                      - generic [ref=e1009]: import QtQuick.Controls 2.14
+                    - listitem [ref=e1010]:
+                      - generic [ref=e1012]: "4"
+                      - generic [ref=e1014]: import QtQuick.Dialogs 1.3
+                    - listitem [ref=e1015]:
+                      - generic [ref=e1017]: "5"
+                      - generic [ref=e1019]: import Qt.labs.platform 1.1
+                    - listitem [ref=e1020]:
+                      - generic [ref=e1022]: "6"
+                      - generic [ref=e1024]: import QtQuick.Layouts 1.14
+                    - listitem [ref=e1025]:
+                      - generic [ref=e1027]: "7"
+                    - listitem [ref=e1030]:
+                      - generic [ref=e1032]: "8"
+                      - generic [ref=e1034]: "Window {"
+                    - listitem [ref=e1035]:
+                      - generic [ref=e1037]: "9"
+                      - generic [ref=e1039]: "width: 1000"
+                    - listitem [ref=e1040]:
+                      - generic [ref=e1042]: "10"
+                      - generic [ref=e1044]: "height: 700"
+                    - listitem [ref=e1045]:
+                      - generic [ref=e1047]: "11"
+                      - generic [ref=e1049]: "visible: true"
+                    - listitem [ref=e1050]:
+                      - generic [ref=e1052]: "12"
+                      - generic [ref=e1054]: "title: \"图片浏览器\""
+                    - listitem [ref=e1055]:
+                      - generic [ref=e1057]: "13"
+                    - listitem [ref=e1060]:
+                      - generic [ref=e1062]: "14"
+                      - generic [ref=e1064]: // 图片模型
+                    - listitem [ref=e1065]:
+                      - generic [ref=e1067]: "15"
+                      - generic [ref=e1069]: "ListModel {"
+                    - listitem [ref=e1070]:
+                      - generic [ref=e1072]: "16"
+                      - generic [ref=e1074]: "id: imageModel"
+                    - listitem [ref=e1075]:
+                      - generic [ref=e1077]: "17"
+                      - generic [ref=e1079]: "}"
+                    - listitem [ref=e1080]:
+                      - generic [ref=e1082]: "18"
+                    - listitem [ref=e1085]:
+                      - generic [ref=e1087]: "19"
+                      - generic [ref=e1089]: // 图片预览窗口
+                    - listitem [ref=e1090]:
+                      - generic [ref=e1092]: "20"
+                      - generic [ref=e1094]: "Window {"
+                    - listitem [ref=e1095]:
+                      - generic [ref=e1097]: "21"
+                      - generic [ref=e1099]: "id: imagePreviewWindow"
+                    - listitem [ref=e1100]:
+                      - generic [ref=e1102]: "22"
+                      - generic [ref=e1104]: "width: 800"
+                    - listitem [ref=e1105]:
+                      - generic [ref=e1107]: "23"
+                      - generic [ref=e1109]: "height: 600"
+                    - listitem [ref=e1110]:
+                      - generic [ref=e1112]: "24"
+                      - generic [ref=e1114]: "title: \"图片预览\""
+                    - listitem [ref=e1115]:
+                      - generic [ref=e1117]: "25"
+                      - generic [ref=e1119]: "flags: Qt.Dialog"
+                    - listitem [ref=e1120]:
+                      - generic [ref=e1122]: "26"
+                      - generic [ref=e1124]: "modality: Qt.ApplicationModal"
+                    - listitem [ref=e1125]:
+                      - generic [ref=e1127]: "27"
+                      - generic [ref=e1129]: "visible: false"
+                    - listitem [ref=e1130]:
+                      - generic [ref=e1132]: "28"
+                    - listitem [ref=e1135]:
+                      - generic [ref=e1137]: "29"
+                      - generic [ref=e1139]: "property string imageSource: \"\""
+                    - listitem [ref=e1140]:
+                      - generic [ref=e1142]: "30"
+                      - generic [ref=e1144]: "property string imageName: \"\""
+                    - listitem [ref=e1145]:
+                      - generic [ref=e1147]: "31"
+                    - listitem [ref=e1150]:
+                      - generic [ref=e1152]: "32"
+                      - generic [ref=e1154]: "Rectangle {"
+                    - listitem [ref=e1155]:
+                      - generic [ref=e1157]: "33"
+                      - generic [ref=e1159]: "anchors.fill: parent"
+                    - listitem [ref=e1160]:
+                      - generic [ref=e1162]: "34"
+                      - generic [ref=e1164]: "color: \"#2c3e50\""
+                    - listitem [ref=e1165]:
+                      - generic [ref=e1167]: "35"
+                    - listitem [ref=e1170]:
+                      - generic [ref=e1172]: "36"
+                      - generic [ref=e1174]: "ColumnLayout {"
+                    - listitem [ref=e1175]:
+                      - generic [ref=e1177]: "37"
+                      - generic [ref=e1179]: "anchors.fill: parent"
+                    - listitem [ref=e1180]:
+                      - generic [ref=e1182]: "38"
+                      - generic [ref=e1184]: "anchors.margins: 10"
+                    - listitem [ref=e1185]:
+                      - generic [ref=e1187]: "39"
+                      - generic [ref=e1189]: "spacing: 10"
+                    - listitem [ref=e1190]:
+                      - generic [ref=e1192]: "40"
+                    - listitem [ref=e1195]:
+                      - generic [ref=e1197]: "41"
+                      - generic [ref=e1199]: // 标题
+                    - listitem [ref=e1200]:
+                      - generic [ref=e1202]: "42"
+                      - generic [ref=e1204]: "Text {"
+                    - listitem [ref=e1205]:
+                      - generic [ref=e1207]: "43"
+                      - generic [ref=e1209]: "text: imagePreviewWindow.imageName"
+                    - listitem [ref=e1210]:
+                      - generic [ref=e1212]: "44"
+                      - generic [ref=e1214]: "color: \"white\""
+                    - listitem [ref=e1215]:
+                      - generic [ref=e1217]: "45"
+                      - generic [ref=e1219]: "font.pixelSize: 18"
+                    - listitem [ref=e1220]:
+                      - generic [ref=e1222]: "46"
+                      - generic [ref=e1224]: "font.bold: true"
+                    - listitem [ref=e1225]:
+                      - generic [ref=e1227]: "47"
+                      - generic [ref=e1229]: "Layout.alignment: Qt.AlignHCenter"
+                    - listitem [ref=e1230]:
+                      - generic [ref=e1232]: "48"
+                      - generic [ref=e1234]: "}"
+                    - listitem [ref=e1235]:
+                      - generic [ref=e1237]: "49"
+                    - listitem [ref=e1240]:
+                      - generic [ref=e1242]: "50"
+                      - generic [ref=e1244]: // 图片显示区域
+                    - listitem [ref=e1245]:
+                      - generic [ref=e1247]: "51"
+                      - generic [ref=e1249]: "Rectangle {"
+                    - listitem [ref=e1250]:
+                      - generic [ref=e1252]: "52"
+                      - generic [ref=e1254]: "Layout.fillWidth: true"
+                    - listitem [ref=e1255]:
+                      - generic [ref=e1257]: "53"
+                      - generic [ref=e1259]: "Layout.fillHeight: true"
+                    - listitem [ref=e1260]:
+                      - generic [ref=e1262]: "54"
+                      - generic [ref=e1264]: "color: \"#34495e\""
+                    - listitem [ref=e1265]:
+                      - generic [ref=e1267]: "55"
+                      - generic [ref=e1269]: "radius: 5"
+                    - listitem [ref=e1270]:
+                      - generic [ref=e1272]: "56"
+                    - listitem [ref=e1275]:
+                      - generic [ref=e1277]: "57"
+                      - generic [ref=e1279]: "Image {"
+                    - listitem [ref=e1280]:
+                      - generic [ref=e1282]: "58"
+                      - generic [ref=e1284]: "id: previewImage"
+                    - listitem [ref=e1285]:
+                      - generic [ref=e1287]: "59"
+                      - generic [ref=e1289]: "anchors.fill: parent"
+                    - listitem [ref=e1290]:
+                      - generic [ref=e1292]: "60"
+                      - generic [ref=e1294]: "anchors.margins: 10"
+                    - listitem [ref=e1295]:
+                      - generic [ref=e1297]: "61"
+                      - generic [ref=e1299]: "source: imagePreviewWindow.imageSource"
+                    - listitem [ref=e1300]:
+                      - generic [ref=e1302]: "62"
+                      - generic [ref=e1304]: "fillMode: Image.PreserveAspectFit"
+                    - listitem [ref=e1305]:
+                      - generic [ref=e1307]: "63"
+                      - generic [ref=e1309]: "sourceSize.width: 800"
+                    - listitem [ref=e1310]:
+                      - generic [ref=e1312]: "64"
+                      - generic [ref=e1314]: "sourceSize.height: 600"
+                    - listitem [ref=e1315]:
+                      - generic [ref=e1317]: "65"
+                    - listitem [ref=e1320]:
+                      - generic [ref=e1322]: "66"
+                      - generic [ref=e1324]: // 加载中提示
+                    - listitem [ref=e1325]:
+                      - generic [ref=e1327]: "67"
+                      - generic [ref=e1329]: "BusyIndicator {"
+                    - listitem [ref=e1330]:
+                      - generic [ref=e1332]: "68"
+                      - generic [ref=e1334]: "anchors.centerIn: parent"
+                    - listitem [ref=e1335]:
+                      - generic [ref=e1337]: "69"
+                      - generic [ref=e1339]: "running: previewImage.status === Image.Loading"
+                    - listitem [ref=e1340]:
+                      - generic [ref=e1342]: "70"
+                      - generic [ref=e1344]: "}"
+                    - listitem [ref=e1345]:
+                      - generic [ref=e1347]: "71"
+                      - generic [ref=e1349]: "}"
+                    - listitem [ref=e1350]:
+                      - generic [ref=e1352]: "72"
+                      - generic [ref=e1354]: "}"
+                    - listitem [ref=e1355]:
+                      - generic [ref=e1357]: "73"
+                    - listitem [ref=e1360]:
+                      - generic [ref=e1362]: "74"
+                      - generic [ref=e1364]: // 按钮区域
+                    - listitem [ref=e1365]:
+                      - generic [ref=e1367]: "75"
+                      - generic [ref=e1369]: "RowLayout {"
+                    - listitem [ref=e1370]:
+                      - generic [ref=e1372]: "76"
+                      - generic [ref=e1374]: "Layout.alignment: Qt.AlignHCenter"
+                    - listitem [ref=e1375]:
+                      - generic [ref=e1377]: "77"
+                      - generic [ref=e1379]: "spacing: 10"
+                    - listitem [ref=e1380]:
+                      - generic [ref=e1382]: "78"
+                    - listitem [ref=e1385]:
+                      - generic [ref=e1387]: "79"
+                      - generic [ref=e1389]: "Button {"
+                    - listitem [ref=e1390]:
+                      - generic [ref=e1392]: "80"
+                      - generic [ref=e1394]: "text: \"上一张\""
+                    - listitem [ref=e1395]:
+                      - generic [ref=e1397]: "81"
+                      - generic [ref=e1399]: "onClicked: showPreviousImage()"
+                    - listitem [ref=e1400]:
+                      - generic [ref=e1402]: "82"
+                      - generic [ref=e1404]: "background: Rectangle {"
+                    - listitem [ref=e1405]:
+                      - generic [ref=e1407]: "83"
+                      - generic [ref=e1409]: "color: \"#3498db\""
+                    - listitem [ref=e1410]:
+                      - generic [ref=e1412]: "84"
+                      - generic [ref=e1414]: "radius: 5"
+                    - listitem [ref=e1415]:
+                      - generic [ref=e1417]: "85"
+                      - generic [ref=e1419]: "}"
+                    - listitem [ref=e1420]:
+                      - generic [ref=e1422]: "86"
+                      - generic [ref=e1424]: "contentItem: Text {"
+                    - listitem [ref=e1425]:
+                      - generic [ref=e1427]: "87"
+                      - generic [ref=e1429]: "text: parent.text"
+                    - listitem [ref=e1430]:
+                      - generic [ref=e1432]: "88"
+                      - generic [ref=e1434]: "color: \"white\""
+                    - listitem [ref=e1435]:
+                      - generic [ref=e1437]: "89"
+                      - generic [ref=e1439]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1440]:
+                      - generic [ref=e1442]: "90"
+                      - generic [ref=e1444]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1445]:
+                      - generic [ref=e1447]: "91"
+                      - generic [ref=e1449]: "}"
+                    - listitem [ref=e1450]:
+                      - generic [ref=e1452]: "92"
+                      - generic [ref=e1454]: "}"
+                    - listitem [ref=e1455]:
+                      - generic [ref=e1457]: "93"
+                    - listitem [ref=e1460]:
+                      - generic [ref=e1462]: "94"
+                      - generic [ref=e1464]: "Button {"
+                    - listitem [ref=e1465]:
+                      - generic [ref=e1467]: "95"
+                      - generic [ref=e1469]: "text: \"关闭\""
+                    - listitem [ref=e1470]:
+                      - generic [ref=e1472]: "96"
+                      - generic [ref=e1474]: "onClicked: imagePreviewWindow.close()"
+                    - listitem [ref=e1475]:
+                      - generic [ref=e1477]: "97"
+                      - generic [ref=e1479]: "background: Rectangle {"
+                    - listitem [ref=e1480]:
+                      - generic [ref=e1482]: "98"
+                      - generic [ref=e1484]: "color: \"#e74c3c\""
+                    - listitem [ref=e1485]:
+                      - generic [ref=e1487]: "99"
+                      - generic [ref=e1489]: "radius: 5"
+                    - listitem [ref=e1490]:
+                      - generic [ref=e1492]: "100"
+                      - generic [ref=e1494]: "}"
+                    - listitem [ref=e1495]:
+                      - generic [ref=e1497]: "101"
+                      - generic [ref=e1499]: "contentItem: Text {"
+                    - listitem [ref=e1500]:
+                      - generic [ref=e1502]: "102"
+                      - generic [ref=e1504]: "text: parent.text"
+                    - listitem [ref=e1505]:
+                      - generic [ref=e1507]: "103"
+                      - generic [ref=e1509]: "color: \"white\""
+                    - listitem [ref=e1510]:
+                      - generic [ref=e1512]: "104"
+                      - generic [ref=e1514]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1515]:
+                      - generic [ref=e1517]: "105"
+                      - generic [ref=e1519]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1520]:
+                      - generic [ref=e1522]: "106"
+                      - generic [ref=e1524]: "}"
+                    - listitem [ref=e1525]:
+                      - generic [ref=e1527]: "107"
+                      - generic [ref=e1529]: "}"
+                    - listitem [ref=e1530]:
+                      - generic [ref=e1532]: "108"
+                    - listitem [ref=e1535]:
+                      - generic [ref=e1537]: "109"
+                      - generic [ref=e1539]: "Button {"
+                    - listitem [ref=e1540]:
+                      - generic [ref=e1542]: "110"
+                      - generic [ref=e1544]: "text: \"下一张\""
+                    - listitem [ref=e1545]:
+                      - generic [ref=e1547]: "111"
+                      - generic [ref=e1549]: "onClicked: showNextImage()"
+                    - listitem [ref=e1550]:
+                      - generic [ref=e1552]: "112"
+                      - generic [ref=e1554]: "background: Rectangle {"
+                    - listitem [ref=e1555]:
+                      - generic [ref=e1557]: "113"
+                      - generic [ref=e1559]: "color: \"#3498db\""
+                    - listitem [ref=e1560]:
+                      - generic [ref=e1562]: "114"
+                      - generic [ref=e1564]: "radius: 5"
+                    - listitem [ref=e1565]:
+                      - generic [ref=e1567]: "115"
+                      - generic [ref=e1569]: "}"
+                    - listitem [ref=e1570]:
+                      - generic [ref=e1572]: "116"
+                      - generic [ref=e1574]: "contentItem: Text {"
+                    - listitem [ref=e1575]:
+                      - generic [ref=e1577]: "117"
+                      - generic [ref=e1579]: "text: parent.text"
+                    - listitem [ref=e1580]:
+                      - generic [ref=e1582]: "118"
+                      - generic [ref=e1584]: "color: \"white\""
+                    - listitem [ref=e1585]:
+                      - generic [ref=e1587]: "119"
+                      - generic [ref=e1589]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e1590]:
+                      - generic [ref=e1592]: "120"
+                      - generic [ref=e1594]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e1595]:
+                      - generic [ref=e1597]: "121"
+                      - generic [ref=e1599]: "}"
+                    - listitem [ref=e1600]:
+                      - generic [ref=e1602]: "122"
+                      - generic [ref=e1604]: "}"
+                    - listitem [ref=e1605]:
+                      - generic [ref=e1607]: "123"
+                      - generic [ref=e1609]: "}"
+                    - listitem [ref=e1610]:
+                      - generic [ref=e1612]: "124"
+                      - generic [ref=e1614]: "}"
+                    - listitem [ref=e1615]:
+                      - generic [ref=e1617]: "125"
+                      - generic [ref=e1619]: "}"
+                    - listitem [ref=e1620]:
+                      - generic [ref=e1622]: "126"
+                      - generic [ref=e1624]: "}"
+                    - listitem [ref=e1625]:
+                      - generic [ref=e1627]: "127"
+                    - listitem [ref=e1630]:
+                      - generic [ref=e1632]: "128"
+                      - generic [ref=e1634]: // 文件夹选择对话框
+                    - listitem [ref=e1635]:
+                      - generic [ref=e1637]: "129"
+                      - generic [ref=e1639]: "FolderDialog {"
+                    - listitem [ref=e1640]:
+                      - generic [ref=e1642]: "130"
+                      - generic [ref=e1644]: "id: folderDialog"
+                    - listitem [ref=e1645]:
+                      - generic [ref=e1647]: "131"
+                      - generic [ref=e1649]: "title: \"选择图片文件夹\""
+                    - listitem [ref=e1650]:
+                      - generic [ref=e1652]: "132"
+                      - generic [ref=e1654]: "onAccepted: {"
+                    - listitem [ref=e1655]:
+                      - generic [ref=e1657]: "133"
+                      - generic [ref=e1659]: // 将 QUrl 转换为字符串路径
+                    - listitem [ref=e1660]:
+                      - generic [ref=e1662]: "134"
+                      - generic [ref=e1664]: var folderPath = folderToString(folderDialog.folder)
+                    - listitem [ref=e1665]:
+                      - generic [ref=e1667]: "135"
+                      - generic [ref=e1669]: console.log("选择的文件夹路径:", folderPath)
+                    - listitem [ref=e1670]:
+                      - generic [ref=e1672]: "136"
+                      - generic [ref=e1674]: imageLoader.loadImages(folderPath)
+                    - listitem [ref=e1675]:
+                      - generic [ref=e1677]: "137"
+                      - generic [ref=e1679]: "}"
+                    - listitem [ref=e1680]:
+                      - generic [ref=e1682]: "138"
+                      - generic [ref=e1684]: "}"
+                    - listitem [ref=e1685]:
+                      - generic [ref=e1687]: "139"
+                    - listitem [ref=e1690]:
+                      - generic [ref=e1692]: "140"
+                      - generic [ref=e1694]: // 文件选择对话框（单文件）- 使用 QtQuick.Dialogs 的 FileDialog
+                    - listitem [ref=e1695]:
+                      - generic [ref=e1697]: "141"
+                      - generic [ref=e1699]: // 替代方案：使用 Qt.labs.platform 的 FileDialog
+                    - listitem [ref=e1700]:
+                      - generic [ref=e1702]: "142"
+                      - generic [ref=e1704]: "FileDialog {"
+                    - listitem [ref=e1705]:
+                      - generic [ref=e1707]: "143"
+                      - generic [ref=e1709]: "id: fileDialog"
+                    - listitem [ref=e1710]:
+                      - generic [ref=e1712]: "144"
+                      - generic [ref=e1714]: "title: \"选择图片文件\""
+                    - listitem [ref=e1715]:
+                      - generic [ref=e1717]: "145"
+                      - generic [ref=e1719]: "nameFilters: [\"图片文件 (*.jpg *.jpeg *.png *.bmp *.gif *.webp)\"]"
+                    - listitem [ref=e1720]:
+                      - generic [ref=e1722]: "146"
+                      - generic [ref=e1724]: "onAccepted: {"
+                    - listitem [ref=e1725]:
+                      - generic [ref=e1727]: "147"
+                      - generic [ref=e1729]: var filePath = folderToString(file)
+                    - listitem [ref=e1730]:
+                      - generic [ref=e1732]: "148"
+                      - generic [ref=e1734]: console.log("选择的文件路径:", filePath)
+                    - listitem [ref=e1735]:
+                      - generic [ref=e1737]: "149"
+                      - generic [ref=e1739]: imageLoader.loadSingleImage(filePath)
+                    - listitem [ref=e1740]:
+                      - generic [ref=e1742]: "150"
+                      - generic [ref=e1744]: "}"
+                    - listitem [ref=e1745]:
+                      - generic [ref=e1747]: "151"
+                      - generic [ref=e1749]: "}"
+                    - listitem [ref=e1750]:
+                      - generic [ref=e1752]: "152"
+                    - listitem [ref=e1755]:
+                      - generic [ref=e1757]: "153"
+                      - generic [ref=e1759]: // 函数：将 QUrl 转换为文件路径字符串
+                    - listitem [ref=e1760]:
+                      - generic [ref=e1762]: "154"
+                      - generic [ref=e1764]: "function folderToString(url) {"
+                    - listitem [ref=e1765]:
+                      - generic [ref=e1767]: "155"
+                      - generic [ref=e1769]: var path = url.toString()
+                    - listitem [ref=e1770]:
+                      - generic [ref=e1772]: "156"
+                      - generic [ref=e1774]: // 移除 file:/// 前缀
+                    - listitem [ref=e1775]:
+                      - generic [ref=e1777]: "157"
+                      - generic [ref=e1779]: "if (path.startsWith(\"file:///\")) {"
+                    - listitem [ref=e1780]:
+                      - generic [ref=e1782]: "158"
+                      - generic [ref=e1784]: path = path.substring(8)
+                    - listitem [ref=e1785]:
+                      - generic [ref=e1787]: "159"
+                      - generic [ref=e1789]: "}"
+                    - listitem [ref=e1790]:
+                      - generic [ref=e1792]: "160"
+                      - generic [ref=e1794]: // 在 Windows 上，可能需要处理额外的斜杠
+                    - listitem [ref=e1795]:
+                      - generic [ref=e1797]: "161"
+                      - generic [ref=e1799]: path = path.replace(/\\/g, "/")
+                    - listitem [ref=e1800]:
+                      - generic [ref=e1802]: "162"
+                      - generic [ref=e1804]: return path
+                    - listitem [ref=e1805]:
+                      - generic [ref=e1807]: "163"
+                      - generic [ref=e1809]: "}"
+                    - listitem [ref=e1810]:
+                      - generic [ref=e1812]: "164"
+                    - listitem [ref=e1815]:
+                      - generic [ref=e1817]: "165"
+                      - generic [ref=e1819]: // 函数：显示上一张图片
+                    - listitem [ref=e1820]:
+                      - generic [ref=e1822]: "166"
+                      - generic [ref=e1824]: "function showPreviousImage() {"
+                    - listitem [ref=e1825]:
+                      - generic [ref=e1827]: "167"
+                      - generic [ref=e1829]: var currentIndex = -1
+                    - listitem [ref=e1830]:
+                      - generic [ref=e1832]: "168"
+                      - generic [ref=e1834]: "for (var i = 0; i < imageModel.count; i++) {"
+                    - listitem [ref=e1835]:
+                      - generic [ref=e1837]: "169"
+                      - generic [ref=e1839]: "if (imageModel.get(i).path === imagePreviewWindow.imageSource.replace(\"file:///\", \"\")) {"
+                    - listitem [ref=e1840]:
+                      - generic [ref=e1842]: "170"
+                      - generic [ref=e1844]: currentIndex = i
+                    - listitem [ref=e1845]:
+                      - generic [ref=e1847]: "171"
+                      - generic [ref=e1849]: break
+                    - listitem [ref=e1850]:
+                      - generic [ref=e1852]: "172"
+                      - generic [ref=e1854]: "}"
+                    - listitem [ref=e1855]:
+                      - generic [ref=e1857]: "173"
+                      - generic [ref=e1859]: "}"
+                    - listitem [ref=e1860]:
+                      - generic [ref=e1862]: "174"
+                      - generic [ref=e1864]: "if (currentIndex > 0) {"
+                    - listitem [ref=e1865]:
+                      - generic [ref=e1867]: "175"
+                      - generic [ref=e1869]: var prevImage = imageModel.get(currentIndex - 1)
+                    - listitem [ref=e1870]:
+                      - generic [ref=e1872]: "176"
+                      - generic [ref=e1874]: imagePreviewWindow.imageSource = "file:///" + prevImage.path
+                    - listitem [ref=e1875]:
+                      - generic [ref=e1877]: "177"
+                      - generic [ref=e1879]: imagePreviewWindow.imageName = prevImage.name
+                    - listitem [ref=e1880]:
+                      - generic [ref=e1882]: "178"
+                      - generic [ref=e1884]: "}"
+                    - listitem [ref=e1885]:
+                      - generic [ref=e1887]: "179"
+                      - generic [ref=e1889]: "}"
+                    - listitem [ref=e1890]:
+                      - generic [ref=e1892]: "180"
+                    - listitem [ref=e1895]:
+                      - generic [ref=e1897]: "181"
+                      - generic [ref=e1899]: // 函数：显示下一张图片
+                    - listitem [ref=e1900]:
+                      - generic [ref=e1902]: "182"
+                      - generic [ref=e1904]: "function showNextImage() {"
+                    - listitem [ref=e1905]:
+                      - generic [ref=e1907]: "183"
+                      - generic [ref=e1909]: var currentIndex = -1
+                    - listitem [ref=e1910]:
+                      - generic [ref=e1912]: "184"
+                      - generic [ref=e1914]: "for (var i = 0; i < imageModel.count; i++) {"
+                    - listitem [ref=e1915]:
+                      - generic [ref=e1917]: "185"
+                      - generic [ref=e1919]: "if (imageModel.get(i).path === imagePreviewWindow.imageSource.replace(\"file:///\", \"\")) {"
+                    - listitem [ref=e1920]:
+                      - generic [ref=e1922]: "186"
+                      - generic [ref=e1924]: currentIndex = i
+                    - listitem [ref=e1925]:
+                      - generic [ref=e1927]: "187"
+                      - generic [ref=e1929]: break
+                    - listitem [ref=e1930]:
+                      - generic [ref=e1932]: "188"
+                      - generic [ref=e1934]: "}"
+                    - listitem [ref=e1935]:
+                      - generic [ref=e1937]: "189"
+                      - generic [ref=e1939]: "}"
+                    - listitem [ref=e1940]:
+                      - generic [ref=e1942]: "190"
+                      - generic [ref=e1944]: "if (currentIndex < imageModel.count - 1) {"
+                    - listitem [ref=e1945]:
+                      - generic [ref=e1947]: "191"
+                      - generic [ref=e1949]: var nextImage = imageModel.get(currentIndex + 1)
+                    - listitem [ref=e1950]:
+                      - generic [ref=e1952]: "192"
+                      - generic [ref=e1954]: imagePreviewWindow.imageSource = "file:///" + nextImage.path
+                    - listitem [ref=e1955]:
+                      - generic [ref=e1957]: "193"
+                      - generic [ref=e1959]: imagePreviewWindow.imageName = nextImage.name
+                    - listitem [ref=e1960]:
+                      - generic [ref=e1962]: "194"
+                      - generic [ref=e1964]: "}"
+                    - listitem [ref=e1965]:
+                      - generic [ref=e1967]: "195"
+                      - generic [ref=e1969]: "}"
+                    - listitem [ref=e1970]:
+                      - generic [ref=e1972]: "196"
+                    - listitem [ref=e1975]:
+                      - generic [ref=e1977]: "197"
+                      - generic [ref=e1979]: "Rectangle {"
+                    - listitem [ref=e1980]:
+                      - generic [ref=e1982]: "198"
+                      - generic [ref=e1984]: "anchors.fill: parent"
+                    - listitem [ref=e1985]:
+                      - generic [ref=e1987]: "199"
+                      - generic [ref=e1989]: "color: \"#2c3e50\""
+                    - listitem [ref=e1990]:
+                      - generic [ref=e1992]: "200"
+                    - listitem [ref=e1995]:
+                      - generic [ref=e1997]: "201"
+                      - generic [ref=e1999]: // 顶部工具栏
+                    - listitem [ref=e2000]:
+                      - generic [ref=e2002]: "202"
+                      - generic [ref=e2004]: "Rectangle {"
+                    - listitem [ref=e2005]:
+                      - generic [ref=e2007]: "203"
+                      - generic [ref=e2009]: "id: toolbar"
+                    - listitem [ref=e2010]:
+                      - generic [ref=e2012]: "204"
+                      - generic [ref=e2014]: "width: parent.width"
+                    - listitem [ref=e2015]:
+                      - generic [ref=e2017]: "205"
+                      - generic [ref=e2019]: "height: 60"
+                    - listitem [ref=e2020]:
+                      - generic [ref=e2022]: "206"
+                      - generic [ref=e2024]: "color: \"#34495e\""
+                    - listitem [ref=e2025]:
+                      - generic [ref=e2027]: "207"
+                    - listitem [ref=e2030]:
+                      - generic [ref=e2032]: "208"
+                      - generic [ref=e2034]: "Row {"
+                    - listitem [ref=e2035]:
+                      - generic [ref=e2037]: "209"
+                      - generic [ref=e2039]: "anchors.centerIn: parent"
+                    - listitem [ref=e2040]:
+                      - generic [ref=e2042]: "210"
+                      - generic [ref=e2044]: "spacing: 15"
+                    - listitem [ref=e2045]:
+                      - generic [ref=e2047]: "211"
+                    - listitem [ref=e2050]:
+                      - generic [ref=e2052]: "212"
+                      - generic [ref=e2054]: "Button {"
+                    - listitem [ref=e2055]:
+                      - generic [ref=e2057]: "213"
+                      - generic [ref=e2059]: "text: \"打开文件夹\""
+                    - listitem [ref=e2060]:
+                      - generic [ref=e2062]: "214"
+                      - generic [ref=e2064]: "onClicked: folderDialog.open()"
+                    - listitem [ref=e2065]:
+                      - generic [ref=e2067]: "215"
+                      - generic [ref=e2069]: "background: Rectangle {"
+                    - listitem [ref=e2070]:
+                      - generic [ref=e2072]: "216"
+                      - generic [ref=e2074]: "color: \"#3498db\""
+                    - listitem [ref=e2075]:
+                      - generic [ref=e2077]: "217"
+                      - generic [ref=e2079]: "radius: 5"
+                    - listitem [ref=e2080]:
+                      - generic [ref=e2082]: "218"
+                      - generic [ref=e2084]: "}"
+                    - listitem [ref=e2085]:
+                      - generic [ref=e2087]: "219"
+                      - generic [ref=e2089]: "contentItem: Text {"
+                    - listitem [ref=e2090]:
+                      - generic [ref=e2092]: "220"
+                      - generic [ref=e2094]: "text: parent.text"
+                    - listitem [ref=e2095]:
+                      - generic [ref=e2097]: "221"
+                      - generic [ref=e2099]: "color: \"white\""
+                    - listitem [ref=e2100]:
+                      - generic [ref=e2102]: "222"
+                      - generic [ref=e2104]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e2105]:
+                      - generic [ref=e2107]: "223"
+                      - generic [ref=e2109]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e2110]:
+                      - generic [ref=e2112]: "224"
+                      - generic [ref=e2114]: "font.pixelSize: 14"
+                    - listitem [ref=e2115]:
+                      - generic [ref=e2117]: "225"
+                      - generic [ref=e2119]: "}"
+                    - listitem [ref=e2120]:
+                      - generic [ref=e2122]: "226"
+                      - generic [ref=e2124]: "}"
+                    - listitem [ref=e2125]:
+                      - generic [ref=e2127]: "227"
+                    - listitem [ref=e2130]:
+                      - generic [ref=e2132]: "228"
+                      - generic [ref=e2134]: "Button {"
+                    - listitem [ref=e2135]:
+                      - generic [ref=e2137]: "229"
+                      - generic [ref=e2139]: "text: \"打开文件\""
+                    - listitem [ref=e2140]:
+                      - generic [ref=e2142]: "230"
+                      - generic [ref=e2144]: "onClicked: fileDialog.open()"
+                    - listitem [ref=e2145]:
+                      - generic [ref=e2147]: "231"
+                      - generic [ref=e2149]: "background: Rectangle {"
+                    - listitem [ref=e2150]:
+                      - generic [ref=e2152]: "232"
+                      - generic [ref=e2154]: "color: \"#9b59b6\""
+                    - listitem [ref=e2155]:
+                      - generic [ref=e2157]: "233"
+                      - generic [ref=e2159]: "radius: 5"
+                    - listitem [ref=e2160]:
+                      - generic [ref=e2162]: "234"
+                      - generic [ref=e2164]: "}"
+                    - listitem [ref=e2165]:
+                      - generic [ref=e2167]: "235"
+                      - generic [ref=e2169]: "contentItem: Text {"
+                    - listitem [ref=e2170]:
+                      - generic [ref=e2172]: "236"
+                      - generic [ref=e2174]: "text: parent.text"
+                    - listitem [ref=e2175]:
+                      - generic [ref=e2177]: "237"
+                      - generic [ref=e2179]: "color: \"white\""
+                    - listitem [ref=e2180]:
+                      - generic [ref=e2182]: "238"
+                      - generic [ref=e2184]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e2185]:
+                      - generic [ref=e2187]: "239"
+                      - generic [ref=e2189]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e2190]:
+                      - generic [ref=e2192]: "240"
+                      - generic [ref=e2194]: "font.pixelSize: 14"
+                    - listitem [ref=e2195]:
+                      - generic [ref=e2197]: "241"
+                      - generic [ref=e2199]: "}"
+                    - listitem [ref=e2200]:
+                      - generic [ref=e2202]: "242"
+                      - generic [ref=e2204]: "}"
+                    - listitem [ref=e2205]:
+                      - generic [ref=e2207]: "243"
+                    - listitem [ref=e2210]:
+                      - generic [ref=e2212]: "244"
+                      - generic [ref=e2214]: "Button {"
+                    - listitem [ref=e2215]:
+                      - generic [ref=e2217]: "245"
+                      - generic [ref=e2219]: "text: \"清除所有\""
+                    - listitem [ref=e2220]:
+                      - generic [ref=e2222]: "246"
+                      - generic [ref=e2224]: "onClicked: imageModel.clear()"
+                    - listitem [ref=e2225]:
+                      - generic [ref=e2227]: "247"
+                      - generic [ref=e2229]: "background: Rectangle {"
+                    - listitem [ref=e2230]:
+                      - generic [ref=e2232]: "248"
+                      - generic [ref=e2234]: "color: \"#e74c3c\""
+                    - listitem [ref=e2235]:
+                      - generic [ref=e2237]: "249"
+                      - generic [ref=e2239]: "radius: 5"
+                    - listitem [ref=e2240]:
+                      - generic [ref=e2242]: "250"
+                      - generic [ref=e2244]: "}"
+                    - listitem [ref=e2245]:
+                      - generic [ref=e2247]: "251"
+                      - generic [ref=e2249]: "contentItem: Text {"
+                    - listitem [ref=e2250]:
+                      - generic [ref=e2252]: "252"
+                      - generic [ref=e2254]: "text: parent.text"
+                    - listitem [ref=e2255]:
+                      - generic [ref=e2257]: "253"
+                      - generic [ref=e2259]: "color: \"white\""
+                    - listitem [ref=e2260]:
+                      - generic [ref=e2262]: "254"
+                      - generic [ref=e2264]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e2265]:
+                      - generic [ref=e2267]: "255"
+                      - generic [ref=e2269]: "verticalAlignment: Text.AlignVCenter"
+                    - listitem [ref=e2270]:
+                      - generic [ref=e2272]: "256"
+                      - generic [ref=e2274]: "font.pixelSize: 14"
+                    - listitem [ref=e2275]:
+                      - generic [ref=e2277]: "257"
+                      - generic [ref=e2279]: "}"
+                    - listitem [ref=e2280]:
+                      - generic [ref=e2282]: "258"
+                      - generic [ref=e2284]: "}"
+                    - listitem [ref=e2285]:
+                      - generic [ref=e2287]: "259"
+                    - listitem [ref=e2290]:
+                      - generic [ref=e2292]: "260"
+                      - generic [ref=e2294]: "Rectangle {"
+                    - listitem [ref=e2295]:
+                      - generic [ref=e2297]: "261"
+                      - generic [ref=e2299]: "width: 1"
+                    - listitem [ref=e2300]:
+                      - generic [ref=e2302]: "262"
+                      - generic [ref=e2304]: "height: 30"
+                    - listitem [ref=e2305]:
+                      - generic [ref=e2307]: "263"
+                      - generic [ref=e2309]: "color: \"#7f8c8d\""
+                    - listitem [ref=e2310]:
+                      - generic [ref=e2312]: "264"
+                      - generic [ref=e2314]: "anchors.verticalCenter: parent.verticalCenter"
+                    - listitem [ref=e2315]:
+                      - generic [ref=e2317]: "265"
+                      - generic [ref=e2319]: "}"
+                    - listitem [ref=e2320]:
+                      - generic [ref=e2322]: "266"
+                    - listitem [ref=e2325]:
+                      - generic [ref=e2327]: "267"
+                      - generic [ref=e2329]: "Text {"
+                    - listitem [ref=e2330]:
+                      - generic [ref=e2332]: "268"
+                      - generic [ref=e2334]: "text: \"图片数量: \" + imageModel.count"
+                    - listitem [ref=e2335]:
+                      - generic [ref=e2337]: "269"
+                      - generic [ref=e2339]: "color: \"white\""
+                    - listitem [ref=e2340]:
+                      - generic [ref=e2342]: "270"
+                      - generic [ref=e2344]: "font.pixelSize: 14"
+                    - listitem [ref=e2345]:
+                      - generic [ref=e2347]: "271"
+                      - generic [ref=e2349]: "font.bold: true"
+                    - listitem [ref=e2350]:
+                      - generic [ref=e2352]: "272"
+                      - generic [ref=e2354]: "anchors.verticalCenter: parent.verticalCenter"
+                    - listitem [ref=e2355]:
+                      - generic [ref=e2357]: "273"
+                      - generic [ref=e2359]: "}"
+                    - listitem [ref=e2360]:
+                      - generic [ref=e2362]: "274"
+                    - listitem [ref=e2365]:
+                      - generic [ref=e2367]: "275"
+                      - generic [ref=e2369]: "Text {"
+                    - listitem [ref=e2370]:
+                      - generic [ref=e2372]: "276"
+                      - generic [ref=e2374]: "text: \"当前文件夹: \" + (imageLoader ? imageLoader.currentFolder : \"未选择\")"
+                    - listitem [ref=e2375]:
+                      - generic [ref=e2377]: "277"
+                      - generic [ref=e2379]: "color: \"#bdc3c7\""
+                    - listitem [ref=e2380]:
+                      - generic [ref=e2382]: "278"
+                      - generic [ref=e2384]: "font.pixelSize: 12"
+                    - listitem [ref=e2385]:
+                      - generic [ref=e2387]: "279"
+                      - generic [ref=e2389]: "anchors.verticalCenter: parent.verticalCenter"
+                    - listitem [ref=e2390]:
+                      - generic [ref=e2392]: "280"
+                      - generic [ref=e2394]: "}"
+                    - listitem [ref=e2395]:
+                      - generic [ref=e2397]: "281"
+                      - generic [ref=e2399]: "}"
+                    - listitem [ref=e2400]:
+                      - generic [ref=e2402]: "282"
+                      - generic [ref=e2404]: "}"
+                    - listitem [ref=e2405]:
+                      - generic [ref=e2407]: "283"
+                    - listitem [ref=e2410]:
+                      - generic [ref=e2412]: "284"
+                      - generic [ref=e2414]: // 图片网格视图
+                    - listitem [ref=e2415]:
+                      - generic [ref=e2417]: "285"
+                      - generic [ref=e2419]: "GridView {"
+                    - listitem [ref=e2420]:
+                      - generic [ref=e2422]: "286"
+                      - generic [ref=e2424]: "id: gridView"
+                    - listitem [ref=e2425]:
+                      - generic [ref=e2427]: "287"
+                      - generic [ref=e2429]: "anchors {"
+                    - listitem [ref=e2430]:
+                      - generic [ref=e2432]: "288"
+                      - generic [ref=e2434]: "top: toolbar.bottom"
+                    - listitem [ref=e2435]:
+                      - generic [ref=e2437]: "289"
+                      - generic [ref=e2439]: "left: parent.left"
+                    - listitem [ref=e2440]:
+                      - generic [ref=e2442]: "290"
+                      - generic [ref=e2444]: "right: parent.right"
+                    - listitem [ref=e2445]:
+                      - generic [ref=e2447]: "291"
+                      - generic [ref=e2449]: "bottom: parent.bottom"
+                    - listitem [ref=e2450]:
+                      - generic [ref=e2452]: "292"
+                      - generic [ref=e2454]: "margins: 15"
+                    - listitem [ref=e2455]:
+                      - generic [ref=e2457]: "293"
+                      - generic [ref=e2459]: "}"
+                    - listitem [ref=e2460]:
+                      - generic [ref=e2462]: "294"
+                    - listitem [ref=e2465]:
+                      - generic [ref=e2467]: "295"
+                      - generic [ref=e2469]: "model: imageModel"
+                    - listitem [ref=e2470]:
+                      - generic [ref=e2472]: "296"
+                      - generic [ref=e2474]: "cellWidth: 200"
+                    - listitem [ref=e2475]:
+                      - generic [ref=e2477]: "297"
+                      - generic [ref=e2479]: "cellHeight: 220"
+                    - listitem [ref=e2480]:
+                      - generic [ref=e2482]: "298"
+                    - listitem [ref=e2485]:
+                      - generic [ref=e2487]: "299"
+                      - generic [ref=e2489]: "clip: true"
+                    - listitem [ref=e2490]:
+                      - generic [ref=e2492]: "300"
+                    - listitem [ref=e2495]:
+                      - generic [ref=e2497]: "301"
+                      - generic [ref=e2499]: "delegate: Rectangle {"
+                    - listitem [ref=e2500]:
+                      - generic [ref=e2502]: "302"
+                      - generic [ref=e2504]: "width: gridView.cellWidth - 10"
+                    - listitem [ref=e2505]:
+                      - generic [ref=e2507]: "303"
+                      - generic [ref=e2509]: "height: gridView.cellHeight - 10"
+                    - listitem [ref=e2510]:
+                      - generic [ref=e2512]: "304"
+                      - generic [ref=e2514]: "color: \"#34495e\""
+                    - listitem [ref=e2515]:
+                      - generic [ref=e2517]: "305"
+                      - generic [ref=e2519]: "radius: 8"
+                    - listitem [ref=e2520]:
+                      - generic [ref=e2522]: "306"
+                      - generic [ref=e2524]: "border.color: selected ? \"#3498db\" : \"#7f8c8d\""
+                    - listitem [ref=e2525]:
+                      - generic [ref=e2527]: "307"
+                      - generic [ref=e2529]: "border.width: selected ? 3 : 1"
+                    - listitem [ref=e2530]:
+                      - generic [ref=e2532]: "308"
+                    - listitem [ref=e2535]:
+                      - generic [ref=e2537]: "309"
+                      - generic [ref=e2539]: "property bool selected: false"
+                    - listitem [ref=e2540]:
+                      - generic [ref=e2542]: "310"
+                    - listitem [ref=e2545]:
+                      - generic [ref=e2547]: "311"
+                      - generic [ref=e2549]: "Column {"
+                    - listitem [ref=e2550]:
+                      - generic [ref=e2552]: "312"
+                      - generic [ref=e2554]: "anchors.fill: parent"
+                    - listitem [ref=e2555]:
+                      - generic [ref=e2557]: "313"
+                      - generic [ref=e2559]: "anchors.margins: 8"
+                    - listitem [ref=e2560]:
+                      - generic [ref=e2562]: "314"
+                      - generic [ref=e2564]: "spacing: 8"
+                    - listitem [ref=e2565]:
+                      - generic [ref=e2567]: "315"
+                    - listitem [ref=e2570]:
+                      - generic [ref=e2572]: "316"
+                      - generic [ref=e2574]: // 图片显示
+                    - listitem [ref=e2575]:
+                      - generic [ref=e2577]: "317"
+                      - generic [ref=e2579]: "Rectangle {"
+                    - listitem [ref=e2580]:
+                      - generic [ref=e2582]: "318"
+                      - generic [ref=e2584]: "width: parent.width"
+                    - listitem [ref=e2585]:
+                      - generic [ref=e2587]: "319"
+                      - generic [ref=e2589]: "height: parent.height - 50"
+                    - listitem [ref=e2590]:
+                      - generic [ref=e2592]: "320"
+                      - generic [ref=e2594]: "color: \"#2c3e50\""
+                    - listitem [ref=e2595]:
+                      - generic [ref=e2597]: "321"
+                      - generic [ref=e2599]: "radius: 5"
+                    - listitem [ref=e2600]:
+                      - generic [ref=e2602]: "322"
+                    - listitem [ref=e2605]:
+                      - generic [ref=e2607]: "323"
+                      - generic [ref=e2609]: "Image {"
+                    - listitem [ref=e2610]:
+                      - generic [ref=e2612]: "324"
+                      - generic [ref=e2614]: "id: img"
+                    - listitem [ref=e2615]:
+                      - generic [ref=e2617]: "325"
+                      - generic [ref=e2619]: "anchors.fill: parent"
+                    - listitem [ref=e2620]:
+                      - generic [ref=e2622]: "326"
+                      - generic [ref=e2624]: "anchors.margins: 3"
+                    - listitem [ref=e2625]:
+                      - generic [ref=e2627]: "327"
+                      - generic [ref=e2629]: "source: \"file:///\" + model.path"
+                    - listitem [ref=e2630]:
+                      - generic [ref=e2632]: "328"
+                      - generic [ref=e2634]: "fillMode: Image.PreserveAspectFit"
+                    - listitem [ref=e2635]:
+                      - generic [ref=e2637]: "329"
+                      - generic [ref=e2639]: "sourceSize.width: 180"
+                    - listitem [ref=e2640]:
+                      - generic [ref=e2642]: "330"
+                      - generic [ref=e2644]: "sourceSize.height: 150"
+                    - listitem [ref=e2645]:
+                      - generic [ref=e2647]: "331"
+                      - generic [ref=e2649]: "asynchronous: true"
+                    - listitem [ref=e2650]:
+                      - generic [ref=e2652]: "332"
+                    - listitem [ref=e2655]:
+                      - generic [ref=e2657]: "333"
+                      - generic [ref=e2659]: // 图片加载失败时显示错误图标
+                    - listitem [ref=e2660]:
+                      - generic [ref=e2662]: "334"
+                      - generic [ref=e2664]: "onStatusChanged: {"
+                    - listitem [ref=e2665]:
+                      - generic [ref=e2667]: "335"
+                      - generic [ref=e2669]: "if (status === Image.Error) {"
+                    - listitem [ref=e2670]:
+                      - generic [ref=e2672]: "336"
+                      - generic [ref=e2674]: console.log("图片加载失败:", model.path)
+                    - listitem [ref=e2675]:
+                      - generic [ref=e2677]: "337"
+                      - generic [ref=e2679]: "}"
+                    - listitem [ref=e2680]:
+                      - generic [ref=e2682]: "338"
+                      - generic [ref=e2684]: "}"
+                    - listitem [ref=e2685]:
+                      - generic [ref=e2687]: "339"
+                      - generic [ref=e2689]: "}"
+                    - listitem [ref=e2690]:
+                      - generic [ref=e2692]: "340"
+                    - listitem [ref=e2695]:
+                      - generic [ref=e2697]: "341"
+                      - generic [ref=e2699]: // 加载中提示
+                    - listitem [ref=e2700]:
+                      - generic [ref=e2702]: "342"
+                      - generic [ref=e2704]: "BusyIndicator {"
+                    - listitem [ref=e2705]:
+                      - generic [ref=e2707]: "343"
+                      - generic [ref=e2709]: "anchors.centerIn: parent"
+                    - listitem [ref=e2710]:
+                      - generic [ref=e2712]: "344"
+                      - generic [ref=e2714]: "running: img.status === Image.Loading"
+                    - listitem [ref=e2715]:
+                      - generic [ref=e2717]: "345"
+                      - generic [ref=e2719]: "width: 25"
+                    - listitem [ref=e2720]:
+                      - generic [ref=e2722]: "346"
+                      - generic [ref=e2724]: "height: 25"
+                    - listitem [ref=e2725]:
+                      - generic [ref=e2727]: "347"
+                      - generic [ref=e2729]: "}"
+                    - listitem [ref=e2730]:
+                      - generic [ref=e2732]: "348"
+                      - generic [ref=e2734]: "}"
+                    - listitem [ref=e2735]:
+                      - generic [ref=e2737]: "349"
+                    - listitem [ref=e2740]:
+                      - generic [ref=e2742]: "350"
+                      - generic [ref=e2744]: // 图片信息
+                    - listitem [ref=e2745]:
+                      - generic [ref=e2747]: "351"
+                      - generic [ref=e2749]: "Column {"
+                    - listitem [ref=e2750]:
+                      - generic [ref=e2752]: "352"
+                      - generic [ref=e2754]: "width: parent.width"
+                    - listitem [ref=e2755]:
+                      - generic [ref=e2757]: "353"
+                      - generic [ref=e2759]: "spacing: 3"
+                    - listitem [ref=e2760]:
+                      - generic [ref=e2762]: "354"
+                    - listitem [ref=e2765]:
+                      - generic [ref=e2767]: "355"
+                      - generic [ref=e2769]: "Text {"
+                    - listitem [ref=e2770]:
+                      - generic [ref=e2772]: "356"
+                      - generic [ref=e2774]: "text: model.name"
+                    - listitem [ref=e2775]:
+                      - generic [ref=e2777]: "357"
+                      - generic [ref=e2779]: "color: \"white\""
+                    - listitem [ref=e2780]:
+                      - generic [ref=e2782]: "358"
+                      - generic [ref=e2784]: "font.pixelSize: 12"
+                    - listitem [ref=e2785]:
+                      - generic [ref=e2787]: "359"
+                      - generic [ref=e2789]: "font.bold: true"
+                    - listitem [ref=e2790]:
+                      - generic [ref=e2792]: "360"
+                      - generic [ref=e2794]: "elide: Text.ElideRight"
+                    - listitem [ref=e2795]:
+                      - generic [ref=e2797]: "361"
+                      - generic [ref=e2799]: "width: parent.width"
+                    - listitem [ref=e2800]:
+                      - generic [ref=e2802]: "362"
+                      - generic [ref=e2804]: "}"
+                    - listitem [ref=e2805]:
+                      - generic [ref=e2807]: "363"
+                    - listitem [ref=e2810]:
+                      - generic [ref=e2812]: "364"
+                      - generic [ref=e2814]: "Text {"
+                    - listitem [ref=e2815]:
+                      - generic [ref=e2817]: "365"
+                      - generic [ref=e2819]: "text: model.size"
+                    - listitem [ref=e2820]:
+                      - generic [ref=e2822]: "366"
+                      - generic [ref=e2824]: "color: \"#bdc3c7\""
+                    - listitem [ref=e2825]:
+                      - generic [ref=e2827]: "367"
+                      - generic [ref=e2829]: "font.pixelSize: 10"
+                    - listitem [ref=e2830]:
+                      - generic [ref=e2832]: "368"
+                      - generic [ref=e2834]: "width: parent.width"
+                    - listitem [ref=e2835]:
+                      - generic [ref=e2837]: "369"
+                      - generic [ref=e2839]: "}"
+                    - listitem [ref=e2840]:
+                      - generic [ref=e2842]: "370"
+                    - listitem [ref=e2845]:
+                      - generic [ref=e2847]: "371"
+                      - generic [ref=e2849]: "Text {"
+                    - listitem [ref=e2850]:
+                      - generic [ref=e2852]: "372"
+                      - generic [ref=e2854]: "text: model.date"
+                    - listitem [ref=e2855]:
+                      - generic [ref=e2857]: "373"
+                      - generic [ref=e2859]: "color: \"#95a5a6\""
+                    - listitem [ref=e2860]:
+                      - generic [ref=e2862]: "374"
+                      - generic [ref=e2864]: "font.pixelSize: 9"
+                    - listitem [ref=e2865]:
+                      - generic [ref=e2867]: "375"
+                      - generic [ref=e2869]: "width: parent.width"
+                    - listitem [ref=e2870]:
+                      - generic [ref=e2872]: "376"
+                      - generic [ref=e2874]: "}"
+                    - listitem [ref=e2875]:
+                      - generic [ref=e2877]: "377"
+                      - generic [ref=e2879]: "}"
+                    - listitem [ref=e2880]:
+                      - generic [ref=e2882]: "378"
+                      - generic [ref=e2884]: "}"
+                    - listitem [ref=e2885]:
+                      - generic [ref=e2887]: "379"
+                    - listitem [ref=e2890]:
+                      - generic [ref=e2892]: "380"
+                      - generic [ref=e2894]: // 鼠标交互区域
+                    - listitem [ref=e2895]:
+                      - generic [ref=e2897]: "381"
+                      - generic [ref=e2899]: "MouseArea {"
+                    - listitem [ref=e2900]:
+                      - generic [ref=e2902]: "382"
+                      - generic [ref=e2904]: "anchors.fill: parent"
+                    - listitem [ref=e2905]:
+                      - generic [ref=e2907]: "383"
+                      - generic [ref=e2909]: "hoverEnabled: true"
+                    - listitem [ref=e2910]:
+                      - generic [ref=e2912]: "384"
+                      - generic [ref=e2914]: "acceptedButtons: Qt.LeftButton | Qt.RightButton"
+                    - listitem [ref=e2915]:
+                      - generic [ref=e2917]: "385"
+                      - generic [ref=e2919]: "onClicked: {"
+                    - listitem [ref=e2920]:
+                      - generic [ref=e2922]: "386"
+                      - generic [ref=e2924]: "if (mouse.button === Qt.LeftButton) {"
+                    - listitem [ref=e2925]:
+                      - generic [ref=e2927]: "387"
+                      - generic [ref=e2929]: // 左键选中/取消选中图片
+                    - listitem [ref=e2930]:
+                      - generic [ref=e2932]: "388"
+                      - generic [ref=e2934]: parent.selected = !parent.selected
+                    - listitem [ref=e2935]:
+                      - generic [ref=e2937]: "389"
+                      - generic [ref=e2939]: "console.log(\"选中图片: \" + model.name)"
+                    - listitem [ref=e2940]:
+                      - generic [ref=e2942]: "390"
+                      - generic [ref=e2944]: "} else if (mouse.button === Qt.RightButton) {"
+                    - listitem [ref=e2945]:
+                      - generic [ref=e2947]: "391"
+                      - generic [ref=e2949]: // 右键快速预览
+                    - listitem [ref=e2950]:
+                      - generic [ref=e2952]: "392"
+                      - generic [ref=e2954]: imagePreviewWindow.imageSource = "file:///" + model.path
+                    - listitem [ref=e2955]:
+                      - generic [ref=e2957]: "393"
+                      - generic [ref=e2959]: imagePreviewWindow.imageName = model.name
+                    - listitem [ref=e2960]:
+                      - generic [ref=e2962]: "394"
+                      - generic [ref=e2964]: imagePreviewWindow.show()
+                    - listitem [ref=e2965]:
+                      - generic [ref=e2967]: "395"
+                      - generic [ref=e2969]: "}"
+                    - listitem [ref=e2970]:
+                      - generic [ref=e2972]: "396"
+                      - generic [ref=e2974]: "}"
+                    - listitem [ref=e2975]:
+                      - generic [ref=e2977]: "397"
+                      - generic [ref=e2979]: "onDoubleClicked: {"
+                    - listitem [ref=e2980]:
+                      - generic [ref=e2982]: "398"
+                      - generic [ref=e2984]: // 双击查看大图
+                    - listitem [ref=e2985]:
+                      - generic [ref=e2987]: "399"
+                      - generic [ref=e2989]: imagePreviewWindow.imageSource = "file:///" + model.path
+                    - listitem [ref=e2990]:
+                      - generic [ref=e2992]: "400"
+                      - generic [ref=e2994]: imagePreviewWindow.imageName = model.name
+                    - listitem [ref=e2995]:
+                      - generic [ref=e2997]: "401"
+                      - generic [ref=e2999]: imagePreviewWindow.show()
+                    - listitem [ref=e3000]:
+                      - generic [ref=e3002]: "402"
+                      - generic [ref=e3004]: "}"
+                    - listitem [ref=e3005]:
+                      - generic [ref=e3007]: "403"
+                      - generic [ref=e3009]: "onEntered: {"
+                    - listitem [ref=e3010]:
+                      - generic [ref=e3012]: "404"
+                      - generic [ref=e3014]: parent.scale = 1.03
+                    - listitem [ref=e3015]:
+                      - generic [ref=e3017]: "405"
+                      - generic [ref=e3019]: parent.border.color = "#3498db"
+                    - listitem [ref=e3020]:
+                      - generic [ref=e3022]: "406"
+                      - generic [ref=e3024]: "}"
+                    - listitem [ref=e3025]:
+                      - generic [ref=e3027]: "407"
+                      - generic [ref=e3029]: "onExited: {"
+                    - listitem [ref=e3030]:
+                      - generic [ref=e3032]: "408"
+                      - generic [ref=e3034]: parent.scale = 1.0
+                    - listitem [ref=e3035]:
+                      - generic [ref=e3037]: "409"
+                      - generic [ref=e3039]: "if (!parent.selected) {"
+                    - listitem [ref=e3040]:
+                      - generic [ref=e3042]: "410"
+                      - generic [ref=e3044]: parent.border.color = "#7f8c8d"
+                    - listitem [ref=e3045]:
+                      - generic [ref=e3047]: "411"
+                      - generic [ref=e3049]: "}"
+                    - listitem [ref=e3050]:
+                      - generic [ref=e3052]: "412"
+                      - generic [ref=e3054]: "}"
+                    - listitem [ref=e3055]:
+                      - generic [ref=e3057]: "413"
+                      - generic [ref=e3059]: "}"
+                    - listitem [ref=e3060]:
+                      - generic [ref=e3062]: "414"
+                    - listitem [ref=e3065]:
+                      - generic [ref=e3067]: "415"
+                      - generic [ref=e3069]: // 缩放动画
+                    - listitem [ref=e3070]:
+                      - generic [ref=e3072]: "416"
+                      - generic [ref=e3074]: "Behavior on scale {"
+                    - listitem [ref=e3075]:
+                      - generic [ref=e3077]: "417"
+                      - generic [ref=e3079]: "NumberAnimation { duration: 150 }"
+                    - listitem [ref=e3080]:
+                      - generic [ref=e3082]: "418"
+                      - generic [ref=e3084]: "}"
+                    - listitem [ref=e3085]:
+                      - generic [ref=e3087]: "419"
+                    - listitem [ref=e3090]:
+                      - generic [ref=e3092]: "420"
+                      - generic [ref=e3094]: // 选中标记
+                    - listitem [ref=e3095]:
+                      - generic [ref=e3097]: "421"
+                      - generic [ref=e3099]: "Rectangle {"
+                    - listitem [ref=e3100]:
+                      - generic [ref=e3102]: "422"
+                      - generic [ref=e3104]: "visible: selected"
+                    - listitem [ref=e3105]:
+                      - generic [ref=e3107]: "423"
+                      - generic [ref=e3109]: "width: 22"
+                    - listitem [ref=e3110]:
+                      - generic [ref=e3112]: "424"
+                      - generic [ref=e3114]: "height: 22"
+                    - listitem [ref=e3115]:
+                      - generic [ref=e3117]: "425"
+                      - generic [ref=e3119]: "radius: 11"
+                    - listitem [ref=e3120]:
+                      - generic [ref=e3122]: "426"
+                      - generic [ref=e3124]: "color: \"#3498db\""
+                    - listitem [ref=e3125]:
+                      - generic [ref=e3127]: "427"
+                      - generic [ref=e3129]: "anchors.top: parent.top"
+                    - listitem [ref=e3130]:
+                      - generic [ref=e3132]: "428"
+                      - generic [ref=e3134]: "anchors.right: parent.right"
+                    - listitem [ref=e3135]:
+                      - generic [ref=e3137]: "429"
+                      - generic [ref=e3139]: "anchors.margins: 6"
+                    - listitem [ref=e3140]:
+                      - generic [ref=e3142]: "430"
+                    - listitem [ref=e3145]:
+                      - generic [ref=e3147]: "431"
+                      - generic [ref=e3149]: "Text {"
+                    - listitem [ref=e3150]:
+                      - generic [ref=e3152]: "432"
+                      - generic [ref=e3154]: "anchors.centerIn: parent"
+                    - listitem [ref=e3155]:
+                      - generic [ref=e3157]: "433"
+                      - generic [ref=e3159]: "text: \"✓\""
+                    - listitem [ref=e3160]:
+                      - generic [ref=e3162]: "434"
+                      - generic [ref=e3164]: "color: \"white\""
+                    - listitem [ref=e3165]:
+                      - generic [ref=e3167]: "435"
+                      - generic [ref=e3169]: "font.bold: true"
+                    - listitem [ref=e3170]:
+                      - generic [ref=e3172]: "436"
+                      - generic [ref=e3174]: "font.pixelSize: 12"
+                    - listitem [ref=e3175]:
+                      - generic [ref=e3177]: "437"
+                      - generic [ref=e3179]: "}"
+                    - listitem [ref=e3180]:
+                      - generic [ref=e3182]: "438"
+                      - generic [ref=e3184]: "}"
+                    - listitem [ref=e3185]:
+                      - generic [ref=e3187]: "439"
+                      - generic [ref=e3189]: "}"
+                    - listitem [ref=e3190]:
+                      - generic [ref=e3192]: "440"
+                    - listitem [ref=e3195]:
+                      - generic [ref=e3197]: "441"
+                      - generic [ref=e3199]: // 空状态提示
+                    - listitem [ref=e3200]:
+                      - generic [ref=e3202]: "442"
+                      - generic [ref=e3204]: "Label {"
+                    - listitem [ref=e3205]:
+                      - generic [ref=e3207]: "443"
+                      - generic [ref=e3209]: "anchors.centerIn: parent"
+                    - listitem [ref=e3210]:
+                      - generic [ref=e3212]: "444"
+                      - generic [ref=e3214]: "text: \"暂无图片\\n请点击上方按钮打开文件夹或选择图片文件\""
+                    - listitem [ref=e3215]:
+                      - generic [ref=e3217]: "445"
+                      - generic [ref=e3219]: "color: \"white\""
+                    - listitem [ref=e3220]:
+                      - generic [ref=e3222]: "446"
+                      - generic [ref=e3224]: "font.pixelSize: 16"
+                    - listitem [ref=e3225]:
+                      - generic [ref=e3227]: "447"
+                      - generic [ref=e3229]: "horizontalAlignment: Text.AlignHCenter"
+                    - listitem [ref=e3230]:
+                      - generic [ref=e3232]: "448"
+                      - generic [ref=e3234]: "visible: imageModel.count === 0"
+                    - listitem [ref=e3235]:
+                      - generic [ref=e3237]: "449"
+                      - generic [ref=e3239]: "}"
+                    - listitem [ref=e3240]:
+                      - generic [ref=e3242]: "450"
+                    - listitem [ref=e3245]:
+                      - generic [ref=e3247]: "451"
+                      - generic [ref=e3249]: "ScrollBar.vertical: ScrollBar {"
+                    - listitem [ref=e3250]:
+                      - generic [ref=e3252]: "452"
+                      - generic [ref=e3254]: "policy: ScrollBar.AsNeeded"
+                    - listitem [ref=e3255]:
+                      - generic [ref=e3257]: "453"
+                      - generic [ref=e3259]: "background: Rectangle {"
+                    - listitem [ref=e3260]:
+                      - generic [ref=e3262]: "454"
+                      - generic [ref=e3264]: "color: \"#34495e\""
+                    - listitem [ref=e3265]:
+                      - generic [ref=e3267]: "455"
+                      - generic [ref=e3269]: "}"
+                    - listitem [ref=e3270]:
+                      - generic [ref=e3272]: "456"
+                      - generic [ref=e3274]: "contentItem: Rectangle {"
+                    - listitem [ref=e3275]:
+                      - generic [ref=e3277]: "457"
+                      - generic [ref=e3279]: "color: \"#3498db\""
+                    - listitem [ref=e3280]:
+                      - generic [ref=e3282]: "458"
+                      - generic [ref=e3284]: "radius: 3"
+                    - listitem [ref=e3285]:
+                      - generic [ref=e3287]: "459"
+                      - generic [ref=e3289]: "}"
+                    - listitem [ref=e3290]:
+                      - generic [ref=e3292]: "460"
+                      - generic [ref=e3294]: "}"
+                    - listitem [ref=e3295]:
+                      - generic [ref=e3297]: "461"
+                      - generic [ref=e3299]: "}"
+                    - listitem [ref=e3300]:
+                      - generic [ref=e3302]: "462"
+                      - generic [ref=e3304]: "}"
+                    - listitem [ref=e3305]:
+                      - generic [ref=e3307]: "463"
+                    - listitem [ref=e3310]:
+                      - generic [ref=e3312]: "464"
+                      - generic [ref=e3314]: // 连接 C++ 信号到 QML
+                    - listitem [ref=e3315]:
+                      - generic [ref=e3317]: "465"
+                      - generic [ref=e3319]: "Connections {"
+                    - listitem [ref=e3320]:
+                      - generic [ref=e3322]: "466"
+                      - generic [ref=e3324]: "target: imageLoader"
+                    - listitem [ref=e3325]:
+                      - generic [ref=e3327]: "467"
+                      - generic [ref=e3329]: "onImageFound: {"
+                    - listitem [ref=e3330]:
+                      - generic [ref=e3332]: "468"
+                      - generic [ref=e3334]: "imageModel.append({"
+                    - listitem [ref=e3335]:
+                      - generic [ref=e3337]: "469"
+                      - generic [ref=e3339]: "name: name,"
+                    - listitem [ref=e3340]:
+                      - generic [ref=e3342]: "470"
+                      - generic [ref=e3344]: "path: path,"
+                    - listitem [ref=e3345]:
+                      - generic [ref=e3347]: "471"
+                      - generic [ref=e3349]: "size: size,"
+                    - listitem [ref=e3350]:
+                      - generic [ref=e3352]: "472"
+                      - generic [ref=e3354]: "date: date"
+                    - listitem [ref=e3355]:
+                      - generic [ref=e3357]: "473"
+                      - generic [ref=e3359]: "})"
+                    - listitem [ref=e3360]:
+                      - generic [ref=e3362]: "474"
+                      - generic [ref=e3364]: "}"
+                    - listitem [ref=e3365]:
+                      - generic [ref=e3367]: "475"
+                      - generic [ref=e3369]: "onCurrentFolderChanged: {"
+                    - listitem [ref=e3370]:
+                      - generic [ref=e3372]: "476"
+                      - generic [ref=e3374]: // 清除旧图片
+                    - listitem [ref=e3375]:
+                      - generic [ref=e3377]: "477"
+                      - generic [ref=e3379]: imageModel.clear()
+                    - listitem [ref=e3380]:
+                      - generic [ref=e3382]: "478"
+                      - generic [ref=e3384]: "}"
+                    - listitem [ref=e3385]:
+                      - generic [ref=e3387]: "479"
+                      - generic [ref=e3389]: "}"
+                    - listitem [ref=e3390]:
+                      - generic [ref=e3392]: "480"
+                    - listitem [ref=e3395]:
+                      - generic [ref=e3397]: "481"
+                      - generic [ref=e3399]: // 初始化时显示欢迎信息
+                    - listitem [ref=e3400]:
+                      - generic [ref=e3402]: "482"
+                      - generic [ref=e3404]: "Component.onCompleted: {"
+                    - listitem [ref=e3405]:
+                      - generic [ref=e3407]: "483"
+                      - generic [ref=e3409]: console.log("图片浏览器已启动")
+                    - listitem [ref=e3410]:
+                      - generic [ref=e3412]: "484"
+                      - generic [ref=e3414]: "}"
+                    - listitem [ref=e3415]:
+                      - generic [ref=e3417]: "485"
+                      - generic [ref=e3419]: "}"
+                - generic [ref=e3420]:
+                  - button "运行项目并下载源码" [ref=e3421] [cursor=pointer]
+                  - generic [ref=e3422] [cursor=pointer]: 复制
+                - generic [ref=e3424] [cursor=pointer]: 展开
+              - paragraph
+              - generic [ref=e3425]: ImageLoader.h文件源码
+              - generic [ref=e3426]:
+                - code [ref=e3427]:
+                  - list [ref=e3428]:
+                    - listitem [ref=e3429]:
+                      - generic [ref=e3431]: "1"
+                      - generic [ref=e3434]: "#ifndef IMAGELOADER_H"
+                    - listitem [ref=e3435]:
+                      - generic [ref=e3437]: "2"
+                      - generic [ref=e3440]: "#define IMAGELOADER_H"
+                    - listitem [ref=e3441]:
+                      - generic [ref=e3443]: "3"
+                    - listitem [ref=e3446]:
+                      - generic [ref=e3448]: "4"
+                      - generic [ref=e3451]: "#include <QObject>"
+                    - listitem [ref=e3452]:
+                      - generic [ref=e3454]: "5"
+                      - generic [ref=e3457]: "#include <QString>"
+                    - listitem [ref=e3458]:
+                      - generic [ref=e3460]: "6"
+                      - generic [ref=e3463]: "#include <QDir>"
+                    - listitem [ref=e3464]:
+                      - generic [ref=e3466]: "7"
+                      - generic [ref=e3469]: "#include <QFileInfo>"
+                    - listitem [ref=e3470]:
+                      - generic [ref=e3472]: "8"
+                      - generic [ref=e3475]: "#include <QFileInfoList>"
+                    - listitem [ref=e3476]:
+                      - generic [ref=e3478]: "9"
+                      - generic [ref=e3481]: "#include <QDateTime>"
+                    - listitem [ref=e3482]:
+                      - generic [ref=e3484]: "10"
+                      - generic [ref=e3487]: "#include <QUrl>"
+                    - listitem [ref=e3488]:
+                      - generic [ref=e3490]: "11"
+                      - generic [ref=e3493]: "#include <QDebug>"
+                    - listitem [ref=e3494]:
+                      - generic [ref=e3496]: "12"
+                    - listitem [ref=e3499]:
+                      - generic [ref=e3501]: "13"
+                      - generic [ref=e3503]: "class ImageLoader : public QObject"
+                    - listitem [ref=e3504]:
+                      - generic [ref=e3506]: "14"
+                      - generic [ref=e3508]: "{"
+                    - listitem [ref=e3509]:
+                      - generic [ref=e3511]: "15"
+                      - generic [ref=e3514]: Q_OBJECT
+                    - listitem [ref=e3515]:
+                      - generic [ref=e3517]: "16"
+                      - generic [ref=e3520]: Q_PROPERTY(QString currentFolder READ currentFolder NOTIFY currentFolderChanged)
+                    - listitem [ref=e3521]:
+                      - generic [ref=e3523]: "17"
+                    - listitem [ref=e3524]:
+                      - generic [ref=e3526]: "18"
+                      - generic [ref=e3529]: "public:"
+                    - listitem [ref=e3530]:
+                      - generic [ref=e3532]: "19"
+                      - generic [ref=e3534]: "explicit ImageLoader(QObject *parent = nullptr) : QObject(parent) {}"
+                    - listitem [ref=e3535]:
+                      - generic [ref=e3537]: "20"
+                    - listitem [ref=e3540]:
+                      - generic [ref=e3542]: "21"
+                      - generic [ref=e3544]:
+                        - generic [ref=e3545]: QString currentFolder() const
+                        - text: "{ return m_currentFolder; }"
+                    - listitem [ref=e3546]:
+                      - generic [ref=e3548]: "22"
+                    - listitem [ref=e3551]:
+                      - generic [ref=e3553]: "23"
+                      - generic [ref=e3555]:
+                        - generic [ref=e3556]:
+                          - text: Q_INVOKABLE void loadImages
+                          - generic [ref=e3557]: (const QString &folderPath)
+                        - text: ;
+                    - listitem [ref=e3558]:
+                      - generic [ref=e3560]: "24"
+                      - generic [ref=e3562]:
+                        - generic [ref=e3563]:
+                          - text: Q_INVOKABLE void loadSingleImage
+                          - generic [ref=e3564]: (const QString &filePath)
+                        - text: ;
+                    - listitem [ref=e3565]:
+                      - generic [ref=e3567]: "25"
+                    - listitem [ref=e3570]:
+                      - generic [ref=e3572]: "26"
+                      - generic [ref=e3574]: "signals:"
+                    - listitem [ref=e3575]:
+                      - generic [ref=e3577]: "27"
+                      - generic [ref=e3579]:
+                        - generic [ref=e3580]:
+                          - text: void imageFound
+                          - generic [ref=e3581]: (const QString &name, const QString &path, const QString &size, const QString &date)
+                        - text: ;
+                    - listitem [ref=e3582]:
+                      - generic [ref=e3584]: "28"
+                      - generic [ref=e3586]:
+                        - generic [ref=e3587]:
+                          - text: void currentFolderChanged
+                          - generic [ref=e3588]: (const QString &folder)
+                        - text: ;
+                    - listitem [ref=e3589]:
+                      - generic [ref=e3591]: "29"
+                    - listitem [ref=e3594]:
+                      - generic [ref=e3596]: "30"
+                      - generic [ref=e3598]: "private:"
+                    - listitem [ref=e3599]:
+                      - generic [ref=e3601]: "31"
+                      - generic [ref=e3603]: QString m_currentFolder;
+                    - listitem [ref=e3604]:
+                      - generic [ref=e3606]: "32"
+                      - generic [ref=e3608]:
+                        - generic [ref=e3609]: QString formatFileSize(qint64 bytes)
+                        - text: ;
+                    - listitem [ref=e3610]:
+                      - generic [ref=e3612]: "33"
+                      - generic [ref=e3614]: "};"
+                    - listitem [ref=e3615]:
+                      - generic [ref=e3617]: "34"
+                    - listitem [ref=e3620]:
+                      - generic [ref=e3622]: "35"
+                      - generic [ref=e3625]: "#endif // IMAGELOADER_H"
+                - generic [ref=e3626]:
+                  - button "运行项目并下载源码" [ref=e3627] [cursor=pointer]
+                  - generic [ref=e3628] [cursor=pointer]: 复制
+                - generic [ref=e3630] [cursor=pointer]: 展开
+              - paragraph
+              - generic [ref=e3631]: ImageLoader.cpp文件源码
+              - generic [ref=e3632]:
+                - code [ref=e3633]:
+                  - list [ref=e3634]:
+                    - listitem [ref=e3635]:
+                      - generic [ref=e3637]: "1"
+                      - generic [ref=e3639]: "#include \"ImageLoader.h\""
+                    - listitem [ref=e3640]:
+                      - generic [ref=e3642]: "2"
+                    - listitem [ref=e3645]:
+                      - generic [ref=e3647]: "3"
+                      - generic [ref=e3649]: void ImageLoader::loadImages(const QString &folderPath)
+                    - listitem [ref=e3650]:
+                      - generic [ref=e3652]: "4"
+                      - generic [ref=e3654]: "{"
+                    - listitem [ref=e3655]:
+                      - generic [ref=e3657]: "5"
+                      - generic [ref=e3659]: QDir directory(folderPath);
+                    - listitem [ref=e3660]:
+                      - generic [ref=e3662]: "6"
+                    - listitem [ref=e3665]:
+                      - generic [ref=e3667]: "7"
+                      - generic [ref=e3669]: "if (!directory.exists()) {"
+                    - listitem [ref=e3670]:
+                      - generic [ref=e3672]: "8"
+                      - generic [ref=e3674]: qWarning() << "文件夹不存在:" << folderPath;
+                    - listitem [ref=e3675]:
+                      - generic [ref=e3677]: "9"
+                      - generic [ref=e3679]: return;
+                    - listitem [ref=e3680]:
+                      - generic [ref=e3682]: "10"
+                      - generic [ref=e3684]: "}"
+                    - listitem [ref=e3685]:
+                      - generic [ref=e3687]: "11"
+                    - listitem [ref=e3690]:
+                      - generic [ref=e3692]: "12"
+                      - generic [ref=e3694]: m_currentFolder = directory.dirName();
+                    - listitem [ref=e3695]:
+                      - generic [ref=e3697]: "13"
+                      - generic [ref=e3699]: emit currentFolderChanged(m_currentFolder);
+                    - listitem [ref=e3700]:
+                      - generic [ref=e3702]: "14"
+                    - listitem [ref=e3705]:
+                      - generic [ref=e3707]: "15"
+                      - generic [ref=e3709]: // 支持的图片格式
+                    - listitem [ref=e3710]:
+                      - generic [ref=e3712]: "16"
+                      - generic [ref=e3714]: QStringList imageFilters;
+                    - listitem [ref=e3715]:
+                      - generic [ref=e3717]: "17"
+                      - generic [ref=e3719]: imageFilters << "*.jpg" << "*.jpeg" << "*.png" << "*.bmp" << "*.gif" << "*.webp";
+                    - listitem [ref=e3720]:
+                      - generic [ref=e3722]: "18"
+                    - listitem [ref=e3725]:
+                      - generic [ref=e3727]: "19"
+                      - generic [ref=e3729]: QFileInfoList fileList = directory.entryInfoList(imageFilters, QDir::Files, QDir::Name);
+                    - listitem [ref=e3730]:
+                      - generic [ref=e3732]: "20"
+                    - listitem [ref=e3735]:
+                      - generic [ref=e3737]: "21"
+                      - generic [ref=e3739]: qDebug() << "在文件夹中找到图片文件数量:" << fileList.count() << folderPath;
+                    - listitem [ref=e3740]:
+                      - generic [ref=e3742]: "22"
+                    - listitem [ref=e3745]:
+                      - generic [ref=e3747]: "23"
+                      - generic [ref=e3749]: "for (const QFileInfo &fileInfo : fileList) {"
+                    - listitem [ref=e3750]:
+                      - generic [ref=e3752]: "24"
+                      - generic [ref=e3754]: QString name = fileInfo.fileName();
+                    - listitem [ref=e3755]:
+                      - generic [ref=e3757]: "25"
+                      - generic [ref=e3759]: QString path = fileInfo.absoluteFilePath();
+                    - listitem [ref=e3760]:
+                      - generic [ref=e3762]: "26"
+                      - generic [ref=e3764]: QString size = formatFileSize(fileInfo.size());
+                    - listitem [ref=e3765]:
+                      - generic [ref=e3767]: "27"
+                      - generic [ref=e3769]: QString date = fileInfo.lastModified().toString("yyyy-MM-dd hh:mm:ss");
+                    - listitem [ref=e3770]:
+                      - generic [ref=e3772]: "28"
+                    - listitem [ref=e3775]:
+                      - generic [ref=e3777]: "29"
+                      - generic [ref=e3779]: qDebug() << "找到图片:" << name << "路径:" << path;
+                    - listitem [ref=e3780]:
+                      - generic [ref=e3782]: "30"
+                      - generic [ref=e3784]: emit imageFound(name, path, size, date);
+                    - listitem [ref=e3785]:
+                      - generic [ref=e3787]: "31"
+                      - generic [ref=e3789]: "}"
+                    - listitem [ref=e3790]:
+                      - generic [ref=e3792]: "32"
+                      - generic [ref=e3794]: "}"
+                    - listitem [ref=e3795]:
+                      - generic [ref=e3797]: "33"
+                    - listitem [ref=e3800]:
+                      - generic [ref=e3802]: "34"
+                      - generic [ref=e3804]: void ImageLoader::loadSingleImage(const QString &filePath)
+                    - listitem [ref=e3805]:
+                      - generic [ref=e3807]: "35"
+                      - generic [ref=e3809]: "{"
+                    - listitem [ref=e3810]:
+                      - generic [ref=e3812]: "36"
+                      - generic [ref=e3814]: QFileInfo fileInfo(filePath);
+                    - listitem [ref=e3815]:
+                      - generic [ref=e3817]: "37"
+                    - listitem [ref=e3820]:
+                      - generic [ref=e3822]: "38"
+                      - generic [ref=e3824]: "if (!fileInfo.exists()) {"
+                    - listitem [ref=e3825]:
+                      - generic [ref=e3827]: "39"
+                      - generic [ref=e3829]: qWarning() << "文件不存在:" << filePath;
+                    - listitem [ref=e3830]:
+                      - generic [ref=e3832]: "40"
+                      - generic [ref=e3834]: return;
+                    - listitem [ref=e3835]:
+                      - generic [ref=e3837]: "41"
+                      - generic [ref=e3839]: "}"
+                    - listitem [ref=e3840]:
+                      - generic [ref=e3842]: "42"
+                    - listitem [ref=e3845]:
+                      - generic [ref=e3847]: "43"
+                      - generic [ref=e3849]: m_currentFolder = "单个文件";
+                    - listitem [ref=e3850]:
+                      - generic [ref=e3852]: "44"
+                      - generic [ref=e3854]: emit currentFolderChanged(m_currentFolder);
+                    - listitem [ref=e3855]:
+                      - generic [ref=e3857]: "45"
+                    - listitem [ref=e3860]:
+                      - generic [ref=e3862]: "46"
+                      - generic [ref=e3864]: QString name = fileInfo.fileName();
+                    - listitem [ref=e3865]:
+                      - generic [ref=e3867]: "47"
+                      - generic [ref=e3869]: QString path = fileInfo.absoluteFilePath();
+                    - listitem [ref=e3870]:
+                      - generic [ref=e3872]: "48"
+                      - generic [ref=e3874]: QString size = formatFileSize(fileInfo.size());
+                    - listitem [ref=e3875]:
+                      - generic [ref=e3877]: "49"
+                      - generic [ref=e3879]: QString date = fileInfo.lastModified().toString("yyyy-MM-dd hh:mm:ss");
+                    - listitem [ref=e3880]:
+                      - generic [ref=e3882]: "50"
+                    - listitem [ref=e3885]:
+                      - generic [ref=e3887]: "51"
+                      - generic [ref=e3889]: emit imageFound(name, path, size, date);
+                    - listitem [ref=e3890]:
+                      - generic [ref=e3892]: "52"
+                      - generic [ref=e3894]: "}"
+                    - listitem [ref=e3895]:
+                      - generic [ref=e3897]: "53"
+                    - listitem [ref=e3900]:
+                      - generic [ref=e3902]: "54"
+                      - generic [ref=e3904]: QString ImageLoader::formatFileSize(qint64 bytes)
+                    - listitem [ref=e3905]:
+                      - generic [ref=e3907]: "55"
+                      - generic [ref=e3909]: "{"
+                    - listitem [ref=e3910]:
+                      - generic [ref=e3912]: "56"
+                      - generic [ref=e3914]: "if (bytes < 1024) {"
+                    - listitem [ref=e3915]:
+                      - generic [ref=e3917]: "57"
+                      - generic [ref=e3919]: return QString::number(bytes) + " B";
+                    - listitem [ref=e3920]:
+                      - generic [ref=e3922]: "58"
+                      - generic [ref=e3924]: "} else if (bytes < 1024 * 1024) {"
+                    - listitem [ref=e3925]:
+                      - generic [ref=e3927]: "59"
+                      - generic [ref=e3929]: return QString::number(bytes / 1024.0, 'f', 1) + " KB";
+                    - listitem [ref=e3930]:
+                      - generic [ref=e3932]: "60"
+                      - generic [ref=e3934]: "} else {"
+                    - listitem [ref=e3935]:
+                      - generic [ref=e3937]: "61"
+                      - generic [ref=e3939]: return QString::number(bytes / (1024.0 * 1024.0), 'f', 1) + " MB";
+                    - listitem [ref=e3940]:
+                      - generic [ref=e3942]: "62"
+                      - generic [ref=e3944]: "}"
+                    - listitem [ref=e3945]:
+                      - generic [ref=e3947]: "63"
+                      - generic [ref=e3949]: "}"
+                - generic [ref=e3950]:
+                  - button "运行项目并下载源码" [ref=e3951] [cursor=pointer]
+                  - generic [ref=e3952] [cursor=pointer]: 复制
+                - generic [ref=e3954] [cursor=pointer]: 展开
+              - paragraph
+              - paragraph [ref=e3955]: main.cpp文件源码
+              - generic [ref=e3956]:
+                - code [ref=e3957]:
+                  - list [ref=e3958]:
+                    - listitem [ref=e3959]:
+                      - generic [ref=e3961]: "1"
+                      - generic [ref=e3963]: "#include <QGuiApplication>"
+                    - listitem [ref=e3964]:
+                      - generic [ref=e3966]: "2"
+                      - generic [ref=e3968]: "#include <QQmlApplicationEngine>"
+                    - listitem [ref=e3969]:
+                      - generic [ref=e3971]: "3"
+                      - generic [ref=e3973]: "#include <QQmlContext>"
+                    - listitem [ref=e3974]:
+                      - generic [ref=e3976]: "4"
+                      - generic [ref=e3978]: "#include \"ImageLoader.h\""
+                    - listitem [ref=e3979]:
+                      - generic [ref=e3981]: "5"
+                    - listitem [ref=e3984]:
+                      - generic [ref=e3986]: "6"
+                      - generic [ref=e3988]: int main(int argc, char *argv[])
+                    - listitem [ref=e3989]:
+                      - generic [ref=e3991]: "7"
+                      - generic [ref=e3993]: "{"
+                    - listitem [ref=e3994]:
+                      - generic [ref=e3996]: "8"
+                      - generic [ref=e3998]: QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+                    - listitem [ref=e3999]:
+                      - generic [ref=e4001]: "9"
+                    - listitem [ref=e4004]:
+                      - generic [ref=e4006]: "10"
+                      - generic [ref=e4008]: QGuiApplication app(argc, argv);
+                    - listitem [ref=e4009]:
+                      - generic [ref=e4011]: "11"
+                    - listitem [ref=e4014]:
+                      - generic [ref=e4016]: "12"
+                      - generic [ref=e4018]: // 设置应用程序信息
+                    - listitem [ref=e4019]:
+                      - generic [ref=e4021]: "13"
+                      - generic [ref=e4023]: app.setApplicationName("图片浏览器");
+                    - listitem [ref=e4024]:
+                      - generic [ref=e4026]: "14"
+                      - generic [ref=e4028]: app.setApplicationVersion("1.0");
+                    - listitem [ref=e4029]:
+                      - generic [ref=e4031]: "15"
+                    - listitem [ref=e4034]:
+                      - generic [ref=e4036]: "16"
+                      - generic [ref=e4038]: QQmlApplicationEngine engine;
+                    - listitem [ref=e4039]:
+                      - generic [ref=e4041]: "17"
+                    - listitem [ref=e4044]:
+                      - generic [ref=e4046]: "18"
+                      - generic [ref=e4048]: // 注册 C++ 类到 QML
+                    - listitem [ref=e4049]:
+                      - generic [ref=e4051]: "19"
+                      - generic [ref=e4053]: ImageLoader imageLoader;
+                    - listitem [ref=e4054]:
+                      - generic [ref=e4056]: "20"
+                      - generic [ref=e4058]: engine.rootContext()->setContextProperty("imageLoader", &imageLoader);
+                    - listitem [ref=e4059]:
+                      - generic [ref=e4061]: "21"
+                    - listitem [ref=e4064]:
+                      - generic [ref=e4066]: "22"
+                      - generic [ref=e4068]: const QUrl url(QStringLiteral("qrc:/main.qml"));
+                    - listitem [ref=e4069]:
+                      - generic [ref=e4071]: "23"
+                    - listitem [ref=e4074]:
+                      - generic [ref=e4076]: "24"
+                      - generic [ref=e4078]: QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
+                    - listitem [ref=e4079]:
+                      - generic [ref=e4081]: "25"
+                      - generic [ref=e4083]: "&app, [url](QObject *obj, const QUrl &objUrl) {"
+                    - listitem [ref=e4084]:
+                      - generic [ref=e4086]: "26"
+                      - generic [ref=e4088]: if (!obj && url == objUrl)
+                    - listitem [ref=e4089]:
+                      - generic [ref=e4091]: "27"
+                      - generic [ref=e4093]: QCoreApplication::exit(-1);
+                    - listitem [ref=e4094]:
+                      - generic [ref=e4096]: "28"
+                      - generic [ref=e4098]: "}, Qt::QueuedConnection);"
+                    - listitem [ref=e4099]:
+                      - generic [ref=e4101]: "29"
+                    - listitem [ref=e4104]:
+                      - generic [ref=e4106]: "30"
+                      - generic [ref=e4108]: engine.load(url);
+                    - listitem [ref=e4109]:
+                      - generic [ref=e4111]: "31"
+                    - listitem [ref=e4114]:
+                      - generic [ref=e4116]: "32"
+                      - generic [ref=e4118]: return app.exec();
+                    - listitem [ref=e4119]:
+                      - generic [ref=e4121]: "33"
+                      - generic [ref=e4123]: "}"
+                - generic [ref=e4124]:
+                  - button "运行项目并下载源码" [ref=e4125] [cursor=pointer]
+                  - generic [ref=e4126] [cursor=pointer]: 复制
+                - generic [ref=e4128] [cursor=pointer]: 展开
+              - paragraph
+              - paragraph [ref=e4129]: 三、效果演示
+              - paragraph [ref=e4130]: 可以选择打开文件夹，也可以选择打开文件。
+              - paragraph [ref=e4131]
+          - generic [ref=e4132]:
+            - generic [ref=e4135] [cursor=pointer]:
+              - generic [ref=e4136]: 本文章已经生成可运行项目
+              - button "一键运行" [ref=e4137]: 一键运行
+            - generic [ref=e4139]:
+              - textbox "告诉 InsCode" [ref=e4140]:
+                - /placeholder: "告诉 InsCode "
+              - button "生成项目 查看更多" [ref=e4141] [cursor=pointer]:
+                - text: 生成项目
+                - img "查看更多" [ref=e4142]
+          - generic [ref=e4145]:
+            - generic [ref=e4146]: 标签
+            - generic [ref=e4147]:
+              - link "#开源" [ref=e4148] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=%E5%BC%80%E6%BA%90&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#c++" [ref=e4149] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=c%2B%2B&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#qt" [ref=e4150] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=qt&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+        - generic [ref=e4151]:
+          - generic [ref=e4152]:
+            - link "ajassi2000" [ref=e4154] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e4155]
+              - generic [ref=e4156]: ajassi2000
+            - link "已关注" [ref=e4158] [cursor=pointer]:
+              - /url: javascript:;
+          - list [ref=e4160]:
+            - listitem [ref=e4161]:
+              - generic [ref=e4163] [cursor=pointer]: "30"
+            - listitem [ref=e4164]
+            - listitem [ref=e4166]:
+              - link "31" [ref=e4167] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e4168]: "31"
+            - listitem [ref=e4169]:
+              - generic [ref=e4171] [cursor=pointer]: "0"
+            - listitem [ref=e4172]:
+              - link "分享" [ref=e4173] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e4174]: 分享
+            - listitem [ref=e4175]
+          - generic [ref=e4179] [cursor=pointer]: 专栏目录
+        - generic [ref=e4182]:
+          - generic [ref=e4183]:
+            - link "【开源治理·银行篇】 02-如何把金融行业标准翻译成开源治理动作" [ref=e4186] [cursor=pointer]:
+              - /url: https://blog.csdn.net/System_0826/article/details/163478414
+              - generic [ref=e4187]:
+                - text: 【
+                - emphasis [ref=e4188]: 开源
+                - text: 治理·银行篇】 02-如何把金融行业标准翻译成
+                - emphasis [ref=e4189]: 开源
+                - text: 治理动作
+            - generic [ref=e4190]:
+              - link "lunziFly的博客" [ref=e4192] [cursor=pointer]:
+                - /url: https://blog.csdn.net/System_0826
+                - generic [ref=e4193]: lunziFly的博客
+              - generic [ref=e4195]: "448"
+          - link "摘要 本文探讨如何将金融行业开源治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的开源软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出五步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“开源软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开" [ref=e4197] [cursor=pointer]:
+            - /url: https://blog.csdn.net/System_0826/article/details/163478414
+            - generic [ref=e4198]:
+              - text: 摘要 本文探讨如何将金融行业
+              - emphasis [ref=e4199]: 开源
+              - text: 治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的
+              - emphasis [ref=e4200]: 开源
+              - text: 软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出
+              - emphasis [ref=e4201]: 五
+              - text: 步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“
+              - emphasis [ref=e4202]: 开源
+              - text: 软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开
+        - generic [ref=e4205]:
+          - generic [ref=e4206]:
+            - link "Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【开源基础设施特辑】 最新发布" [ref=e4209] [cursor=pointer]:
+              - /url: https://devpress.csdn.net/v1/article/detail/163541417
+              - generic [ref=e4210]:
+                - text: Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【
+                - emphasis [ref=e4211]: 开源
+                - text: 基础设施特辑】
+              - generic [ref=e4212]: 最新发布
+            - generic [ref=e4213]:
+              - link "TunerT_TQ的博客" [ref=e4215] [cursor=pointer]:
+                - /url: https://blog.csdn.net/TunerT_TQ
+                - generic [ref=e4216]: TunerT_TQ的博客
+              - generic [ref=e4218]: "344"
+          - link "VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用\"开源框架+云端控制台\"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。" [ref=e4220] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/v1/article/detail/163541417
+            - generic [ref=e4221]:
+              - text: VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用"
+              - emphasis [ref=e4222]: 开源
+              - text: 框架+云端控制台"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。
+        - generic [ref=e4223]:
+          - generic [ref=e4225]:
+            - generic [ref=e4226]:
+              - 'link "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂开源基础设施特辑】" [ref=e4229] [cursor=pointer]':
+                - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+                - generic [ref=e4230]:
+                  - text: "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂"
+                  - emphasis [ref=e4231]: 开源
+                  - text: 基础设施特辑】
+              - generic [ref=e4232]:
+                - link "TunerT_TQ的博客" [ref=e4234] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/TunerT_TQ
+                  - generic [ref=e4235]: TunerT_TQ的博客
+                - generic [ref=e4237]: "315"
+            - link "摘要： TDesign是腾讯开源的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系\"工具箱\"，风险特征偏向构建安全而非运行时安全。" [ref=e4239] [cursor=pointer]:
+              - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+              - generic [ref=e4240]:
+                - text: 摘要： TDesign是腾讯
+                - emphasis [ref=e4241]: 开源
+                - text: 的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系"工具箱"，风险特征偏向构建安全而非运行时安全。
+          - generic [ref=e4243]:
+            - generic [ref=e4244]:
+              - link "QML视图(GridView)_qml gridview" [ref=e4247] [cursor=pointer]:
+                - /url: https://blog.csdn.net/qq_45303986/article/details/129477873
+                - generic [ref=e4248]:
+                  - emphasis [ref=e4249]: QML
+                  - text: 视图(
+                  - emphasis [ref=e4250]: GridView
+                  - text: )_
+                  - emphasis [ref=e4251]: qml
+                  - emphasis [ref=e4252]: gridview
+              - generic [ref=e4255]: 7-29
+            - 'link "GridView.FlowTopToBottom 从上到下流动 GridView{ anchors.fill:parent model: nameModel flow:GridView.FlowTopToBottom//设置为从上到下流动 delegate: nameDelegate } Lobster AI layoutDirection(控制水平布局方向) <table><tr><th>Qt." [ref=e4257] [cursor=pointer]':
+              - /url: https://blog.csdn.net/qq_45303986/article/details/129477873
+              - generic [ref=e4258]:
+                - emphasis [ref=e4259]: GridView
+                - text: .FlowTopToBottom 从上到下流动
+                - emphasis [ref=e4260]: GridView
+                - text: "{ anchors.fill:parent model: nameModel flow:"
+                - emphasis [ref=e4261]: GridView
+                - text: ".FlowTopToBottom//设置为从上到下流动 delegate: nameDelegate } Lobster AI layoutDirection(控制水平布局方向) <table><tr><th>"
+                - emphasis [ref=e4262]: Qt
+                - text: .
+          - generic [ref=e4264]:
+            - generic [ref=e4265]:
+              - link "10. GridView控件的简单介绍_gridview控件使用详解" [ref=e4268] [cursor=pointer]:
+                - /url: https://blog.csdn.net/FY_13781298928/article/details/128937122
+                - generic [ref=e4269]:
+                  - text: "10."
+                  - emphasis [ref=e4270]: GridView
+                  - emphasis [ref=e4271]: 控件
+                  - text: 的简单介绍_
+                  - emphasis [ref=e4272]: gridview
+                  - emphasis [ref=e4273]: 控件
+                  - text: 使用详解
+              - generic [ref=e4276]: 7-17
+            - 'link "importQtQuick2.15importQtQuick.Window2.15importQtQuick.Controls2.15importQtQuick.Layouts1.15Window{id:root width:640height:480visible:truetitle:qsTr(\"Hello Signal\")GridView{id:gridView anchors.centerIn:parent width:cellWidth*5height:cellHeight*2clip:truecellWidth:40cellHeight:40model:ListModel{ListElement..." [ref=e4278] [cursor=pointer]':
+              - /url: https://blog.csdn.net/FY_13781298928/article/details/128937122
+              - generic [ref=e4279]:
+                - text: import
+                - emphasis [ref=e4280]: Qt
+                - text: Quick2.15import
+                - emphasis [ref=e4281]: Qt
+                - text: Quick.Window2.15import
+                - emphasis [ref=e4282]: Qt
+                - text: Quick.Controls2.15import
+                - emphasis [ref=e4283]: Qt
+                - text: "Quick.Layouts1.15Window{id:root width:640height:480visible:truetitle:qsTr(\"Hello Signal\")"
+                - emphasis [ref=e4284]: GridView
+                - text: "{id:"
+                - emphasis [ref=e4285]: gridView
+                - text: "anchors.centerIn:parent width:cellWidth*5height:cellHeight*2clip:truecellWidth:40cellHeight:40model:ListModel{ListElement..."
+        - generic [ref=e4288]:
+          - list [ref=e4289]:
+            - listitem [ref=e4290]:
+              - link "关于我们" [ref=e4291] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#about
+            - listitem [ref=e4292]:
+              - link "招贤纳士" [ref=e4293] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#recruit
+            - listitem [ref=e4294]:
+              - link "商务合作" [ref=e4295] [cursor=pointer]:
+                - /url: https://fsc-p05.txscrm.com/T8PN8SFII7W
+            - listitem [ref=e4296]:
+              - link "寻求报道" [ref=e4297] [cursor=pointer]:
+                - /url: //marketing.csdn.net/questions/Q2202181748074189855
+            - listitem [ref=e4298]:
+              - link "协议专区" [ref=e4299] [cursor=pointer]:
+                - /url: //marketing.csdn.net/p/a65bad49d09e5e6d1a9c674bb41ef331?pId=3340
+            - listitem [ref=e4300]:
+              - generic [ref=e4301]: 400-660-0108
+            - listitem [ref=e4302]:
+              - link "kefu@csdn.net" [ref=e4303] [cursor=pointer]:
+                - /url: mailto:webmaster@csdn.net
+            - listitem [ref=e4304]:
+              - link "在线客服" [ref=e4305] [cursor=pointer]:
+                - /url: https://csdn.s2.udesk.cn/im_client/?web_plugin_id=29181
+            - listitem [ref=e4306]: 工作时间 8:30-22:00
+          - list [ref=e4307]:
+            - listitem [ref=e4308]:
+              - link "公安备案号11010502030143" [ref=e4309] [cursor=pointer]:
+                - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030143
+            - listitem [ref=e4310]:
+              - link "京ICP备19004658号" [ref=e4311] [cursor=pointer]:
+                - /url: http://beian.miit.gov.cn/publish/query/indexFirst.action
+            - listitem [ref=e4312]:
+              - link "京网文〔2020〕1039-165号" [ref=e4313] [cursor=pointer]:
+                - /url: https://csdnimg.cn/release/live_fe/culture_license.png
+            - listitem [ref=e4314]:
+              - link "经营性网站备案信息" [ref=e4315] [cursor=pointer]:
+                - /url: https://csdnimg.cn/cdn/content-toolbar/csdn-ICP.png
+            - listitem [ref=e4316]:
+              - link "北京互联网违法和不良信息举报中心" [ref=e4317] [cursor=pointer]:
+                - /url: http://www.bjjubao.org/
+            - listitem [ref=e4318]:
+              - link "家长监护" [ref=e4319] [cursor=pointer]:
+                - /url: https://download.csdn.net/tutelage/home
+            - listitem [ref=e4320]:
+              - link "网络110报警服务" [ref=e4321] [cursor=pointer]:
+                - /url: https://cyberpolice.mps.gov.cn/
+            - listitem [ref=e4322]:
+              - link "中国互联网举报中心" [ref=e4323] [cursor=pointer]:
+                - /url: http://www.12377.cn/
+            - listitem [ref=e4324]:
+              - link "Chrome商店下载" [ref=e4325] [cursor=pointer]:
+                - /url: https://chrome.google.com/webstore/detail/csdn%E5%BC%80%E5%8F%91%E8%80%85%E5%8A%A9%E6%89%8B/kfkdboecolemdjodhmhmcibjocfopejo?hl=zh-CN
+            - listitem [ref=e4326]:
+              - link "账号管理规范" [ref=e4327] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/126135357
+            - listitem [ref=e4328]:
+              - link "版权与免责声明" [ref=e4329] [cursor=pointer]:
+                - /url: https://www.csdn.net/company/index.html#statement
+            - listitem [ref=e4330]:
+              - link "版权申诉" [ref=e4331] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/90369522
+            - listitem [ref=e4332]:
+              - link "出版物许可证" [ref=e4333] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023206.png
+            - listitem [ref=e4334]:
+              - link "营业执照" [ref=e4335] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023201.png
+            - listitem [ref=e4336]: ©1999-2026北京创新乐知网络技术有限公司
+      - complementary [ref=e4337]:
+        - generic [ref=e4338]:
+          - generic [ref=e4339]:
+            - link [ref=e4341] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e4342]
+            - generic [ref=e4343]:
+              - link "ajassi2000" [ref=e4345] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000
+                - generic [ref=e4346]: ajassi2000
+              - generic [ref=e4347]:
+                - paragraph [ref=e4348]:
+                  - text: 博客等级
+                  - img [ref=e4349]
+                - generic "已加入 CSDN 22年" [ref=e4350]: 码龄22年
+          - generic [ref=e4351]:
+            - link "185 原创" [ref=e4353] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - definition [ref=e4354]: "185"
+              - term [ref=e4355]: 原创
+            - generic "3707" [ref=e4356]:
+              - definition [ref=e4357]: "3707"
+              - term [ref=e4358]: 点赞
+            - generic "2923" [ref=e4359]:
+              - definition [ref=e4360]: "2923"
+              - term [ref=e4361]: 收藏
+            - generic "1903" [ref=e4362]:
+              - definition [ref=e4363]: "1903"
+              - term [ref=e4364]: 粉丝
+          - generic [ref=e4365]:
+            - generic [ref=e4367] [cursor=pointer]: 已关注
+            - link "私信" [ref=e4369] [cursor=pointer]:
+              - /url: https://im.csdn.net/chat/ajassi2000
+        - generic [ref=e4370]:
+          - heading "热门文章" [level=3] [ref=e4371]
+          - list [ref=e4373]:
+            - listitem [ref=e4374]:
+              - link "开源 Arkts 鸿蒙应用 开发（九）通讯--tcp客户端 9101" [ref=e4375] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/149583821
+            - listitem [ref=e4376]:
+              - link "开源 java android app 开发（十八）最新编译器Android Studio 2025.1.3.7 4609" [ref=e4377] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152941313
+            - listitem [ref=e4378]:
+              - link "AI 应用 图文 解说 (一) -- 百度智能云 实现 语音 聊天 3136" [ref=e4379] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/150934038
+            - listitem [ref=e4380]:
+              - link "开源C# .net mvc 开发（一）WEB搭建 2338" [ref=e4381] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/132823595
+            - listitem [ref=e4382]:
+              - link "开源 Objective-C IOS 应用开发（九）复杂控件-tableview 2086" [ref=e4383] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/154793330
+        - generic [ref=e4384]:
+          - heading "分类专栏" [level=3] [ref=e4385]
+          - list [ref=e4387]:
+            - listitem [ref=e4388]:
+              - link "A语音I智能体开发日记" [ref=e4389] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13194224.html
+                - generic [ref=e4391]: A语音I智能体开发日记
+              - generic [ref=e4392]: 13篇
+            - listitem [ref=e4393]:
+              - link "AI智能体架构解析" [ref=e4394] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13193143.html
+                - generic [ref=e4396]: AI智能体架构解析
+              - generic [ref=e4397]: 5篇
+            - listitem [ref=e4398]:
+              - link "linux C 语言快速开发实战" [ref=e4399] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_12379231.html
+                - generic [ref=e4401]: linux C 语言快速开发实战
+              - generic [ref=e4402]: 13篇
+            - listitem [ref=e4403]:
+              - link "IOS App快速开发实战" [ref=e4404] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13084003.html
+                - generic [ref=e4406]: IOS App快速开发实战
+              - generic [ref=e4407]: 23篇
+            - listitem [ref=e4408]:
+              - link "QT QML C++ 快速开发实战" [ref=e4409] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13059580.html
+                - generic [ref=e4411]: QT QML C++ 快速开发实战
+              - generic [ref=e4412]: 23篇
+            - listitem [ref=e4413]:
+              - link "Android App快速开发实战" [ref=e4414] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_12789808.html
+                - generic [ref=e4416]: Android App快速开发实战
+              - generic [ref=e4417]: 18篇
+            - listitem [ref=e4418]:
+              - link "Qt Widget C++ 快速开发实战" [ref=e4419] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13031409.html
+                - generic [ref=e4421]: Qt Widget C++ 快速开发实战
+              - generic [ref=e4422]: 16篇
+            - listitem [ref=e4423]:
+              - link "Python快速开发实战" [ref=e4424] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_12991936.html
+                - generic [ref=e4426]: Python快速开发实战
+              - generic [ref=e4427]: 14篇
+            - listitem [ref=e4428]:
+              - link "C# 上位机快速开发实战" [ref=e4429] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13054046.html
+                - generic [ref=e4431]: C# 上位机快速开发实战
+              - generic [ref=e4432]: 17篇
+            - listitem [ref=e4433]:
+              - link "HarmonyNext App快速开发实战" [ref=e4434] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_12988913.html
+                - generic [ref=e4436]: HarmonyNext App快速开发实战
+              - generic [ref=e4437]: 18篇
+            - listitem [ref=e4438]:
+              - link ".net mvc快速开发实战" [ref=e4439] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_12439778.html
+                - generic [ref=e4441]: .net mvc快速开发实战
+              - generic [ref=e4442]: 9篇
+            - listitem [ref=e4443]:
+              - link "随记" [ref=e4444] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13142363.html
+                - generic [ref=e4446]: 随记
+              - generic [ref=e4447]: 1篇
+            - listitem [ref=e4448]:
+              - link "AI应用之图文解说" [ref=e4449] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13036788.html
+                - generic [ref=e4451]: AI应用之图文解说
+              - generic [ref=e4452]: 2篇
+            - listitem [ref=e4453]:
+              - link "linux C 服务器与中间件" [ref=e4454] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/category_13065877.html
+                - generic [ref=e4456]: linux C 服务器与中间件
+              - generic [ref=e4457]: 13篇
+          - paragraph:
+            - generic [ref=e4458] [cursor=pointer]: 展开全部
+        - generic [ref=e4459]:
+          - heading "大家在看" [level=3] [ref=e4460]
+          - list [ref=e4462]:
+            - listitem [ref=e4463]:
+              - link "投机解码中的拒绝与残差采样" [ref=e4464] [cursor=pointer]:
+                - /url: https://blog.csdn.net/jining11/article/details/163213002
+            - listitem [ref=e4465]:
+              - link "Obsidian+AI构建自生长知识库" [ref=e4466] [cursor=pointer]:
+                - /url: https://blog.csdn.net/qq_34419312/article/details/163637826
+            - listitem [ref=e4467]:
+              - link "Claude代码提效四规则 154" [ref=e4468] [cursor=pointer]:
+                - /url: https://blog.csdn.net/weixin_44058951/article/details/163465254
+            - listitem [ref=e4469]:
+              - link "OpenClaw Windows自动化部署指南" [ref=e4470] [cursor=pointer]:
+                - /url: https://blog.csdn.net/2603_95764454/article/details/163637752
+            - listitem [ref=e4471]:
+              - link "白名单软件才是最大泄密源 218" [ref=e4472] [cursor=pointer]:
+                - /url: https://blog.csdn.net/wang_an12/article/details/163626889
+        - generic [ref=e4473]:
+          - heading "最新文章" [level=3] [ref=e4474]
+          - generic [ref=e4475]:
+            - list [ref=e4476]:
+              - listitem [ref=e4477]:
+                - link "AI语音智能体开发日记（十三）一次由寄存器溢出引发的串口波特率“玄学”问题排查" [ref=e4478] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163476883
+              - listitem [ref=e4479]:
+                - link "AI语音智能体开发日记（十二）GX8006 固件定制指南——从双唤醒词到 UART 音频传输" [ref=e4480] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163475994
+              - listitem [ref=e4481]:
+                - link "AI语音智能体开发日记（十一）为智能设备“声”临其境——详解音频资源自动化生成流程" [ref=e4482] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163451971
+            - generic [ref=e4484]:
+              - link "2026年19篇" [ref=e4486] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2026&month=08
+              - link "2025年160篇" [ref=e4488] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2025&month=11
+              - link "2024年2篇" [ref=e4490] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2024&month=10
+              - link "2023年4篇" [ref=e4492] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2023&month=10
+    - complementary [ref=e4494]:
+      - iframe [ref=e4497]:
+        - generic [ref=f3e4]:
+          - generic [ref=f3e6]:
+            - img "logo" [ref=f3e7]
+            - paragraph [ref=f3e8]: AI 助手
+          - generic [ref=f3e9]:
+            - paragraph [ref=f3e10]: 本文介绍基于C++ QT QML开发的图片浏览器项目，详细解析GridView控件实现及图片加载逻辑，并提供完整可运行代码下载。
+            - generic [ref=f3e11]:
+              - paragraph [ref=f3e13]: 开源 C++ QT QML 开发（五）复杂控件--Gridview
+              - generic [ref=f3e15]:
+                - generic [ref=f3e16]: AI生成
+                - button "运行项目" [ref=f3e17] [cursor=pointer]:
+                  - generic [ref=f3e18]: 运行项目
+            - generic [ref=f3e19]:
+              - generic [ref=f3e20] [cursor=pointer]:
+                - img [ref=f3e23]
+                - paragraph [ref=f3e26]: 毕业设计
+                - paragraph [ref=f3e27]: 基于选题一键生成源码及论文
+              - generic [ref=f3e28] [cursor=pointer]:
+                - img [ref=f3e30]
+                - paragraph [ref=f3e32]: 面试神器
+                - paragraph [ref=f3e33]: AI 技术面试题库，程序员通关备考利器
+            - generic [ref=f3e34]:
+              - paragraph [ref=f3e35]: AI 辅助阅读
+              - button "AI解读 - 剖析博文结构及重点" [ref=f3e36] [cursor=pointer]:
+                - generic [ref=f3e37]: AI解读 - 剖析博文结构及重点
+                - img [ref=f3e39]
+              - button "AI对话 - 阅读助手及对话引擎" [ref=f3e41] [cursor=pointer]:
+                - generic [ref=f3e42]: AI对话 - 阅读助手及对话引擎
+                - img [ref=f3e44]
+          - generic [ref=f3e46]:
+            - generic [ref=f3e47]:
+              - button "作业解答" [ref=f3e48] [cursor=pointer]:
+                - img [ref=f3e51]
+                - generic [ref=f3e53]: 作业解答
+              - button "AI编程" [ref=f3e54] [cursor=pointer]:
+                - img [ref=f3e57]
+                - generic [ref=f3e61]: AI编程
+              - button "智能体" [ref=f3e62] [cursor=pointer]:
+                - img [ref=f3e65]
+                - generic [ref=f3e68]: 智能体
+            - generic [ref=f3e69]:
+              - textbox "输入内容，与 AI 对话" [ref=f3e71]
+              - generic [ref=f3e72]:
+                - paragraph [ref=f3e74]: 结合博文对话
+                - button [ref=f3e75]:
+                  - img [ref=f3e77]
+  - generic [ref=e4498]:
+    - link [ref=e4499] [cursor=pointer]:
+      - /url: https://mall.csdn.net/vip?utm_source=260618_vip_blogrighticon
+    - link [ref=e4500] [cursor=pointer]:
+      - /url: https://ai.csdn.net/chat?utm_source=cknow_pc_blogdetail&spm=1001.2101.3001.10583
+  - text: prev next
