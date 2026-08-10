@@ -1,0 +1,1288 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "CSDN首页" [ref=e8] [cursor=pointer]:
+        - /url: https://www.csdn.net/
+        - img "CSDN首页" [ref=e9]
+      - list [ref=e10]:
+        - listitem "阅读深度、前沿文章" [ref=e11]:
+          - link "博客" [ref=e12] [cursor=pointer]:
+            - /url: https://blog.csdn.net/
+        - listitem "高价值源码课程分享" [ref=e13]:
+          - link "下载" [ref=e14] [cursor=pointer]:
+            - /url: https://download.csdn.net/
+        - listitem "DevPress官方社区" [ref=e15]:
+          - link "社区" [ref=e16] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/
+        - listitem "开源代码托管" [ref=e17]:
+          - link "AtomGit" [ref=e18] [cursor=pointer]:
+            - /url: https://link.csdn.net?target=https%3A%2F%2Fgitcode.com%3Futm_source%3Dcsdn_toolbar
+            - img [ref=e19]
+            - text: AtomGit
+        - listitem "模型市场" [ref=e20]:
+          - link "模型市场" [ref=e21] [cursor=pointer]:
+            - /url: https://ai.csdn.net/coding-plan?utm_source=xt_csdn_home_topbar
+            - img [ref=e22]
+            - text: 模型市场
+            - img [ref=e23]
+        - listitem [ref=e24]:
+          - generic [ref=e25] [cursor=pointer]: 更多
+    - generic [ref=e29]:
+      - textbox "qml 开源项目" [ref=e31]
+      - button "搜索" [ref=e32] [cursor=pointer]:
+        - generic [ref=e34]: 搜索
+      - paragraph [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: AI 搜索
+    - generic [ref=e38]:
+      - link [ref=e40] [cursor=pointer]:
+        - /url: https://blog.csdn.net/yz271544
+        - img [ref=e41]
+      - link "会员中心" [ref=e43] [cursor=pointer]:
+        - /url: https://mall.csdn.net/vip?utm_source=260805_vip_toolbarhyzx_hy
+        - text: 会员中心
+        - img [ref=e44]
+      - link "消息" [ref=e47] [cursor=pointer]:
+        - /url: https://i.csdn.net/#/msg/index
+        - generic [ref=e48]: 消息
+      - link "创作中心" [ref=e51] [cursor=pointer]:
+        - /url: https://mp.csdn.net
+      - link "创作" [ref=e53] [cursor=pointer]:
+        - /url: https://mp.csdn.net/edit
+      - generic [ref=e54] [cursor=pointer]:
+        - button "关闭" [ref=e55]: ×
+        - generic [ref=e56]:
+          - generic [ref=e57]: 🎁
+          - generic [ref=e58]:
+            - generic [ref=e59]: VIP会员
+            - generic [ref=e60]:
+              - text: 您有最高
+              - generic [ref=e61]: ￥30
+              - text: 算力币待领取
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - heading "开源 C++ QT QML 开发（一）基本介绍" [level=1] [ref=e69]
+            - generic [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: 原创
+                - generic [ref=e74]: 已于 2025-10-12 22:29:46 修改
+                - generic [ref=e75]: ·
+                - generic [ref=e76]: 1.9k 阅读
+                - generic [ref=e77] [cursor=pointer]:
+                  - generic [ref=e78]: ·
+                  - generic [ref=e79]: "29"
+                - generic [ref=e80]: ·
+                - generic [ref=e81] [cursor=pointer]: "24"
+                - generic [ref=e82]: ·
+                - generic [ref=e84] [cursor=pointer]: 本内容遵循CC 4.0 BY-SA版权协议
+                - link "GEO检测" [ref=e85] [cursor=pointer]:
+                  - /url: https://mp.csdn.net/geo?title=%E5%BC%80%E6%BA%90+C%2B%2B+QT+QML+%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D&url=https%3A%2F%2Fblog.csdn.net%2Fajassi2000%2Farticle%2Fdetails%2F152457440&utm_source=blog_geo
+                  - generic [ref=e86]: GEO检测
+                  - img [ref=e87]
+              - generic [ref=e93]:
+                - generic [ref=e94]: 收录于
+                - generic [ref=e98] [cursor=pointer]: QT QML C++ 快速开发实战
+          - article [ref=e99]:
+            - generic [ref=e101]:
+              - paragraph [ref=e102]:
+                - text: 文章的目的为了记录使用QT QML开发学习的经历。开发流程和要点有些
+                - generic [ref=e103] [cursor=pointer]: 记忆
+                - text: 模糊，赶紧记录，防止忘记。
+              - paragraph
+              - paragraph [ref=e104]: 相关链接：
+              - paragraph [ref=e105]:
+                - link "开源 C++ QT QML 开发（一）基本介绍" [ref=e106] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152457440?spm=1011.2124.3001.6209
+              - paragraph [ref=e107]:
+                - link "开源 C++ QT QML 开发（二）工程结构" [ref=e108] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152506055?spm=1011.2124.3001.6209
+              - paragraph [ref=e109]:
+                - link "开源 C++ QT QML 开发（三）常用控件" [ref=e110] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152522153?spm=1011.2124.3001.6209
+              - paragraph [ref=e111]:
+                - link "开源 C++ QT QML 开发（四）复杂控件--Listview" [ref=e112] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152548381?spm=1011.2124.3001.6209
+              - paragraph [ref=e113]:
+                - link "开源 C++ QT QML 开发（五）复杂控件--Gridview" [ref=e114] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152551148?spm=1011.2124.3001.6209
+              - paragraph [ref=e115]:
+                - link "开源 C++ QT QML 开发（六）自定义控件--波形图" [ref=e116] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152597806?spm=1011.2124.3001.6209
+              - paragraph [ref=e117]:
+                - link "开源 C++ QT QML 开发（七）自定义控件--仪表盘" [ref=e118] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152609195?spm=1011.2124.3001.6209
+              - paragraph [ref=e119]:
+                - link "开源 C++ QT QML 开发（八）自定义控件--圆环" [ref=e120] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152656399?spm=1011.2415.3001.5331
+              - paragraph [ref=e121]:
+                - link "开源 C++ QT QML 开发（九）文件--文本和二进制" [ref=e122] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152661206?spm=1011.2415.3001.5331
+              - paragraph [ref=e123]:
+                - link "开源 C++ QT QML 开发（十）通讯--串口" [ref=e124] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152716293?spm=1011.2124.3001.6209
+              - paragraph [ref=e125]:
+                - link "开源 C++ QT QML 开发（十一）通讯--TCP服务器端" [ref=e126] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152722842?spm=1011.2124.3001.6209
+              - paragraph [ref=e127]:
+                - link "开源 C++ QT QML 开发（十二）通讯--TCP客户端" [ref=e128] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152729014?spm=1011.2124.3001.6209
+              - paragraph [ref=e129]:
+                - link "开源 C++ QT QML 开发（十三）多线程" [ref=e131] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152830073?spm=1011.2124.3001.6209
+              - paragraph [ref=e132]:
+                - link "开源 C++ QT QML 开发（十四）进程用途" [ref=e134] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152838812?spm=1011.2124.3001.6209
+              - paragraph [ref=e135]:
+                - link "开源 C++ QT QML 开发（十五）通讯--http下载" [ref=e137] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152949168?spm=1011.2124.3001.6209
+              - paragraph [ref=e138]:
+                - link "开源 C++ QT QML 开发（十六）进程--共享内存" [ref=e140] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/153107315?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph [ref=e141]: 推荐链接：
+              - paragraph [ref=e142]:
+                - link "开源 C# 快速开发（一）基础知识" [ref=e143] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152006751?spm=1011.2124.3001.6209
+              - paragraph [ref=e144]:
+                - link "开源 C# 快速开发（二）基础控件" [ref=e145] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090408?spm=1011.2124.3001.6209
+              - paragraph [ref=e146]:
+                - link "开源 C# 快速开发（三）复杂控件" [ref=e147] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152090838?spm=1011.2124.3001.6209
+              - paragraph [ref=e148]:
+                - link "开源 C# 快速开发（四）自定义控件--波形图" [ref=e149] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152134428?spm=1011.2124.3001.6209
+              - paragraph [ref=e150]:
+                - link "开源 C# 快速开发（五）自定义控件--仪表盘" [ref=e151] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152137113?spm=1011.2124.3001.6209
+              - paragraph [ref=e152]:
+                - link "开源 C# 快速开发（六）自定义控件--圆环" [ref=e153] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152159713?spm=1011.2124.3001.6209
+              - paragraph [ref=e154]:
+                - link "开源 C# 快速开发（七）通讯--串口" [ref=e155] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152160245?spm=1011.2124.3001.6209
+              - paragraph [ref=e156]:
+                - link "开源 C# 快速开发（八）通讯--Tcp服务器端" [ref=e157] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152216663?spm=1011.2124.3001.6209
+              - paragraph [ref=e158]:
+                - link "开源 C# 快速开发（九）通讯--Tcp客户端" [ref=e159] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152217276?spm=1011.2124.3001.6209
+              - paragraph [ref=e160]:
+                - link "开源 C# 快速开发（十）通讯--http客户端" [ref=e161] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152218758?spm=1011.2124.3001.6209
+              - paragraph [ref=e162]:
+                - link "开源 C# 快速开发（十一）线程" [ref=e163] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280575?spm=1011.2124.3001.6209
+              - paragraph [ref=e164]:
+                - link "开源 C# 快速开发（十二）进程监控" [ref=e165] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152280853?spm=1011.2124.3001.6209
+              - paragraph [ref=e166]:
+                - link "开源 C# 快速开发（十三）进程--管道通讯" [ref=e167] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152335963?spm=1011.2124.3001.6209
+              - paragraph [ref=e168]:
+                - link "开源 C# 快速开发（十四）进程--内存映射" [ref=e169] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152358473?spm=1011.2124.3001.6209
+              - paragraph [ref=e170]:
+                - link "开源 C# 快速开发（十五）进程--windows消息" [ref=e171] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152373469?spm=1011.2124.3001.6209
+              - paragraph [ref=e172]:
+                - link "开源 C# 快速开发（十六）数据库--sqlserver增删改查" [ref=e173] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/152419592?spm=1011.2124.3001.6209
+              - paragraph
+              - paragraph
+              - paragraph [ref=e174]: 本章节主要内容是:QT中使用QML进行开发的优点和场景。
+              - paragraph [ref=e175]: 1.优点
+              - paragraph [ref=e176]: 2.场景
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph
+              - paragraph [ref=e177]: 一、优点
+              - paragraph [ref=e178]: QML开发的主要优点，可以分为几个方面：
+              - heading "1. 开发效率与易用性// 声明一个蓝色的矩形，里面有个居中的文本" [level=4] [ref=e179]: 1. 开发效率与易用性// 声明一个蓝色的矩形，里面有个居中的文本
+              - list [ref=e180]:
+                - listitem [ref=e181]:
+                  - generic [ref=e182]:
+                    - code [ref=e183]:
+                      - list [ref=e184]:
+                        - listitem [ref=e185]:
+                          - generic [ref=e187]: "1"
+                          - generic [ref=e189]: "Rectangle {"
+                        - listitem [ref=e190]:
+                          - generic [ref=e192]: "2"
+                          - generic [ref=e194]: "width: 200"
+                        - listitem [ref=e195]:
+                          - generic [ref=e197]: "3"
+                          - generic [ref=e199]: "height: 100"
+                        - listitem [ref=e200]:
+                          - generic [ref=e202]: "4"
+                          - generic [ref=e204]: "color: \"blue\""
+                        - listitem [ref=e205]:
+                          - generic [ref=e207]: "5"
+                        - listitem [ref=e210]:
+                          - generic [ref=e212]: "6"
+                          - generic [ref=e214]: "Text {"
+                        - listitem [ref=e215]:
+                          - generic [ref=e217]: "7"
+                          - generic [ref=e219]: "anchors.centerIn: parent"
+                        - listitem [ref=e220]:
+                          - generic [ref=e222]: "8"
+                          - generic [ref=e224]: "text: \"Hello, World!\""
+                        - listitem [ref=e225]:
+                          - generic [ref=e227]: "9"
+                          - generic [ref=e229]: "color: \"white\""
+                        - listitem [ref=e230]:
+                          - generic [ref=e232]: "10"
+                          - generic [ref=e234]: "}"
+                        - listitem [ref=e235]:
+                          - generic [ref=e237]: "11"
+                          - generic [ref=e239]: "}"
+                    - generic [ref=e240]:
+                      - button "AI写代码" [ref=e241] [cursor=pointer]
+                      - generic [ref=e242] [cursor=pointer]: 复制
+                    - generic [ref=e244] [cursor=pointer]: 展开
+                  - paragraph [ref=e245]: 相比之下，用传统命令式代码实现同样的效果需要写更多行代码。
+                - listitem [ref=e246]:
+                  - paragraph [ref=e247]:
+                    - strong [ref=e248]: 易于学习和上手：
+                    - text: 对于有Web开发背景（尤其是HTML/CSS）的开发者来说，QML的语法和结构非常熟悉，学习曲线平缓。即使是新手，也能快速构建出漂亮的界面。
+                - listitem [ref=e249]:
+                  - paragraph [ref=e250]:
+                    - strong [ref=e251]: 强大的集成开发环境：
+                    - text: Qt Creator IDE为QML开发提供了极佳的支持，包括：
+                  - list [ref=e252]:
+                    - listitem [ref=e253]:
+                      - paragraph [ref=e254]:
+                        - strong [ref=e255]: 所见即所得的UI设计器：
+                        - text: 可以直接拖放组件来设计界面。
+                    - listitem [ref=e256]:
+                      - paragraph [ref=e257]:
+                        - strong [ref=e258]: 实时预览：
+                        - text: 修改QML代码后，可以几乎实时地看到界面变化，极大地提高了开发效率。
+                    - listitem [ref=e259]:
+                      - paragraph [ref=e260]:
+                        - strong [ref=e261]: 强大的调试工具：
+                        - text: 可以调试QML和JavaScript代码，检查对象树和属性。
+              - heading "2. 性能与表现力" [level=4] [ref=e262]: 2. 性能与表现力
+              - list [ref=e263]:
+                - listitem [ref=e264]:
+                  - paragraph [ref=e265]:
+                    - strong [ref=e266]: 硬件加速的图形渲染：
+                    - text: QML场景图默认使用OpenGL（或其他图形API，如Vulkan、Metal）进行渲染，能够充分利用GPU。这使得实现流畅的动画、复杂的视觉效果和60FPS的流畅界面成为可能。// 鼠标悬停时，矩形在0.2秒内变为红色
+                - listitem [ref=e267]:
+                  - generic [ref=e268]:
+                    - code [ref=e269]:
+                      - list [ref=e270]:
+                        - listitem [ref=e271]:
+                          - generic [ref=e273]: "1"
+                          - generic [ref=e275]: "Rectangle {"
+                        - listitem [ref=e276]:
+                          - generic [ref=e278]: "2"
+                          - generic [ref=e280]: "id: myRect"
+                        - listitem [ref=e281]:
+                          - generic [ref=e283]: "3"
+                          - generic [ref=e285]: "width: 100; height: 100"
+                        - listitem [ref=e286]:
+                          - generic [ref=e288]: "4"
+                          - generic [ref=e290]: "color: \"green\""
+                        - listitem [ref=e291]:
+                          - generic [ref=e293]: "5"
+                        - listitem [ref=e296]:
+                          - generic [ref=e298]: "6"
+                          - generic [ref=e300]: "Behavior on color {"
+                        - listitem [ref=e301]:
+                          - generic [ref=e303]: "7"
+                          - generic [ref=e305]: "ColorAnimation { duration: 200 }"
+                        - listitem [ref=e306]:
+                          - generic [ref=e308]: "8"
+                          - generic [ref=e310]: "}"
+                        - listitem [ref=e311]:
+                          - generic [ref=e313]: "9"
+                        - listitem [ref=e316]:
+                          - generic [ref=e318]: "10"
+                          - generic [ref=e320]: "MouseArea {"
+                        - listitem [ref=e321]:
+                          - generic [ref=e323]: "11"
+                          - generic [ref=e325]: "anchors.fill: parent"
+                        - listitem [ref=e326]:
+                          - generic [ref=e328]: "12"
+                          - generic [ref=e330]: "hoverEnabled: true"
+                        - listitem [ref=e331]:
+                          - generic [ref=e333]: "13"
+                          - generic [ref=e335]: "onEntered: myRect.color = \"red\""
+                        - listitem [ref=e336]:
+                          - generic [ref=e338]: "14"
+                          - generic [ref=e340]: "onExited: myRect.color = \"green\""
+                        - listitem [ref=e341]:
+                          - generic [ref=e343]: "15"
+                          - generic [ref=e345]: "}"
+                        - listitem [ref=e346]:
+                          - generic [ref=e348]: "16"
+                          - generic [ref=e350]: "}"
+                    - generic [ref=e351]:
+                      - button "AI写代码" [ref=e352] [cursor=pointer]
+                      - generic [ref=e353] [cursor=pointer]: 复制
+                    - generic [ref=e355] [cursor=pointer]: 展开
+                  - paragraph
+                - listitem [ref=e356]:
+                  - paragraph [ref=e357]:
+                    - strong [ref=e358]: 原生般的性能：
+                    - text: 当与C++后端结合时，QML应用既能拥有漂亮的界面，又能获得接近原生的性能。逻辑计算密集的任务可以用高效的C++完成，而UI展示和交互则由QML负责，做到了性能与美感的平衡。
+              - heading "3. 架构与可维护性" [level=4] [ref=e359]: 3. 架构与可维护性
+              - list [ref=e360]:
+                - listitem [ref=e361]:
+                  - paragraph [ref=e362]:
+                    - strong [ref=e363]: 清晰的关注点分离：
+                    - text: QML鼓励采用
+                    - strong [ref=e364]: MVVM（Model-View-ViewModel）或类似MVC的架构
+                    - text: 。QML负责View（视图），C++负责Model（模型）和复杂的业务逻辑。这种分离使得代码更清晰、更易于测试和维护。// MyButton.qml
+                - listitem [ref=e365]:
+                  - generic [ref=e366]:
+                    - code [ref=e367]:
+                      - list [ref=e368]:
+                        - listitem [ref=e369]:
+                          - generic [ref=e371]: "1"
+                          - generic [ref=e373]: "Rectangle {"
+                        - listitem [ref=e374]:
+                          - generic [ref=e376]: "2"
+                          - generic [ref=e378]: "id: root"
+                        - listitem [ref=e379]:
+                          - generic [ref=e381]: "3"
+                          - generic [ref=e383]: // 定义自定义属性
+                        - listitem [ref=e384]:
+                          - generic [ref=e386]: "4"
+                          - generic [ref=e388]: "property alias text: label.text"
+                        - listitem [ref=e389]:
+                          - generic [ref=e391]: "5"
+                          - generic [ref=e393]: signal clicked
+                        - listitem [ref=e394]:
+                          - generic [ref=e396]: "6"
+                        - listitem [ref=e399]:
+                          - generic [ref=e401]: "7"
+                          - generic [ref=e403]: // ... 按钮的样式和交互逻辑
+                        - listitem [ref=e404]:
+                          - generic [ref=e406]: "8"
+                        - listitem [ref=e409]:
+                          - generic [ref=e411]: "9"
+                          - generic [ref=e413]: "Text { id: label; anchors.centerIn: parent }"
+                        - listitem [ref=e414]:
+                          - generic [ref=e416]: "10"
+                          - generic [ref=e418]: "MouseArea { onClicked: root.clicked() }"
+                        - listitem [ref=e419]:
+                          - generic [ref=e421]: "11"
+                          - generic [ref=e423]: "}"
+                    - generic [ref=e424]:
+                      - button "AI写代码" [ref=e425] [cursor=pointer]
+                      - generic [ref=e426] [cursor=pointer]: 复制
+                    - generic [ref=e428] [cursor=pointer]: 展开
+                  - generic [ref=e429]:
+                    - code [ref=e430]:
+                      - list [ref=e431]:
+                        - listitem [ref=e432]:
+                          - generic [ref=e434]: "1"
+                          - generic [ref=e436]: // 在别处使用自定义按钮
+                        - listitem [ref=e437]:
+                          - generic [ref=e439]: "2"
+                          - generic [ref=e441]: "MyButton {"
+                        - listitem [ref=e442]:
+                          - generic [ref=e444]: "3"
+                          - generic [ref=e446]: "text: \"Click Me\""
+                        - listitem [ref=e447]:
+                          - generic [ref=e449]: "4"
+                          - generic [ref=e451]: "onClicked: console.log(\"Button clicked!\")"
+                        - listitem [ref=e452]:
+                          - generic [ref=e454]: "5"
+                          - generic [ref=e456]: "}"
+                    - generic [ref=e457]:
+                      - button "AI写代码" [ref=e458] [cursor=pointer]
+                      - generic [ref=e459] [cursor=pointer]: 复制
+                  - paragraph
+              - heading "4. 跨平台能力" [level=4] [ref=e460]: 4. 跨平台能力
+              - list [ref=e461]:
+                - listitem [ref=e462]:
+                  - paragraph [ref=e463]:
+                    - strong [ref=e464]: “一次编写，到处部署”：
+                    - text: 作为Qt的一部分，QML继承了其强大的跨平台能力。同一套QML UI代码，只需少量或无需修改，就可以编译和运行在：
+                  - list [ref=e465]:
+                    - listitem [ref=e466]:
+                      - paragraph [ref=e467]:
+                        - strong [ref=e468]: 桌面平台：
+                        - text: Windows, Linux, macOS
+                    - listitem [ref=e469]:
+                      - paragraph [ref=e470]:
+                        - strong [ref=e471]: 移动平台：
+                        - text: Android, iOS
+                    - listitem [ref=e472]:
+                      - paragraph [ref=e473]:
+                        - strong [ref=e474]: 嵌入式设备：
+                        - text: 各种嵌入式Linux系统、QNX、INTEGRITY等。
+                    - listitem [ref=e475]:
+                      - paragraph [ref=e476]:
+                        - strong [ref=e477]: 车机系统：
+                        - text: Qt for Automotive
+                    - listitem [ref=e478]:
+                      - paragraph [ref=e479]:
+                        - strong [ref=e480]: 微控制器：
+                        - text: 通过Qt for MCUs，可以在资源受限的设备上运行QML。
+              - heading "5. 强大的后端集成// C++ 后端" [level=4] [ref=e481]: 5. 强大的后端集成// C++ 后端
+              - list [ref=e482]:
+                - listitem [ref=e483]:
+                  - generic [ref=e484]:
+                    - code [ref=e485]:
+                      - list [ref=e486]:
+                        - listitem [ref=e487]:
+                          - generic [ref=e489]: "1"
+                          - generic [ref=e491]: "class Backend : public QObject {"
+                        - listitem [ref=e492]:
+                          - generic [ref=e494]: "2"
+                          - generic [ref=e496]: Q_OBJECT
+                        - listitem [ref=e497]:
+                          - generic [ref=e499]: "3"
+                          - generic [ref=e501]: Q_PROPERTY(QString data READ data NOTIFY dataChanged)
+                        - listitem [ref=e502]:
+                          - generic [ref=e504]: "4"
+                          - generic [ref=e506]: "public:"
+                        - listitem [ref=e507]:
+                          - generic [ref=e509]: "5"
+                          - generic [ref=e511]: // ...
+                        - listitem [ref=e512]:
+                          - generic [ref=e514]: "6"
+                          - generic [ref=e516]: "signals:"
+                        - listitem [ref=e517]:
+                          - generic [ref=e519]: "7"
+                          - generic [ref=e521]: void dataChanged();
+                        - listitem [ref=e522]:
+                          - generic [ref=e524]: "8"
+                          - generic [ref=e526]: "};"
+                    - generic [ref=e527]:
+                      - button "AI写代码" [ref=e528] [cursor=pointer]
+                      - generic [ref=e529] [cursor=pointer]: 复制
+                  - generic [ref=e530]:
+                    - code [ref=e531]:
+                      - list [ref=e532]:
+                        - listitem [ref=e533]:
+                          - generic [ref=e535]: "1"
+                          - generic [ref=e537]: // 注册到QML引擎
+                        - listitem [ref=e538]:
+                          - generic [ref=e540]: "2"
+                          - generic [ref=e542]: engine.rootContext()->setContextProperty("backend", new Backend);
+                    - generic [ref=e543]:
+                      - button "AI写代码" [ref=e544] [cursor=pointer]
+                      - generic [ref=e545] [cursor=pointer]: 复制
+                  - generic [ref=e546]:
+                    - code [ref=e547]:
+                      - list [ref=e548]:
+                        - listitem [ref=e549]:
+                          - generic [ref=e551]: "1"
+                          - generic [ref=e553]: // QML 前端
+                        - listitem [ref=e554]:
+                          - generic [ref=e556]: "2"
+                          - generic [ref=e558]: "Text { text: backend.data } // 直接绑定C++属性"
+                    - generic [ref=e559]:
+                      - button "AI写代码" [ref=e560] [cursor=pointer]
+                      - generic [ref=e561] [cursor=pointer]: 复制
+                  - paragraph
+              - paragraph [ref=e562]: 二、场景
+              - paragraph [ref=e563]: QML开发的主要用途：
+              - heading "1. 桌面应用程序" [level=3] [ref=e564]:
+                - text: "1."
+                - strong [ref=e565]: 桌面应用程序
+              - heading "跨平台桌面应用" [level=4] [ref=e566]: 跨平台桌面应用
+              - list [ref=e567]:
+                - listitem [ref=e568]:
+                  - paragraph [ref=e569]:
+                    - strong [ref=e570]: 办公软件
+                    - text: ：文档编辑器、邮件客户端、日历应用
+                - listitem [ref=e571]:
+                  - paragraph [ref=e572]:
+                    - strong [ref=e573]: 多媒体应用
+                    - text: ：音乐播放器、视频播放器、图片查看器
+                - listitem [ref=e574]:
+                  - paragraph [ref=e575]:
+                    - strong [ref=e576]: 工具软件
+                    - text: ：系统监控工具、文件管理器、开发工具
+              - paragraph [ref=e577]:
+                - strong [ref=e578]: 示例
+                - text: ：WPS Office、
+                - generic [ref=e579] [cursor=pointer]: VirtualBox
+                - text: 管理界面、各种跨平台工具
+              - heading [level=4]
+              - heading "2. 移动应用程序" [level=3] [ref=e580]:
+                - text: "2."
+                - strong [ref=e581]: 移动应用程序
+              - heading "Android和iOS应用" [level=4] [ref=e582]: Android和iOS应用
+              - list [ref=e583]:
+                - listitem [ref=e584]:
+                  - paragraph [ref=e585]:
+                    - strong [ref=e586]: 社交应用
+                    - text: ：聊天软件、社交媒体客户端
+                - listitem [ref=e587]:
+                  - paragraph [ref=e588]:
+                    - strong [ref=e589]: 工具应用
+                    - text: ：计算器、笔记应用、天气预报
+                - listitem [ref=e590]:
+                  - paragraph [ref=e591]:
+                    - strong [ref=e592]: 企业应用
+                    - text: ：内部管理系统、数据展示应用
+              - paragraph [ref=e593]:
+                - strong [ref=e594]: 示例
+                - text: ：VLC移动版、一些企业的内部移动应用
+              - heading [level=4]
+              - heading "3. 嵌入式系统和工业应用" [level=3] [ref=e595]:
+                - text: "3."
+                - strong [ref=e596]: 嵌入式系统和工业应用
+              - heading "汽车行业" [level=4] [ref=e597]: 汽车行业
+              - list [ref=e598]:
+                - listitem [ref=e599]:
+                  - paragraph [ref=e600]:
+                    - strong [ref=e601]: 车载信息娱乐系统（IVI）
+                - listitem [ref=e602]:
+                  - paragraph [ref=e603]:
+                    - strong [ref=e604]: 数字仪表盘
+                - listitem [ref=e605]:
+                  - paragraph [ref=e606]:
+                    - strong [ref=e607]: 中控台界面
+                - listitem [ref=e608]:
+                  - paragraph [ref=e609]:
+                    - strong [ref=e610]: 抬头显示（HUD）
+              - paragraph [ref=e611]:
+                - strong [ref=e612]: 示例
+                - text: ：宝马、奥迪、特斯拉等车载系统（部分版本）
+              - heading "工业控制" [level=4] [ref=e613]: 工业控制
+              - list [ref=e614]:
+                - listitem [ref=e615]:
+                  - paragraph [ref=e616]:
+                    - strong [ref=e617]: 人机界面（HMI）
+                - listitem [ref=e618]:
+                  - paragraph [ref=e619]:
+                    - strong [ref=e620]: 监控系统
+                - listitem [ref=e621]:
+                  - paragraph [ref=e622]:
+                    - strong [ref=e623]: 控制面板
+                - listitem [ref=e624]:
+                  - paragraph [ref=e625]:
+                    - strong [ref=e626]: 数据采集与监视控制（SCADA）系统
+              - heading "医疗设备" [level=4] [ref=e627]: 医疗设备
+              - list [ref=e628]:
+                - listitem [ref=e629]:
+                  - paragraph [ref=e630]:
+                    - strong [ref=e631]: 医疗仪器界面
+                - listitem [ref=e632]:
+                  - paragraph [ref=e633]:
+                    - strong [ref=e634]: 病人监护系统
+                - listitem [ref=e635]:
+                  - paragraph [ref=e636]:
+                    - strong [ref=e637]: 诊断设备显示
+              - heading "4. 消费电子产品" [level=3] [ref=e638]:
+                - text: "4."
+                - strong [ref=e639]: 消费电子产品
+              - heading "智能家居" [level=4] [ref=e640]: 智能家居
+              - list [ref=e641]:
+                - listitem [ref=e642]:
+                  - paragraph [ref=e643]:
+                    - strong [ref=e644]: 智能电视界面
+                - listitem [ref=e645]:
+                  - paragraph [ref=e646]:
+                    - strong [ref=e647]: 智能音响控制面板
+                - listitem [ref=e648]:
+                  - paragraph [ref=e649]:
+                    - strong [ref=e650]: 家庭自动化系统界面
+                - listitem [ref=e651]:
+                  - paragraph [ref=e652]:
+                    - strong [ref=e653]: 路由器管理界面
+              - heading "物联网设备" [level=4] [ref=e654]: 物联网设备
+              - list [ref=e655]:
+                - listitem [ref=e656]:
+                  - paragraph [ref=e657]:
+                    - strong [ref=e658]: 智能手表界面
+                - listitem [ref=e659]:
+                  - paragraph [ref=e660]:
+                    - strong [ref=e661]: 智能家电控制面板
+                - listitem [ref=e662]:
+                  - paragraph [ref=e663]:
+                    - strong [ref=e664]: 工业物联网网关界面
+              - heading "5. 专业设备和仪器" [level=3] [ref=e665]:
+                - text: "5."
+                - strong [ref=e666]: 专业设备和仪器
+              - heading "科研仪器" [level=4] [ref=e667]: 科研仪器
+              - list [ref=e668]:
+                - listitem [ref=e669]:
+                  - paragraph [ref=e670]:
+                    - strong [ref=e671]: 实验室设备控制界面
+                - listitem [ref=e672]:
+                  - paragraph [ref=e673]:
+                    - strong [ref=e674]: 测量仪器显示
+                - listitem [ref=e675]:
+                  - paragraph [ref=e676]:
+                    - strong [ref=e677]: 科学数据可视化
+              - heading "音视频设备" [level=4] [ref=e678]: 音视频设备
+              - list [ref=e679]:
+                - listitem [ref=e680]:
+                  - paragraph [ref=e681]:
+                    - strong [ref=e682]: 音频混音器界面
+                - listitem [ref=e683]:
+                  - paragraph [ref=e684]:
+                    - strong [ref=e685]: 视频编辑软件
+                - listitem [ref=e686]:
+                  - paragraph [ref=e687]:
+                    - strong [ref=e688]: 广播设备控制面板
+              - heading "6. 信息显示系统" [level=3] [ref=e689]:
+                - text: "6."
+                - strong [ref=e690]: 信息显示系统
+              - heading "数字标牌" [level=4] [ref=e691]: 数字标牌
+              - list [ref=e692]:
+                - listitem [ref=e693]:
+                  - paragraph [ref=e694]:
+                    - strong [ref=e695]: 广告播放器
+                - listitem [ref=e696]:
+                  - paragraph [ref=e697]:
+                    - strong [ref=e698]: 信息查询终端
+                - listitem [ref=e699]:
+                  - paragraph [ref=e700]:
+                    - strong [ref=e701]: 机场/车站信息显示屏
+              - heading "控制中心" [level=4] [ref=e702]: 控制中心
+              - list [ref=e703]:
+                - listitem [ref=e704]:
+                  - paragraph [ref=e705]:
+                    - strong [ref=e706]: 指挥控制中心大屏
+                - listitem [ref=e707]:
+                  - paragraph [ref=e708]:
+                    - strong [ref=e709]: 安防监控系统
+                - listitem [ref=e710]:
+                  - paragraph [ref=e711]:
+                    - strong [ref=e712]: 数据中心监控
+              - heading "7. 游戏和娱乐" [level=3] [ref=e713]:
+                - text: "7."
+                - strong [ref=e714]: 游戏和娱乐
+              - heading "游戏开发" [level=4] [ref=e715]: 游戏开发
+              - list [ref=e716]:
+                - listitem [ref=e717]:
+                  - paragraph [ref=e718]:
+                    - strong [ref=e719]: 2D游戏界面
+                - listitem [ref=e720]:
+                  - paragraph [ref=e721]:
+                    - strong [ref=e722]: 游戏菜单系统
+                - listitem [ref=e723]:
+                  - paragraph [ref=e724]:
+                    - strong [ref=e725]: 游戏工具编辑器
+              - heading "娱乐系统" [level=4] [ref=e726]: 娱乐系统
+              - list [ref=e727]:
+                - listitem [ref=e728]:
+                  - paragraph [ref=e729]:
+                    - strong [ref=e730]: 卡拉OK点唱界面
+                - listitem [ref=e731]:
+                  - paragraph [ref=e732]:
+                    - strong [ref=e733]: 游艺设备控制界面
+                - listitem [ref=e734]:
+                  - paragraph [ref=e735]:
+                    - strong [ref=e736]: 虚拟现实应用界面
+              - heading "8. 原型设计和概念验证" [level=3] [ref=e737]:
+                - text: "8."
+                - strong [ref=e738]: 原型设计和概念验证
+              - heading "快速原型" [level=4] [ref=e739]: 快速原型
+              - list [ref=e740]:
+                - listitem [ref=e741]:
+                  - paragraph [ref=e742]:
+                    - strong [ref=e743]: UI/UX设计验证
+                - listitem [ref=e744]:
+                  - paragraph [ref=e745]:
+                    - strong [ref=e746]: 产品概念演示
+                - listitem [ref=e747]:
+                  - paragraph [ref=e748]:
+                    - strong [ref=e749]: 客户需求确认
+              - paragraph
+              - paragraph [ref=e750]
+          - generic [ref=e753]:
+            - generic [ref=e754]: 标签
+            - generic [ref=e755]:
+              - link "#开源" [ref=e756] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=%E5%BC%80%E6%BA%90&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#QT" [ref=e757] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=QT&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#qml" [ref=e758] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=qml&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+              - link "#linux" [ref=e759] [cursor=pointer]:
+                - /url: https://so.csdn.net/so/search/s.do?q=linux&t=all&o=vip&s=&l=&f=&viparticle=&from_tracking_code=tag_word&from_code=app_blog_art
+        - generic [ref=e760]:
+          - generic [ref=e761]:
+            - link "ajassi2000" [ref=e763] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e764]
+              - generic [ref=e765]: ajassi2000
+            - link "已关注" [ref=e767] [cursor=pointer]:
+              - /url: javascript:;
+          - list [ref=e769]:
+            - listitem [ref=e770]:
+              - generic [ref=e772] [cursor=pointer]: "29"
+            - listitem [ref=e773]
+            - listitem [ref=e775]:
+              - link "24" [ref=e776] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e777]: "24"
+            - listitem [ref=e778]:
+              - generic [ref=e780] [cursor=pointer]: "0"
+            - listitem [ref=e781]:
+              - link "分享" [ref=e782] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e783]: 分享
+            - listitem [ref=e784]
+          - generic [ref=e788] [cursor=pointer]: 专栏目录
+        - generic [ref=e791]:
+          - generic [ref=e792]:
+            - link "【开源治理·银行篇】 02-如何把金融行业标准翻译成开源治理动作" [ref=e795] [cursor=pointer]:
+              - /url: https://blog.csdn.net/System_0826/article/details/163478414
+              - generic [ref=e796]:
+                - text: 【
+                - emphasis [ref=e797]: 开源
+                - text: 治理·银行篇】 02-如何把金融行业标准翻译成
+                - emphasis [ref=e798]: 开源
+                - text: 治理动作
+            - generic [ref=e799]:
+              - link "lunziFly的博客" [ref=e801] [cursor=pointer]:
+                - /url: https://blog.csdn.net/System_0826
+                - generic [ref=e802]: lunziFly的博客
+              - generic [ref=e804]: "448"
+          - link "摘要 本文探讨如何将金融行业开源治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的开源软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出五步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“开源软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开" [ref=e806] [cursor=pointer]:
+            - /url: https://blog.csdn.net/System_0826/article/details/163478414
+            - generic [ref=e807]:
+              - text: 摘要 本文探讨如何将金融行业
+              - emphasis [ref=e808]: 开源
+              - text: 治理标准（如JR/T 0290、JR/T 0291和GB/T 43698）转化为可执行的治理动作。以某银行28页的
+              - emphasis [ref=e809]: 开源
+              - text: 软件管理办法为例，指出制度条文与执行脱节的核心问题在于缺乏从标准要求到具体动作的“翻译”。 作者提出五步映射方法：1）提取标准要求；2）分配责任部门；3）定义流程节点；4）确定自动化与人工控制点；5）设定审计证据。以“
+              - emphasis [ref=e810]: 开源
+              - text: 软件引入评估”为例，展示如何将概括性条款拆解为责任分工、触发条件、判定标准和例外机制等11个字段的动作卡片。 通过该方法，可解决金融机构在开
+        - generic [ref=e813]:
+          - generic [ref=e814]:
+            - link "Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【开源基础设施特辑】 最新发布" [ref=e817] [cursor=pointer]:
+              - /url: https://devpress.csdn.net/v1/article/detail/163541417
+              - generic [ref=e818]:
+                - text: Valhalla 静态工程审阅报告#025｜VoltAgent 源码证据驱动评测【
+                - emphasis [ref=e819]: 开源
+                - text: 基础设施特辑】
+              - generic [ref=e820]: 最新发布
+            - generic [ref=e821]:
+              - link "TunerT_TQ的博客" [ref=e823] [cursor=pointer]:
+                - /url: https://blog.csdn.net/TunerT_TQ
+                - generic [ref=e824]: TunerT_TQ的博客
+              - generic [ref=e826]: "344"
+          - link "VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用\"开源框架+云端控制台\"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。" [ref=e828] [cursor=pointer]:
+            - /url: https://devpress.csdn.net/v1/article/detail/163541417
+            - generic [ref=e829]:
+              - text: VoltAgent 静态工程审阅摘要（150字） VoltAgent作为新兴TypeScript AI Agent工程平台（10k+ Stars），采用"
+              - emphasis [ref=e830]: 开源
+              - text: 框架+云端控制台"架构，提供核心运行时、Workflow引擎、RAG集成等能力。静态分析显示其具备显著工程优势：1）完备的Monorepo结构（31个workspace包）；2）丰富的文档体系（369个Markdown/4289链接）；3）类型安全的TS代码基（1899源文件）和测试覆盖率（223测试文件）。
+        - generic [ref=e831]:
+          - generic [ref=e833]:
+            - generic [ref=e834]:
+              - 'link "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂开源基础设施特辑】" [ref=e837] [cursor=pointer]':
+                - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+                - generic [ref=e838]:
+                  - text: "Valhalla 静态工程审阅 #019｜TDesign 源码证据驱动评测【大厂"
+                  - emphasis [ref=e839]: 开源
+                  - text: 基础设施特辑】
+              - generic [ref=e840]:
+                - link "TunerT_TQ的博客" [ref=e842] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/TunerT_TQ
+                  - generic [ref=e843]: TunerT_TQ的博客
+                - generic [ref=e845]: "315"
+            - link "摘要： TDesign是腾讯开源的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系\"工具箱\"，风险特征偏向构建安全而非运行时安全。" [ref=e847] [cursor=pointer]:
+              - /url: https://blog.csdn.net/TunerT_TQ/article/details/163482072
+              - generic [ref=e848]:
+                - text: 摘要： TDesign是腾讯
+                - emphasis [ref=e849]: 开源
+                - text: 的企业级设计体系，采用Monorepo架构管理多技术栈组件库。本文基于1bc4721快照对元仓库进行静态工程审阅，聚焦基础设施层的可审计性。评测显示：仓库结构清晰（7个一级模块），但代码量较小（120文件），主要包含设计令牌、主题生成器等工具链。发现21条静态风险（多集中在Spline生成的3D设计文件），需人工复核。工程配套完整（MIT许可+pnpm锁文件+15条CI），但测试覆盖有限（5测试文件）。该仓库定位为设计体系"工具箱"，风险特征偏向构建安全而非运行时安全。
+          - generic [ref=e851]:
+            - generic [ref=e852]:
+              - link "开源QT QML工程结构全解析_qml开源项目" [ref=e855] [cursor=pointer]:
+                - /url: https://blog.csdn.net/tSJ_6bzo/article/details/153266528
+                - generic [ref=e856]:
+                  - emphasis [ref=e857]: 开源
+                  - emphasis [ref=e858]: QT
+                  - emphasis [ref=e859]: QML
+                  - text: 工程结构全解析_
+                  - emphasis [ref=e860]: qml
+                  - emphasis [ref=e861]: 开源项目
+              - generic [ref=e864]: 7-9
+            - link "典型的 QT QML 项目采用模块化设计,主目录包含src(源代码)、include(头文件)、qml(界面文件)、resources(资源文件)等子目录。CMakeLists.txt或.pro文件定义构建规则,main.cpp作为" [ref=e866] [cursor=pointer]:
+              - /url: https://blog.csdn.net/tSJ_6bzo/article/details/153266528
+              - generic [ref=e867]:
+                - text: 典型的
+                - emphasis [ref=e868]: QT
+                - emphasis [ref=e869]: QML
+                - text: 项目采用模块化设计,主目录包含src(源代码)、include(头文件)、
+                - emphasis [ref=e870]: qml
+                - text: (界面文件)、resources(资源文件)等子目录。CMakeLists.txt或.pro文件定义构建规则,main.cpp作为
+          - generic [ref=e872]:
+            - generic [ref=e873]:
+              - link "QML完整项目源码分享_qml开源项目,qml开源项目资源" [ref=e876] [cursor=pointer]:
+                - /url: https://download.csdn.net/download/qq_15181569/90976354
+                - generic [ref=e877]:
+                  - emphasis [ref=e878]: QML
+                  - text: 完整项目源码分享_
+                  - emphasis [ref=e879]: qml
+                  - emphasis [ref=e880]: 开源项目
+                  - text: ","
+                  - emphasis [ref=e881]: qml
+                  - emphasis [ref=e882]: 开源项目
+                  - text: 资源
+              - generic [ref=e885]: 8-1
+            - link "qml基本语法:qml使用qml文档来定义对象,这些对象通过属性,方法和信号等元素组合而成.项目源码中会包含大量的qml基本元素使用示例,帮助开发者掌握如何创建和管理这些对象.2. qml组件:在qml项目中,组件化设计是非常重要的一部分.组件可以被重用,并且可以独立于它们的应用程序进行开发.源码中会展示如何定义和使用qml组件,..." [ref=e887] [cursor=pointer]:
+              - /url: https://download.csdn.net/download/qq_15181569/90976354
+              - generic [ref=e888]:
+                - emphasis [ref=e889]: qml
+                - emphasis [ref=e890]: 基本
+                - text: "语法:"
+                - emphasis [ref=e891]: qml
+                - text: 使用
+                - emphasis [ref=e892]: qml
+                - text: 文档来定义对象,这些对象通过属性,方法和信号等元素组合而成.项目源码中会包含大量的
+                - emphasis [ref=e893]: qml
+                - emphasis [ref=e894]: 基本
+                - text: 元素使用示例,帮助
+                - emphasis [ref=e895]: 开发
+                - text: 者掌握如何创建和管理这些对象.2.
+                - emphasis [ref=e896]: qml
+                - text: 组件:在
+                - emphasis [ref=e897]: qml
+                - text: 项目中,组件化设计是非常重要的一部分.组件可以被重用,并且可以独立于它们的应用程序进行
+                - emphasis [ref=e898]: 开发
+                - text: .源码中会展示如何定义和使用
+                - emphasis [ref=e899]: qml
+                - text: 组件,...
+        - generic [ref=e902]:
+          - list [ref=e903]:
+            - listitem [ref=e904]:
+              - link "关于我们" [ref=e905] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#about
+            - listitem [ref=e906]:
+              - link "招贤纳士" [ref=e907] [cursor=pointer]:
+                - /url: //www.csdn.net/company/index.html#recruit
+            - listitem [ref=e908]:
+              - link "商务合作" [ref=e909] [cursor=pointer]:
+                - /url: https://fsc-p05.txscrm.com/T8PN8SFII7W
+            - listitem [ref=e910]:
+              - link "寻求报道" [ref=e911] [cursor=pointer]:
+                - /url: //marketing.csdn.net/questions/Q2202181748074189855
+            - listitem [ref=e912]:
+              - link "协议专区" [ref=e913] [cursor=pointer]:
+                - /url: //marketing.csdn.net/p/a65bad49d09e5e6d1a9c674bb41ef331?pId=3340
+            - listitem [ref=e914]:
+              - generic [ref=e915]: 400-660-0108
+            - listitem [ref=e916]:
+              - link "kefu@csdn.net" [ref=e917] [cursor=pointer]:
+                - /url: mailto:webmaster@csdn.net
+            - listitem [ref=e918]:
+              - link "在线客服" [ref=e919] [cursor=pointer]:
+                - /url: https://csdn.s2.udesk.cn/im_client/?web_plugin_id=29181
+            - listitem [ref=e920]: 工作时间 8:30-22:00
+          - list [ref=e921]:
+            - listitem [ref=e922]:
+              - link "公安备案号11010502030143" [ref=e923] [cursor=pointer]:
+                - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030143
+            - listitem [ref=e924]:
+              - link "京ICP备19004658号" [ref=e925] [cursor=pointer]:
+                - /url: http://beian.miit.gov.cn/publish/query/indexFirst.action
+            - listitem [ref=e926]:
+              - link "京网文〔2020〕1039-165号" [ref=e927] [cursor=pointer]:
+                - /url: https://csdnimg.cn/release/live_fe/culture_license.png
+            - listitem [ref=e928]:
+              - link "经营性网站备案信息" [ref=e929] [cursor=pointer]:
+                - /url: https://csdnimg.cn/cdn/content-toolbar/csdn-ICP.png
+            - listitem [ref=e930]:
+              - link "北京互联网违法和不良信息举报中心" [ref=e931] [cursor=pointer]:
+                - /url: http://www.bjjubao.org/
+            - listitem [ref=e932]:
+              - link "家长监护" [ref=e933] [cursor=pointer]:
+                - /url: https://download.csdn.net/tutelage/home
+            - listitem [ref=e934]:
+              - link "网络110报警服务" [ref=e935] [cursor=pointer]:
+                - /url: https://cyberpolice.mps.gov.cn/
+            - listitem [ref=e936]:
+              - link "中国互联网举报中心" [ref=e937] [cursor=pointer]:
+                - /url: http://www.12377.cn/
+            - listitem [ref=e938]:
+              - link "Chrome商店下载" [ref=e939] [cursor=pointer]:
+                - /url: https://chrome.google.com/webstore/detail/csdn%E5%BC%80%E5%8F%91%E8%80%85%E5%8A%A9%E6%89%8B/kfkdboecolemdjodhmhmcibjocfopejo?hl=zh-CN
+            - listitem [ref=e940]:
+              - link "账号管理规范" [ref=e941] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/126135357
+            - listitem [ref=e942]:
+              - link "版权与免责声明" [ref=e943] [cursor=pointer]:
+                - /url: https://www.csdn.net/company/index.html#statement
+            - listitem [ref=e944]:
+              - link "版权申诉" [ref=e945] [cursor=pointer]:
+                - /url: https://blog.csdn.net/blogdevteam/article/details/90369522
+            - listitem [ref=e946]:
+              - link "出版物许可证" [ref=e947] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023206.png
+            - listitem [ref=e948]:
+              - link "营业执照" [ref=e949] [cursor=pointer]:
+                - /url: https://img-home.csdnimg.cn/images/20250103023201.png
+            - listitem [ref=e950]: ©1999-2026北京创新乐知网络技术有限公司
+      - complementary [ref=e951]:
+        - generic [ref=e952]:
+          - generic [ref=e953]:
+            - link [ref=e955] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - img [ref=e956]
+            - generic [ref=e957]:
+              - link "ajassi2000" [ref=e959] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000
+                - generic [ref=e960]: ajassi2000
+              - generic [ref=e961]:
+                - paragraph [ref=e962]:
+                  - text: 博客等级
+                  - img [ref=e963]
+                - generic "已加入 CSDN 22年" [ref=e964]: 码龄22年
+          - generic [ref=e965]:
+            - link "185 原创" [ref=e967] [cursor=pointer]:
+              - /url: https://blog.csdn.net/ajassi2000
+              - definition [ref=e968]: "185"
+              - term [ref=e969]: 原创
+            - generic "3707" [ref=e970]:
+              - definition [ref=e971]: "3707"
+              - term [ref=e972]: 点赞
+            - generic "2923" [ref=e973]:
+              - definition [ref=e974]: "2923"
+              - term [ref=e975]: 收藏
+            - generic "1903" [ref=e976]:
+              - definition [ref=e977]: "1903"
+              - term [ref=e978]: 粉丝
+          - generic [ref=e979]:
+            - generic [ref=e981] [cursor=pointer]: 已关注
+            - link "私信" [ref=e983] [cursor=pointer]:
+              - /url: https://im.csdn.net/chat/ajassi2000
+        - generic [ref=e984]:
+          - generic [ref=e985]:
+            - link [ref=e987] [cursor=pointer]:
+              - /url: https://mall.csdn.net/vip?utm_source=20260722_vip_blogleftbanner
+            - link [ref=e989] [cursor=pointer]:
+              - /url: https://agent.inscode.net/?utm_source=blog_xq
+            - link [ref=e991] [cursor=pointer]:
+              - /url: https://mall.csdn.net/vip?utm_source=20260722_vip_blogleftbanner
+            - link [ref=e993] [cursor=pointer]:
+              - /url: https://agent.inscode.net/?utm_source=blog_xq
+          - generic [ref=e994]:
+            - button "Go to slide 1" [ref=e995] [cursor=pointer]
+            - button "Go to slide 2" [ref=e996] [cursor=pointer]
+          - button "Previous slide" [ref=e997] [cursor=pointer]
+          - button "Next slide" [ref=e998] [cursor=pointer]
+        - generic [ref=e999]:
+          - heading "热门文章" [level=3] [ref=e1000]
+          - list [ref=e1002]:
+            - listitem [ref=e1003]:
+              - link "开源 Arkts 鸿蒙应用 开发（九）通讯--tcp客户端 9101" [ref=e1004] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/149583821
+            - listitem [ref=e1005]:
+              - link "开源 java android app 开发（十八）最新编译器Android Studio 2025.1.3.7 4609" [ref=e1006] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152941313
+            - listitem [ref=e1007]:
+              - link "AI 应用 图文 解说 (一) -- 百度智能云 实现 语音 聊天 3136" [ref=e1008] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/150934038
+            - listitem [ref=e1009]:
+              - link "开源C# .net mvc 开发（一）WEB搭建 2338" [ref=e1010] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/132823595
+            - listitem [ref=e1011]:
+              - link "开源 Objective-C IOS 应用开发（九）复杂控件-tableview 2086" [ref=e1012] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/154793330
+        - generic [ref=e1013]:
+          - heading "大家在看" [level=3] [ref=e1014]
+          - list [ref=e1016]:
+            - listitem [ref=e1017]:
+              - link "OpenClaw v2.9.3本地AI智能体部署指南 12" [ref=e1018] [cursor=pointer]:
+                - /url: https://blog.csdn.net/2601_96169407/article/details/163632519
+            - listitem [ref=e1019]:
+              - link "MES如何消除车间隐形成本 177" [ref=e1020] [cursor=pointer]:
+                - /url: https://blog.csdn.net/2601_96707332/article/details/163556103
+            - listitem [ref=e1021]:
+              - link "后端转AI应用开发实战路径" [ref=e1022] [cursor=pointer]:
+                - /url: https://blog.csdn.net/CSDN_224022/article/details/163636745
+            - listitem [ref=e1023]:
+              - link "lpasvc.dll丢失问题解决方案" [ref=e1024] [cursor=pointer]:
+                - /url: https://blog.csdn.net/2508_92346673/article/details/163636617
+            - listitem [ref=e1025]:
+              - link "数据治理六大核心模块协同体系 30" [ref=e1026] [cursor=pointer]:
+                - /url: https://blog.csdn.net/oOBubbleX/article/details/163615578
+        - generic [ref=e1027]:
+          - heading "最新文章" [level=3] [ref=e1028]
+          - generic [ref=e1029]:
+            - list [ref=e1030]:
+              - listitem [ref=e1031]:
+                - link "AI语音智能体开发日记（十三）一次由寄存器溢出引发的串口波特率“玄学”问题排查" [ref=e1032] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163476883
+              - listitem [ref=e1033]:
+                - link "AI语音智能体开发日记（十二）GX8006 固件定制指南——从双唤醒词到 UART 音频传输" [ref=e1034] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163475994
+              - listitem [ref=e1035]:
+                - link "AI语音智能体开发日记（十一）为智能设备“声”临其境——详解音频资源自动化生成流程" [ref=e1036] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/article/details/163451971
+            - generic [ref=e1038]:
+              - link "2026年19篇" [ref=e1040] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2026&month=08
+              - link "2025年160篇" [ref=e1042] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2025&month=11
+              - link "2024年2篇" [ref=e1044] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2024&month=10
+              - link "2023年4篇" [ref=e1046] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000?type=blog&year=2023&month=10
+    - complementary [ref=e1048]:
+      - generic [ref=e1049]:
+        - generic [ref=e1050] [cursor=pointer]:
+          - generic [ref=e1052]:
+            - img "C知道" [ref=e1054]
+            - paragraph [ref=e1055]: · AI 阅读助手
+          - generic [ref=e1056]:
+            - generic [ref=e1057]:
+              - generic [ref=e1059]:
+                - generic [ref=e1060]:
+                  - heading "知识延伸" [level=3] [ref=e1061]
+                  - paragraph [ref=e1062]: 读完有疑惑？就像聊天一样追问AI，挖掘博文背后的深度知识
+                  - generic [ref=e1063]:
+                    - generic [ref=e1064]: 知识图谱
+                    - generic [ref=e1065]: 模拟面试
+                    - generic [ref=e1066]: 行业动态
+                - button "一键开启AI阅读" [ref=e1068]
+                - paragraph [ref=e1069]: 开发者首选的AI阅读助手
+              - generic [ref=e1071]:
+                - generic [ref=e1072]:
+                  - heading "核心速览" [level=3] [ref=e1073]
+                  - paragraph [ref=e1074]: 文章太长没时间？AI 3秒提炼核心干货，省时80%
+                  - generic [ref=e1075]:
+                    - generic [ref=e1076]: 提炼文本
+                    - generic [ref=e1077]: 高效总结
+                    - generic [ref=e1078]: 30秒速读
+                - button "一键开启AI阅读" [ref=e1080]
+                - paragraph [ref=e1081]: 开发者首选的AI阅读助手
+              - generic [ref=e1083]:
+                - generic [ref=e1084]:
+                  - heading "代码判官" [level=3] [ref=e1085]
+                  - paragraph [ref=e1086]: 遇到复杂语法或逻辑？选中代码，AI帮你解释
+                  - generic [ref=e1087]:
+                    - generic [ref=e1088]: 代码运行
+                    - generic [ref=e1089]: 代码生成
+                    - generic [ref=e1090]: 环境配置
+                - button "一键开启AI阅读" [ref=e1092]
+                - paragraph [ref=e1093]: 开发者首选的AI阅读助手
+              - generic [ref=e1095]:
+                - generic [ref=e1096]:
+                  - heading "知识延伸" [level=3] [ref=e1097]
+                  - paragraph [ref=e1098]: 读完有疑惑？就像聊天一样追问AI，挖掘博文背后的深度知识
+                  - generic [ref=e1099]:
+                    - generic [ref=e1100]: 知识图谱
+                    - generic [ref=e1101]: 模拟面试
+                    - generic [ref=e1102]: 行业动态
+                - button "一键开启AI阅读" [ref=e1104]
+                - paragraph [ref=e1105]: 开发者首选的AI阅读助手
+              - generic [ref=e1107]:
+                - generic [ref=e1108]:
+                  - heading "核心速览" [level=3] [ref=e1109]
+                  - paragraph [ref=e1110]: 文章太长没时间？AI 3秒提炼核心干货，省时80%
+                  - generic [ref=e1111]:
+                    - generic [ref=e1112]: 提炼文本
+                    - generic [ref=e1113]: 高效总结
+                    - generic [ref=e1114]: 30秒速读
+                - button "一键开启AI阅读" [ref=e1116]
+                - paragraph [ref=e1117]: 开发者首选的AI阅读助手
+            - generic [ref=e1118]:
+              - button "Go to slide 1" [ref=e1119]
+              - button "Go to slide 2" [ref=e1120]
+              - button "Go to slide 3" [ref=e1121]
+        - generic [ref=e1123]:
+          - heading "目录" [level=3] [ref=e1124]
+          - list [ref=e1129]:
+            - listitem [ref=e1130]:
+              - link "1. 开发效率与易用性// 声明一个蓝色的矩形，里面有个居中的文本" [ref=e1131] [cursor=pointer]:
+                - /url: "#t0"
+            - listitem [ref=e1132]:
+              - link "2. 性能与表现力" [ref=e1133] [cursor=pointer]:
+                - /url: "#t1"
+            - listitem [ref=e1134]:
+              - link "3. 架构与可维护性" [ref=e1135] [cursor=pointer]:
+                - /url: "#t2"
+            - listitem [ref=e1136]:
+              - link "4. 跨平台能力" [ref=e1137] [cursor=pointer]:
+                - /url: "#t3"
+            - listitem [ref=e1138]:
+              - link "5. 强大的后端集成// C++ 后端" [ref=e1139] [cursor=pointer]:
+                - /url: "#t4"
+            - listitem [ref=e1140]:
+              - link "1. 桌面应用程序" [ref=e1141] [cursor=pointer]:
+                - /url: "#t5"
+            - listitem [ref=e1142]:
+              - list [ref=e1143]:
+                - listitem [ref=e1144]:
+                  - link "跨平台桌面应用" [ref=e1145] [cursor=pointer]:
+                    - /url: "#t6"
+            - listitem [ref=e1146]:
+              - link "2. 移动应用程序" [ref=e1147] [cursor=pointer]:
+                - /url: "#t8"
+            - listitem [ref=e1148]:
+              - list [ref=e1149]:
+                - listitem [ref=e1150]:
+                  - link "Android和iOS应用" [ref=e1151] [cursor=pointer]:
+                    - /url: "#t9"
+            - listitem [ref=e1152]:
+              - link "3. 嵌入式系统和工业应用" [ref=e1153] [cursor=pointer]:
+                - /url: "#t11"
+            - listitem [ref=e1154]:
+              - list [ref=e1155]:
+                - listitem [ref=e1156]:
+                  - link "汽车行业" [ref=e1157] [cursor=pointer]:
+                    - /url: "#t12"
+                - listitem [ref=e1158]:
+                  - link "工业控制" [ref=e1159] [cursor=pointer]:
+                    - /url: "#t13"
+                - listitem [ref=e1160]:
+                  - link "医疗设备" [ref=e1161] [cursor=pointer]:
+                    - /url: "#t14"
+            - listitem [ref=e1162]:
+              - link "4. 消费电子产品" [ref=e1163] [cursor=pointer]:
+                - /url: "#t15"
+            - listitem [ref=e1164]:
+              - list [ref=e1165]:
+                - listitem [ref=e1166]:
+                  - link "智能家居" [ref=e1167] [cursor=pointer]:
+                    - /url: "#t16"
+                - listitem [ref=e1168]:
+                  - link "物联网设备" [ref=e1169] [cursor=pointer]:
+                    - /url: "#t17"
+            - listitem [ref=e1170]:
+              - link "5. 专业设备和仪器" [ref=e1171] [cursor=pointer]:
+                - /url: "#t18"
+            - listitem [ref=e1172]:
+              - list [ref=e1173]:
+                - listitem [ref=e1174]:
+                  - link "科研仪器" [ref=e1175] [cursor=pointer]:
+                    - /url: "#t19"
+                - listitem [ref=e1176]:
+                  - link "音视频设备" [ref=e1177] [cursor=pointer]:
+                    - /url: "#t20"
+            - listitem [ref=e1178]:
+              - link "6. 信息显示系统" [ref=e1179] [cursor=pointer]:
+                - /url: "#t21"
+            - listitem [ref=e1180]:
+              - list [ref=e1181]:
+                - listitem [ref=e1182]:
+                  - link "数字标牌" [ref=e1183] [cursor=pointer]:
+                    - /url: "#t22"
+                - listitem [ref=e1184]:
+                  - link "控制中心" [ref=e1185] [cursor=pointer]:
+                    - /url: "#t23"
+            - listitem [ref=e1186]:
+              - link "7. 游戏和娱乐" [ref=e1187] [cursor=pointer]:
+                - /url: "#t24"
+            - listitem [ref=e1188]:
+              - list [ref=e1189]:
+                - listitem [ref=e1190]:
+                  - link "游戏开发" [ref=e1191] [cursor=pointer]:
+                    - /url: "#t25"
+                - listitem [ref=e1192]:
+                  - link "娱乐系统" [ref=e1193] [cursor=pointer]:
+                    - /url: "#t26"
+            - listitem [ref=e1194]:
+              - link "8. 原型设计和概念验证" [ref=e1195] [cursor=pointer]:
+                - /url: "#t27"
+            - listitem [ref=e1196]:
+              - list [ref=e1197]:
+                - listitem [ref=e1198]:
+                  - link "快速原型" [ref=e1199] [cursor=pointer]:
+                    - /url: "#t28"
+          - paragraph [ref=e1200] [cursor=pointer]: 展开全部
+        - generic [ref=e1201]:
+          - generic [ref=e1202]:
+            - term [ref=e1203]: 上一篇：
+            - definition [ref=e1204]:
+              - link "开源 C# 快速开发（十七）进程--消息队列MSMQ" [ref=e1205] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152451532
+          - generic [ref=e1206]:
+            - term [ref=e1207]: 下一篇：
+            - definition [ref=e1208]:
+              - link "开源 C++ QT QML 开发（二）工程结构" [ref=e1209] [cursor=pointer]:
+                - /url: https://blog.csdn.net/ajassi2000/article/details/152506055
+        - generic [ref=e1210]:
+          - heading "分类专栏" [level=3] [ref=e1211]
+          - generic [ref=e1212]:
+            - list [ref=e1214]:
+              - listitem [ref=e1215]:
+                - link "A语音I智能体开发日记" [ref=e1216] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13194224.html
+                  - generic [ref=e1218]: A语音I智能体开发日记
+                - generic [ref=e1219]: 13篇
+              - listitem [ref=e1220]:
+                - link "AI智能体架构解析" [ref=e1221] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13193143.html
+                  - generic [ref=e1223]: AI智能体架构解析
+                - generic [ref=e1224]: 5篇
+              - listitem [ref=e1225]:
+                - link "linux C 语言快速开发实战" [ref=e1226] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12379231.html
+                  - generic [ref=e1228]: linux C 语言快速开发实战
+                - generic [ref=e1229]: 13篇
+              - listitem [ref=e1230]:
+                - link "IOS App快速开发实战" [ref=e1231] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13084003.html
+                  - generic [ref=e1233]: IOS App快速开发实战
+                - generic [ref=e1234]: 23篇
+              - listitem [ref=e1235]:
+                - link "QT QML C++ 快速开发实战" [ref=e1236] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13059580.html
+                  - generic [ref=e1238]: QT QML C++ 快速开发实战
+                - generic [ref=e1239]: 23篇
+              - listitem [ref=e1240]:
+                - link "Android App快速开发实战" [ref=e1241] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12789808.html
+                  - generic [ref=e1243]: Android App快速开发实战
+                - generic [ref=e1244]: 18篇
+              - listitem [ref=e1245]:
+                - link "Qt Widget C++ 快速开发实战" [ref=e1246] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13031409.html
+                  - generic [ref=e1248]: Qt Widget C++ 快速开发实战
+                - generic [ref=e1249]: 16篇
+              - listitem [ref=e1250]:
+                - link "Python快速开发实战" [ref=e1251] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12991936.html
+                  - generic [ref=e1253]: Python快速开发实战
+                - generic [ref=e1254]: 14篇
+              - listitem [ref=e1255]:
+                - link "C# 上位机快速开发实战" [ref=e1256] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13054046.html
+                  - generic [ref=e1258]: C# 上位机快速开发实战
+                - generic [ref=e1259]: 17篇
+              - listitem [ref=e1260]:
+                - link "HarmonyNext App快速开发实战" [ref=e1261] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12988913.html
+                  - generic [ref=e1263]: HarmonyNext App快速开发实战
+                - generic [ref=e1264]: 18篇
+              - listitem [ref=e1265]:
+                - link ".net mvc快速开发实战" [ref=e1266] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_12439778.html
+                  - generic [ref=e1268]: .net mvc快速开发实战
+                - generic [ref=e1269]: 9篇
+              - listitem [ref=e1270]:
+                - link "随记" [ref=e1271] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13142363.html
+                  - generic [ref=e1273]: 随记
+                - generic [ref=e1274]: 1篇
+              - listitem [ref=e1275]:
+                - link "AI应用之图文解说" [ref=e1276] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13036788.html
+                  - generic [ref=e1278]: AI应用之图文解说
+                - generic [ref=e1279]: 2篇
+              - listitem [ref=e1280]:
+                - link "linux C 服务器与中间件" [ref=e1281] [cursor=pointer]:
+                  - /url: https://blog.csdn.net/ajassi2000/category_13065877.html
+                  - generic [ref=e1283]: linux C 服务器与中间件
+                - generic [ref=e1284]: 13篇
+            - paragraph:
+              - generic [ref=e1285] [cursor=pointer]: 展开全部
+  - generic [ref=e1286]:
+    - link [ref=e1287] [cursor=pointer]:
+      - /url: https://mall.csdn.net/vip?utm_source=260618_vip_blogrighticon
+    - link [ref=e1288] [cursor=pointer]:
+      - /url: https://ai.csdn.net/chat?utm_source=cknow_pc_blogdetail&spm=1001.2101.3001.10583
+  - text: prev next
